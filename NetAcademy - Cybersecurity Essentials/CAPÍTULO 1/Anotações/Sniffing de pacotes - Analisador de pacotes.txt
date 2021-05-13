@@ -1,0 +1,3 @@
+Sniffing de pacotes - Analisador de pacotes
+
+* Em rede de computadores, um analisador de pacotes é um programa de computador ou hardware que pode interceptar e registrar tráfego que passa sobre uma rede digital ou parte de uma rede. Captura de pacotes é o processo de interceptação e registro de tráfego.

@@ -1,0 +1,12 @@
+Advanced Persistent Threat (APT)
+
+ É um hack de computador contínuo que não aparece no radar, contra um objeto específico. Os criminosos normalmente escolhem um APT por motivos comerciais ou políticos. Um APT ocorre durante um longo período, com um alto grau de sigilo, usando malware sofisticado.
+
+Ataques de algoritmo
+
+ Podem rastrear dados de geração automática de relatório do sistema, como quanta energia um computador está usando e usar essas informações para disparar alertas falsos. Os ataques algorítmicos também podem desativar um computador, forçando-o a usar memória ou a sobrecarregar sua unidade central de processamento. Ataques algorítmicos são mais desonestos, pois exploram os designs usados para melhorar a economia de energia, reduzir as falhas do sistema e melhorar as eficiências.
+
+Ataque TDoS (Telephone denial of service, negação de serviço por telefone) 
+
+ Usa telefonemas contra uma rede de telefone, ocupando o sistema alvo e impedindo que ligações legítimas sejam completadas. Os centros de chamada de emergência de última geração são vulneráveis porque eles usam sistemas de VoIP (Voice-over-IP, Voz sobre IP),
+

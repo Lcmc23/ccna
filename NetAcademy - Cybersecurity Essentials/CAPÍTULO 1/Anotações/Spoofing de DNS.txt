@@ -1,0 +1,6 @@
+Spoofing de DNS
+
+OBS: Serviço de nome de domínio (DNS) converte um nome de domínio, como www.facebook.com, em seu endereço IP numérico. Se um servidor DNS não sabe o endereço IP, ele perguntará a outro servidor DNS.
+
+Com **spoofing de DNS (ou envenenamento de cache de DNS)**, o criminoso introduz dados falsos no cache do resolvedor de DNS. Esses ataques de veneno exploram uma fraqueza no software de DNS que faz com que os servidores DNS redirecionem o tráfego para um domínio específico para o computador do criminoso, em vez de para o proprietário legítimo do domínio.
+
