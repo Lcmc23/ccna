@@ -1,0 +1,172 @@
+﻿SCRIPT - Exercício 9.4.1.2
+
+!Cnt-Sw
+!Entrar no modo de configuração global
+en
+conf t
+
+!Senha de enable (para acesso real ao SSH)
+enable secret cisco123
+
+!Senha criptografada
+service password-encryption
+
+!Nome de dominio
+ip domain-name cisco.com
+
+!Usuário e senha local
+username CAdmin password itsasecret
+
+!Chave de criptografia
+crypto key generate rsa general-key modulus 1024
+
+!Linhas VTY e Console
+line vty 0 15
+transport input SSH
+login local
+line con 0
+login local
+end
+
+!Restrições SSH
+conf t
+ip ssh version 2
+ip ssh authentication-retries 2
+ip ssh time-out 60
+
+!Default-gateway
+ip default-gateway 192.168.45.33
+
+!Criacao das VLANs
+vlan 15
+name Servers
+vlan 30
+name PCs
+vlan 45
+name Native
+vlan 60
+name Management
+exit
+
+!Atrelar as Vlans a uma interface FastEthernet (access)
+int range f0/11-20
+no shutdown
+switchport mode access
+switchport access vlan 15
+int range f0/1-10
+switchport mode access
+switchport access vlan 30
+exit
+
+!Atrelar a Vlan a uma interface FastEthernet (trunk)
+int G0/1
+no shutdown
+switchport mode trunk
+switchport trunk native vlan 45
+exit
+
+!Port-security
+int f0/1
+switchport mode access
+switchport port-security
+switchport port-security maximum 2
+switchport port-security violation restrict
+switchport port-security mac-address sticky
+exit
+
+!Desativar as interfaces
+int range f0/21-24
+shutdown
+int g0/2
+shutdown
+exit
+
+!Atrelar o endereço ip a uma interface virtual (IPv4)
+int vlan 60
+ip add 192.168.45.34 255.255.255.240
+no shutdown
+end
+
+!Salvar as configurações (tela de enable)
+wr
+
+-------------------------------------------------------------------
+
+!Central
+!Entrar no modo de configuração global
+en
+conf t
+
+!Ativar a interface
+int g0/0
+no shutdown
+
+!Atrelar o endereço ip a uma subinterface (IPv4)
+int g0/0.15
+encapsulation dot1q 15
+ip add 192.168.45.65 255.255.255.192
+description GATEWAY VLAN 15
+
+int g0/0.30
+encapsulation dot1q 30
+ip add 192.168.45.129 255.255.255.192
+description GATEWAY VLAN 30
+
+int g0/0.45
+encapsulation dot1q 45 native
+ip add 192.168.45.17 255.255.255.240
+description GATEWAY VLAN 45
+
+int g0/0.60
+encapsulation dot1q 60
+ip add 192.168.45.33 255.255.255.240
+description GATEWAY VLAN 60
+exit
+
+!Configuração de um pool DHCPv4
+ip dhcp pool LAN
+network 192.168.45.128 255.255.255.192
+default-router 192.168.45.129
+exit
+
+!Rota para a Internet
+ip route 0.0.0.0 0.0.0.0 s0/1/0
+
+!RIPv2
+router rip
+version 2
+no auto-summary
+network 192.168.45.0
+default-information originate
+passive-interface g0/0
+exit
+
+!ACL - PADRAO
+access-list 1 permit 192.168.45.0 0.0.0.255
+
+!NAT - ESTÁTICO (para o servidor de arquivos)
+ip nat inside source static 192.168.45.66 64.100.32.58
+
+!PAT
+ip nat pool NAT-POOL2 64.100.32.56 64.100.32.57 netmask 255.255.255.252
+ip nat inside source list 1 pool NAT-POOL1 overload
+
+!Interfaces NAT
+int g0/0.15
+ip nat inside
+
+int g0/0.30
+ip nat inside
+
+int s0/0/0
+ip nat inside
+
+int s0/0/1
+ip nat inside
+
+int s0/1/0
+ip nat outside
+end
+
+!Salvar as configurações (tela de enable)
+wr

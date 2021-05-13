@@ -1,0 +1,29 @@
+Terminologia NAT
+
+    - Na terminologia do NAT, a rede interna é o conjunto de redes sujeitas a conversão. A rede externa se refere a todas as outras redes.
+
+    - Na utilização do NAT, os endereços IPv4 têm designações diferentes dependendo de estarem na rede privada ou na rede pública (Internet), e
+    se o tráfego é de entrada ou saída.
+
+O NAT inclui quatro tipos de endereço:
+
+    * Endereço local interno;
+
+    * Endereço global interno;
+    
+    * Endereço local externo;
+
+    * Endereço global externo.
+
+OBS: 
+
+    Na determinação de que tipo de endereço é usado, é importante lembrar que a terminologia NAT é sempre aplicada da perspectiva do 
+    dispositivo com o endereço convertido:
+
+    Endereço interno - o endereço do dispositivo que está sendo convertido pelo NAT.
+    Endereço externo - o endereço do dispositivo destino.
+    
+    O NAT também usa o conceito de local ou global com relação aos endereços:
+
+    Endereço local - um endereço local é qualquer endereço que aparece na parte interna da rede.
+    Endereço global - um endereço global é qualquer endereço que aparece na parte externa da rede.

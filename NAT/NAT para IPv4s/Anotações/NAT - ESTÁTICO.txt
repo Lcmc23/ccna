@@ -1,0 +1,10 @@
+NAT - ESTÁTICO
+
+    - O NAT estático usa um mapeamento de 1:1 de endereços locais e globais. Esses mapeamentos são configurados pelo administrador da 
+    rede e permanecem constantes.
+
+Utilidade
+
+    O NAT estático é particularmente útil para servidores web ou dispositivos que precisam ter um endereço consistente acessíveis da Internet, 
+    como um Servidor web de uma empresa. Ele é útil também para os dispositivos que devem ser acessíveis por pessoal autorizado remoto, mas não 
+    lo público geral da Internet.
