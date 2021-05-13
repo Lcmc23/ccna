@@ -1,0 +1,31 @@
+Backup e Restauração Usando Arquivos de Texto
+
+    Backup das configurações com captura de texto (Tera Term)
+
+        - Arquivos de configuração podem ser salvos ou arquivados em um arquivo texto usando o TeraTerm
+
+        Passo 1. No menu File (Arquivo), clique em Log (Registro).
+
+        Passo 2. Escolha o local para salvar o arquivo. O TeraTerm começará a capturar o texto.
+
+        Passo 3. Uma vez iniciada a captura, execute o comando show running-config ou show startup-config no prompt EXEC privilegiado. O texto exibido na janela do terminal será direcionado para o arquivo escolhido.
+
+        Passo 4. Quando a captura estiver concluída, selecione Close (Fechar) na janela Log (registro) do TeraTerm.
+
+        Passo 5. Visualize o arquivo para verificar se não foi corrompido.
+
+    Como Restaurar Configurações de Texto
+
+        Uma configuração pode ser copiada de um arquivo para um dispositivo. Quando copiado de um arquivo de texto e colado em uma janela do 
+        terminal, o IOS executa cada linha do texto de configuração como um comando. Isso significa que o arquivo exigirá edição para garantir 
+        que senhas criptografadas estejam em texto comum e que textos que não são comandos, tal como "--More--" e mensagens do IOS sejam 
+        removidos
+
+        OBS: Além disso, na CLI, o dispositivo deve estar no modo de configuração global para receber os comandos do arquivo texto sendo 
+        copiado na janela do terminal.
+
+        Passo 1. No menu File (Arquivo), clique em Send file (Enviar arquivo).
+
+        Passo 2. Localize o arquivo a ser copiado para o dispositivo e clique em Open (Abrir).
+
+        Passo 3. O Tera Term colará o arquivo no dispositivo.

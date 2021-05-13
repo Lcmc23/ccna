@@ -1,0 +1,6 @@
+Serviço de carimbo de hora
+
+    As mensagens de log devem ter carimbo de hora para que exista um registro de geração da mensagem quando ela é enviada a outro destino, como
+    um servidor syslog.
+
+    Use o comando 'service timestamps log datetime' para forçar eventos registrados a exibirem a data e hora.

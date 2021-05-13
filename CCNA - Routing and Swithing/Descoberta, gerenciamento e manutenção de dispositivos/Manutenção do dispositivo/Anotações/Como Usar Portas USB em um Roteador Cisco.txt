@@ -1,0 +1,8 @@
+Como Usar Portas USB em um Roteador Cisco
+
+    O recurso de armazenamento USB (Universal Serial Bus) permite que determinados modelos de roteadores Cisco sejam compatíveis com unidades 
+    flash USB.
+
+    O recurso flash USB oferece capacidade de armazenamento secundário opcional e um dispositivo de inicialização adicional. Imagens, 
+    configurações e outros tipos de arquivo podem ser copiados da memória flash USB Cisco ou para ela com a mesma confiabilidade do 
+    armazenamento e recuperação de arquivos usando o cartão Compact Flash.

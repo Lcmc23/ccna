@@ -1,0 +1,13 @@
+Verificação de Licenças
+
+    Comando 'show license'
+
+        Feature – Nome do recurso
+        
+        License Type – Tipo de licença; como Permanent (Permanente) ou Evaluation (Avaliação)
+        
+        License State – Estado da licença; como Active, In Use (Ativo ou Em uso)
+        
+        License Count – Número de licenças disponíveis e em uso, se contado. Se Non-Counted (Não contado) for exibido, a licença é irrestrita.
+        
+        License Priority – Prioridade da licença; High (alta), Medium (média) ou Low (baixa)

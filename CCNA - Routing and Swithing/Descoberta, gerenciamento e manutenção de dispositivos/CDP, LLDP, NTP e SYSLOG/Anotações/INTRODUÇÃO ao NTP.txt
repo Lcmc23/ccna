@@ -1,0 +1,33 @@
+INTRODUÇÃO ao NTP
+
+Definindo o relógio do sistema
+
+    O relógio do software de um roteador ou switch é iniciado quando o sistema é inicializado e é a fonte primária de informações de hora do 
+    sistema. É importante sincronizar a hora em todos os dispositivos na rede, pois todos os aspectos do gerenciamento, proteção, solução de 
+    problemas e planejamento de redes exigem carimbos de hora precisos. Se a hora não estiver sincronizada entre os dispositivos, será 
+    impossível determinar a ordem dos eventos e a causa de um evento.
+
+Geralmente, as configurações de data e hora em um roteador ou switch podem ser definidas usando um dos seguintes métodos:
+
+    * Manualmente com o comando clock set 
+
+        Exemplo:
+        #clock set 20:36:00 dec 11 2015
+
+    * Configuração do Protocolo de Horário de Rede (NTP)
+
+
+PROBLEMA!!!
+
+    Conforme a rede cresce, torna-se cada vez mais difícil garantir que todos os dispositivos da infraestrutura operem com horário sincronizado. 
+    Mesmo em um ambiente de rede menor, o método manual não é o ideal. Se um roteador for reinicializado, como ele receberá um carimbo de data 
+    e hora preciso?  
+
+SOLUÇÃO!!!
+
+    A melhor solução é configurar o NTP na rede. Esse protocolo permite que os roteadores na rede sincronizem as configurações de hora com um 
+    servidor NTP. Um grupo de clientes NTP que obtém informações de data e hora de uma única fonte tem configurações de hora mais consistentes. 
+    Quando o NTP é implementado na rede, ele pode ser configurado para sincronizar com um relógio mestre privado ou pode ser sincronizado com 
+    um servidor NTP disponível publicamente na Internet.
+
+OBS: O NTP usa a porta UDP 123 e é documentado no RFC 1305.

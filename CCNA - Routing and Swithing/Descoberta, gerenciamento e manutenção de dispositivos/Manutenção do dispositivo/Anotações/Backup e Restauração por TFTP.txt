@@ -1,0 +1,12 @@
+Backup e Restauração por TFTP
+
+    Cópias dos arquivos de configuração devem ser armazenadas como arquivos de backup no caso de um problema. Arquivos de configuração podem 
+    ser armazenados em um servidor TFTP ou uma unidade USB. Um arquivo de configuração também deve ser incluído na documentação da rede.
+
+    Passo 1. Insira o comando copy tftp running-config.
+
+    Passo 2. Insira o endereço IP do host onde o arquivo de configuração está armazenado.
+
+    Passo 3. Insira o nome que será atribuído ao arquivo de configuração.
+
+    Passo 4. Pressione Enter para confirmar cada escolha.

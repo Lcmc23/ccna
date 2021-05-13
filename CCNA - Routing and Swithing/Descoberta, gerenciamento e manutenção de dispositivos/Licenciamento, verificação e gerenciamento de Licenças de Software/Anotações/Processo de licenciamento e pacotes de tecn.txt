@@ -1,0 +1,17 @@
+Licenças de Pacotes de Tecnologia
+
+    As licenças do pacote de tecnologia estão disponíveis em plataformas ISR G2 da Cisco (roteadores Cisco séries 1900, 2900 e 3900). A imagem 
+    universal do IOS Cisco contém todos os pacotes e recursos numa imagem. Cada pacote é um agrupamento de recursos específicos de tecnologias. 
+    É possível ativar várias licenças do pacote de tecnologia nas plataformas ISR da Cisco série 1900, 2900 e 3900.
+
+Observação: use o comando show license feature para exibir as licenças do pacote de tecnologia e as licenças de recursos suportadas no roteador.
+
+Processo de Licenciamento
+
+    Quando um novo roteador sai da fábrica, ele vem pré-instalado com a imagem do software e as licenças permanentes correspondentes dos 
+    pacotes e recursos especificados pelo cliente.
+
+    O roteador também vem com uma licença de avaliação, conhecida como licença temporária, para a maioria dos pacotes e recursos suportados no 
+    roteador especificado. Isso permite que os clientes experimentem um novo pacote ou recurso do software por meio da ativação de uma licença 
+    de avaliação específica. Se os clientes desejarem ativar de modo permanente um pacote ou recurso do software no roteador, devem obter uma 
+    nova licença de software.

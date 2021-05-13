@@ -1,0 +1,14 @@
+Servidor Syslog
+
+    Para exibir as mensagens de syslog, é necessário instalar um Servidor syslog em uma estação de trabalho na rede. Há várias versões freeware 
+    e shareware de syslog, bem como versões corporativas para compra. (Kiwi Syslog Daemon por exemplo)
+
+    O Servidor syslog oferece uma interface relativamente amigável ao usuário para a visualização da saída do syslog. O Servidor analisa a saída
+    e coloca as mensagens em colunas predefinidas para facilitar a interpretação. Se os carimbos de data e hora estiverem configurados no 
+    dispositivo de rede que gera as mensagens de syslog, a data e a hora de cada mensagem será exibida na saída do Servidor syslog
+
+OBS: 
+
+    Os administradores de rede podem facilmente navegar pela grande quantidade de dados compilada em um Servidor syslog. Uma vantagem de 
+    visualizar mensagens de syslog em um Servidor syslog é a capacidade de executar pesquisas detalhadas nos dados. Além disso, um administrador
+    de rede pode excluir rapidamente mensagens syslog sem importância do banco de dados.

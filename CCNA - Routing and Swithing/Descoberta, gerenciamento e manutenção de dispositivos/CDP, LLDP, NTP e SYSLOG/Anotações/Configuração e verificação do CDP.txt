@@ -1,0 +1,15 @@
+Configuração e verificação do CDP
+
+    Nos dispositivos da Cisco, o CDP é ativado por padrão. Por motivos de segurança, talvez seja necessário desativar o CDP em um dispositivo 
+    de rede, de forma global ou de acordo com a interface. Com o CDP, um invasor pode coletar informações valiosas sobre o layout de rede, como 
+    endereços IP, versões do IOS e tipos de dispositivos.
+
+show cdp neighbors - fornece informações úteis sobre cada dispositivo CDP vizinho, inclusive:
+
+    Identificadores de dispositivos - O nome do host do dispositivo vizinho 
+
+    Identificador de portas - O nome da porta local e remota 
+
+    Lista de recursos - Se o dispositivo for um roteador ou switch (S para switch; I para IGMP não está no escopo deste curso)
+
+    Plataforma - A plataforma de hardware do dispositivo

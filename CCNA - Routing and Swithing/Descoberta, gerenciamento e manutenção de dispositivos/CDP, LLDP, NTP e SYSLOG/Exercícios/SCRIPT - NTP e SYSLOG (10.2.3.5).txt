@@ -1,0 +1,34 @@
+SCRIPT - NTP e SYSLOG (10.2.3.5)
+
+!R1
+!Entrar no modo de configuração global
+en
+conf t
+
+!Enviar os eventos de log ao servidor Syslog
+logging 10.0.1.254
+
+!Ajustar automaticamente o relógio
+ntp server 64.103.224.2
+
+!Ativar o serviço de logging de carimbo de data e hora
+service timestamps log datetime msec
+
+---------------------------------------------------
+
+!S1 e S2
+!Entrar no modo de configuração global
+en
+conf t
+
+!Enviar os eventos de log ao servidor Syslog
+logging 10.0.1.254
+end
+
+!Ajustar manualmente o relógio
+clock set 12:04:00 Apr 10 2021
+
+!Ativar o serviço de logging de carimbo de data e hora
+conf t
+service timestamps log datetime msec
+

@@ -1,0 +1,31 @@
+Operação de Syslog
+
+    Nos dispositivos de rede da Cisco, o protocolo syslog começa com o envio de mensagens de sistema e a saída do comando debug para um 
+    processo de logging local interno do dispositivo.
+    O modo pelo qual o processo de logging gerencia essas mensagens e saídas varia de acordo com as configurações do registro. 
+
+    Por Exemplo: 
+
+        as mensagens de syslog podem ser enviadas pela rede a um Servidor syslog externo. Essas mensagens podem ser recuperadas sem a 
+        necessidade de acessar o dispositivo real. As mensagens de log e as saídas armazenadas no Servidor externo podem ser inseridas em vários
+        relatórios para facilitar a leitura.
+
+Buffer interno
+
+    As mensagens enviadas ao buffer interno só podem ser exibidas por meio do CLI do dispositivo.
+
+    Por fim, o administrador de rede pode especificar que somente determinados tipos de mensagens de sistema serão enviados para vários destinos. 
+    Por exemplo, o dispositivo pode ser configurado para encaminhar todas as mensagens de sistema a um Servidor syslog externo. No entanto, as 
+    mensagens no nível de depuração (debug) são encaminhadas ao buffer interno e somente podem ser acessadas pelo administrador a partir do CLI.
+
+Destinos mais comuns das mensagens de syslog
+
+    - Buffer de logging (RAM dentro de um roteador ou switch)
+    - Linha de console
+    - Linha do terminal
+    - servidor Syslog
+
+OBS:
+
+    É possível monitorar remotamente as mensagens do sistema por meio da visualização dos logs em um Servidor syslog ou por meio do acesso ao 
+    dispositivo pelo Telnet, SSH ou através da porta de console.

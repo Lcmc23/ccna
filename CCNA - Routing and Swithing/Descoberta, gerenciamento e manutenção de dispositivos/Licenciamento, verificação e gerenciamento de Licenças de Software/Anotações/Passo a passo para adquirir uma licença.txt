@@ -1,0 +1,48 @@
+Passo 1. Adquirir o Pacote de Software ou o Recurso para Instalação
+
+    A primeira etapa é adquirir o pacote ou o recurso de software necessário. Você pode adicionar um pacote á base de IP, como Segurança.
+
+    PAK
+
+        Serve como uma confirmação e é usada para obter uma licença. Uma PAK é uma chave alfanumérica de 11 dígitos criada pela fábrica da 
+        Cisco. Ele define o conjunto de recursos associado à PAK. Uma PAK não está ligada a um dispositivo específico até que a licença seja 
+        criada. Uma PAK pode ser adquirida e gera qualquer número especificado de licenças.
+
+Passo 2. Obter uma Licença
+
+    A segunda etapa é obter a licença, que é realmente um arquivo de licença. Um arquivo de licença, também conhecido como uma licença de 
+    ativação de software, é obtido utilizando uma das seguintes opções:
+
+    Cisco License Manager (CLM) – Esta é uma aplicação de software gratuita disponível em http://www.cisco.com/go/clm. O Cisco License Manager 
+    é um aplicativo autônomo da Cisco que ajuda os administradores de rede a implantar rapidamente várias licenças de software da Cisco em suas
+    redes. O Cisco License Manager pode detectar dispositivos de rede, exibir suas informações de licença e adquirir e implantar licenças da 
+    Cisco. O aplicativo fornece uma GUI que simplifica a instalação e ajuda a automatizar a aquisição de licenças, bem como a executar várias 
+    tarefas de licenciamento de um local central. O CLM é gratuito e pode ser baixados do CCO.
+    
+    Portal de registro de licenças da Cisco – Esse é o portal baseado na web para obter e registrar licenças de software individuais, 
+    disponível em http://www.cisco.com/go/license.
+
+    UDI 
+    
+        É uma combinação de ID do produto (PID), número de série (SN) e a versão do hardware (VID). O SN é um número de 11 dígitos que 
+        identifica exclusivamente um dispositivo. O PID identifica o tipo de dispositivo. Somente o PID e o SN são usados para a criação de 
+        licenças
+
+Passo 3. Instalar a Licença
+
+    Após a compra da licença, o cliente receberá um arquivo de licença. A instalação de uma licença permanente requer duas etapas:
+
+    Passo 1. Use o comando license install stored-location-url do modo EXEC privilegiado para instalar um arquivo de licença.
+
+    Passo 2. Reinicialize o roteador usando o comando exec privilegiado reload. Se uma licença de avaliação estiver ativa, não será necessário 
+    a reinicialização.
+
+    OBS: Uma licença permanente é uma licença que nunca expira. Após a instalação de uma licença permanente em um roteador, ela funcionará 
+    para um conjunto específico de recursos durante toda a vida útil do roteador, mesmo entre versões IOS. Por exemplo, quando uma licença 
+    UC, SEC ou Data é instalada em um roteador, os recursos subsequentes dessa licença serão ativados mesmo que o roteador esteja atualizado 
+    com uma nova versão IOS. A Licença Permanente é o tipo de licença mais utilizado quando se compra um conjunto de recursos para um 
+    dispositivo.
+
+    - A fábrica da Cisco pré-instala a licença permanente adequada no dispositivo pedido para o conjunto de recursos adquirido. Não é 
+    necessária nenhuma interação do cliente com os processos de ativação de software IOS Cisco para ativar essa licença no novo hardware.
+        

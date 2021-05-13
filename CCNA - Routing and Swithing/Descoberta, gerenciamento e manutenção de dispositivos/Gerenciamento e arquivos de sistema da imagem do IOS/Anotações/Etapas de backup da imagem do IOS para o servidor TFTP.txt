@@ -1,0 +1,12 @@
+Etapas de backup da imagem do IOS para o servidor TFTP
+
+    Para manter as operações de rede com o tempo de inatividade mínimo, é necessário ter procedimentos em vigor para fazer o backup das imagens 
+    do IOS Cisco. Isso permite que o administrador de rede copie rapidamente uma imagem em um roteador no caso de uma imagem corrompida ou 
+    apagada.
+
+    Passo 1. Certifique-se de que haja acesso ao servidor TFTP de rede. Faça ping no servidor TFTP para testar a conectividade
+
+    Passo 2. Verifique se o servidor TFTP tem espaço suficiente em disco para acomodar a imagem do software IOS Cisco. Use o comando show 
+    flash0: no roteador para determinar o tamanho do arquivo de imagem do IOS Cisco.
+
+    Passo 3. Copie a configuração para o servidor TFTP usando o comando copy source-url destination-url

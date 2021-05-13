@@ -1,0 +1,36 @@
+SCRIPT - Exercício 10.3.1.8
+
+!Estabelecer Conectividade com o Servidor TFTP
+!RTA
+en
+conf t
+int g0/0
+ip add 172.16.1.1 255.255.255.0
+no shutdown
+
+!Transferir a Configuração do servidor TFTP
+end 
+copy tftp running-config
+172.16.1.2
+RTA-confg
+
+!OBS: Interface g0/1 desativada (informação observada pelo comando 'sh ip interface brief')
+
+!Ativar a interface
+conf t
+int g0/1
+no shutdown
+
+!Configuração de backup e IOS para o servidor TFTP
+exit
+hostname RTA-1
+end
+copy running-config startup-config
+copy running-config tftp:
+172.16.1.2
+copy flash tftp:
+c1900-universalk9-mz.SPA.151-4.M4.bin
+172.16.1.2
+
+
+

@@ -1,0 +1,14 @@
+Servidores TFTP como um Local de Backup
+
+    À medida que uma rede cresce, as imagens do software IOS Cisco e os arquivos de configuração podem ser armazenados em um servidor TFTP 
+    central. Isso ajuda a controlar o número de imagens do IOS e revisões dessas imagens do IOS, assim como os arquivos de configuração que 
+    devem ser mantidos.
+
+    Para qualquer rede, é recomendado manter uma cópia de backup da imagem do software IOS Cisco, caso a imagem do sistema no roteador seja 
+    corrompida ou apagada acidentalmente.
+
+Local de origem ou de backup para as imagens do software IOS Cisco
+
+    É possível fazer uploads e downloads de imagens e configurações usando um servidor TFTP de rede. O servidor TFTP de rede pode ser outro 
+    roteador, uma estação de trabalho ou um sistema host.
+

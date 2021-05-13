@@ -1,0 +1,15 @@
+Pacote de Imagens do Sistema IOS 15
+
+    Existem dois tipos de imagens universais suportados no ISR G2 - As séries 1900, 2900 e 3900 da segunda geração do Cisco Services Integrated 
+    Routers:
+
+    - Imagens universais com a designação “universalk9” no nome da imagem – essa imagem universal oferece todos os recursos do software IOS 
+    Cisco, inclusive recursos avançados de criptografia do payload, como IPSec VPN, SSL VPN e comunicação unificada segura (Secure Unified 
+    Communication).
+    
+    - Imagens universais com a designação “universalk9_npe” no nome da imagem – a imposição rígida dos recursos de criptografia fornecida pelo 
+    Cisco Software Activation satisfaz os requisitos de exportação de recursos de criptografia. No entanto, alguns países têm requisitos de 
+    importação que exigem que a plataforma não suporte qualquer funcionalidade forte de criptografia, como criptografia de payload. Para 
+    satisfazer os requisitos de importação desses países, a imagem universal do npe não suporta criptografia de payload forte.
+
+Com os dispositivos ISR G2, a seleção de imagens IOS foi facilitada porque todos os recursos são incluídos na imagem universal.

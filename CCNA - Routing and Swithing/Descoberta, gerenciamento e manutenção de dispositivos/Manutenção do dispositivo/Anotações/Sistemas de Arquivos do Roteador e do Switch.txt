@@ -1,0 +1,20 @@
+Sistemas de Arquivos do Roteador
+
+    O Cisco IOS File System (IFS) permite que o administrador navegue em diferentes diretórios e liste os arquivos em um diretório, além de 
+    criar subdiretórios em memória flash ou em um disco. Os diretórios disponíveis variam de acordo com o dispositivo.
+
+    Permissões nos diretórios (mostradas na coluna Flag da saída do comando --> sh file systems)
+
+        ro (read only) - somente leitura
+        wo (write only) - somente gravação 
+        rw (read and write) - leitura e gravação
+
+    * - indica que a memória flash é o sistema de arquivos padrão atual. O IOS para o boot está localizado em flash. O símbolo de tralha (#) é 
+    adicionado à linha da flash, indicando que é um disco inicializável (bootable).
+
+Sistemas de Arquivos do Switch
+
+    Com o sistema de arquivos em flash do switch Cisco 2960, você pode copiar arquivos de configuração e arquivar (carregar e baixar) imagens 
+    de software.
+
+    O comando para visualizar os sistemas de arquivo em um switch Catalyst é o mesmo de um roteador Cisco: show file systems

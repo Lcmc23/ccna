@@ -1,0 +1,58 @@
+SCRIPT - Exercício 10.3.3.5
+
+!Atualizar uma imagem do IOS em um roteador
+!R1
+en
+copy tftp: flash:
+192.168.2.254
+c1841-ipbasek9-mz.124-12.bin
+
+!Carregar a nova IOS
+conf t
+boot system flash c1841-ipbasek9-mz.124-12.bin
+
+!Salvar a configuração e recarregar R1
+wr
+reload
+
+-------------------------------------------------
+
+!Atualizar uma imagem do IOS em um switch
+!S1
+en
+copy tftp: flash:
+192.168.2.254
+c2960-lanbase-mz.122-25.FX.bin
+
+!Carregar a nova IOS
+conf t
+boot system c2960-lanbase-mz.122-25.FX.bin
+
+!Salvar a configuração e recarregar R1
+wr
+reload
+
+-------------------------------------------------
+
+!Fazer backup de uma imagem do IOS em um Servidor TFTP
+!R2
+en
+copy flash: tftp
+c1900-universalk9-mz.SPA.151-4.M4.bin
+192.168.2.254
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,7 @@
+O comando boot system
+
+    Para atualizar para a imagem do IOS copiado após ter salvo essa imagem na memória flash do roteador, configure o roteador para carregar a 
+    nova imagem durante a inicialização usando o comando boot system.
+
+    Salvar a configuração. Recarregue o roteador para inicializá-lo com a nova imagem. Após inicializar o roteador, para verificar se a nova 
+    imagem foi carregada, use o comando show version

@@ -1,0 +1,16 @@
+Ativar uma Licença de Direito de Uso de Avaliação
+
+    As licenças de avaliação são substituídas por licenças de direito de uso de avaliação (RTU) após 60 dias. Uma licença Evaluation é válida 
+    por um período de avaliação de 60 dias. Após os 60 dias, esta licença passa automaticamente para uma licença RTU. Essas licenças estão 
+    disponíveis no sistema de honra e requerem aceitação do EULA por parte do cliente. O EULA é automaticamente aplicado a todas as licenças 
+    de software IOS Cisco.
+
+Os nomes dos pacotes de tecnologia para plataformas ISR G2 da Cisco são:
+
+    ipbasek9 - Pacote de tecnologia IP Base
+
+    securityk9 - Pacote de tecnologia de segurança
+
+    datak9 – Pacote de tecnologia de dados
+
+    uck9 – Pacote Unified Communications (não disponível na série 1900)

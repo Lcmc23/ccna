@@ -1,0 +1,7 @@
+Fazer Backup da Licença
+
+    O comando license save é usado para copiar todas as licenças em um dispositivo e guardá-las em um formato exigido pelo local de 
+    armazenamento especificado. As licenças salvas são restauradas usando o comando license install.
+
+    O local de armazenamento das licenças pode ser um diretório ou uma URL que aponta para um sistema de arquivos. Usar o comando ? para ver 
+    os locais de armazenamento suportados por um dispositivo.

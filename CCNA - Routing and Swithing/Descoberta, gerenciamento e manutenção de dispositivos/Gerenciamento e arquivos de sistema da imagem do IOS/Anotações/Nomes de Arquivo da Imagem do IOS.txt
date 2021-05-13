@@ -1,0 +1,19 @@
+Nomes de Arquivo da Imagem do IOS
+
+    Ao selecionar ou atualizar um roteador do IOS Cisco, é importante escolher a imagem do IOS apropriada com o conjunto de recursos e a 
+    versão corretos. O arquivo de imagem do IOS Cisco é baseado em uma convenção de nomenclatura especial. O nome do arquivo de imagens do 
+    IOS Cisco contém várias partes, cada uma com um significado específico. É importante entender essa convenção de nomenclatura ao 
+    atualizar e selecionar um software IOS Cisco.
+
+    O formato de compactação pode ser z para zip ou x para mzip. A compactação é um método que a Cisco usa para compactar algumas imagens de execução RAM, que é eficaz para reduzir o tamanho da imagem. A descompactação é automática, por isso, quando a imagem é carregada na RAM para execução, a primeira ação será a descompactação.
+
+Observação
+
+    A convenção de nomenclatura do software IOS Cisco, o significado dos campos, o conteúdo da imagem e outros detalhes estão sujeitos 
+    a alterações.
+
+Requisitos de memória
+
+    Na maioria dos roteadores Cisco que incluem roteadores de serviços integrados, o IOS é armazenado na memória flash como uma imagem 
+    compactada carregada na DRAM na inicialização. As imagens do Software IOS Cisco Versão 15.0 disponíveis para o ISR Cisco 1900 e 2900 
+    exigem 256 MB de memória flash e 512 MB de RAM. O ISR 3900 exige 256 MB de memória flash e 1 GB de RAM

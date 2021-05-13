@@ -1,0 +1,16 @@
+Resumo do CDP
+
+    O Protocolo de Descoberta da Cisco (Cisco Discovery Protocol ou CDP) é um protocolo de camada 2 da Cisco que coleta informações sobre os 
+    dispositivos da Cisco que compartilham o mesmo enlace de dados.
+
+    OBS: 
+
+        O CDP é independente de mídias e protocolos. Ele é executado em todos os dispositivos da Cisco, como roteadores, switches e servidores
+        de acesso.
+
+IMPORTANTE:
+
+    Como a maioria dos dispositivos de rede são conectados a outros dispositivos, o CDP pode auxiliar nas decisões de projeto de rede, na 
+    solução de problemas e nas alterações que precisam ser feitas no equipamento. O CDP também pode ser usado como uma ferramentas de 
+    descoberta de redes para detectar as informações sobre os dispositivos vizinhos. Essas informações coletadas do CDP podem ajudá-lo a 
+    criar uma topologia lógica de rede quando a documentação estiver ausente ou com poucos detalhes.

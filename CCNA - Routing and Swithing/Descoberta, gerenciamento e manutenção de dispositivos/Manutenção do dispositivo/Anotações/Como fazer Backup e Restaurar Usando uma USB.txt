@@ -1,0 +1,11 @@
+Como fazer Backup e Restaurar Usando uma USB
+
+    Backup de configurações com uma unidade USB Flash
+
+        Ao fazer o backup para uma porta USB, é uma boa ideia usar o comando show file systems para verificar se a unidade USB está no lugar e 
+        confirmar o nome.
+
+    Restaurar Configurações com uma Unidade USB Flash
+
+        Com o objetivo de copiar o arquivo de volta, será necessário editar o arquivo R1-Config da USB usando um editor de textos. Considere 
+        que o nome do arquivo é R1-Config e use o comando copy usbflash0/R1-Config running-config para restaurar a configuração de execução.

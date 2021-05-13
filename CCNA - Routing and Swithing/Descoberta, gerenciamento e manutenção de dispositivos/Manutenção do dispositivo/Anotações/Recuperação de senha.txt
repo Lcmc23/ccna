@@ -1,0 +1,40 @@
+Recuperação de senha
+
+    As senhas dos dispositivos são usadas para impedir acesso não autorizado. As senhas criptografadas, como as senhas secretas de ativação, 
+    devem ser substituídas após a recuperação. Dependendo do dispositivo, o procedimento detalhado de recuperação de senha vai variar; 
+    entretanto, todos os procedimentos de recuperação seguem o mesmo princípio:
+
+    Passo 1. Entre no modo ROMMON.
+
+    Passo 2. Altere o registro de configuração para 0x2142 para ignorar o arquivo de configuração de inicialização.
+
+    Passo 3. Faça as alterações necessárias no arquivo de configuração de inicialização original.
+
+    Passo 4. Salve a nova configuração.
+
+Acesso ao console do dispositivo
+
+    É preciso ter acesso ao console do dispositivo por meio de um terminal ou software emulador de terminal em um computador para a recuperação 
+    de senha. As configurações do terminal para acessar o dispositivo são:
+
+    - Taxa de transmissão de 9.600;
+    - Sem paridade;
+    - 8 bits de dados;
+    - 1 bit de parada;
+    - Sem fluxo de controle.
+
+    Com o acesso ao console, o usuário pode acessar o modo ROMMON, usando uma sequência de interrupção durante o processo de inicialização ou 
+    removendo a memória flash externa quando o dispositivo estiver desligado.
+
+    OBS: a sequência de interrupção de PuTTY é Ctrl+Break (http://www.cisco.com/c/en/us/support/docs/routers/10000-series-routers/12818-61.html)
+
+Comando 'confreg 0x2142'
+
+    Com o registro de configuração como 0x2142, o dispositivo vai ignorar o arquivo de configuração de inicialização durante a inicialização. 
+    Esse é o local de armazenamento das senhas esquecidas.
+
+IMPORTANTE
+
+    O link a seguir fornece instruções detalhadas sobre o procedimento de recuperação de senha para dispositivos específicos:
+
+    http://www.cisco.com/c/en/us/support/docs/ios-nx-os-software/ios-software-releases-121-mainline/6130-index.html

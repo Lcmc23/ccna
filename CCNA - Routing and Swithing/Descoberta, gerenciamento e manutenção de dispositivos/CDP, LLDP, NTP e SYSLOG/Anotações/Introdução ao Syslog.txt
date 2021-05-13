@@ -1,0 +1,22 @@
+Introdução ao Syslog
+
+    * Quando determinados eventos ocorrem em uma rede, os dispositivos de rede têm mecanismos confiáveis para notificar o administrador com 
+    mensagens de sistema detalhadas. Essas mensagens podem não ser críticas ou podem ser significativas. Os administradores de rede têm uma 
+    variedade de opções de armazenamento, interpretação, exibição dessas mensagens e para serem alertados sobre as mensagens que podem ter 
+    maior impacto na infraestrutura de rede
+
+    * O método mais comum de acessar mensagens do sistema é usar um protocolo chamado syslog.
+
+
+!O syslog usa a porta 514 do UDP para enviar mensagens de notificação de eventos por meio de redes IP para coletores de mensagens de eventos!
+
+O serviço de logging de syslog oferece três funções principais:
+
+    - A capacidade de coletar informações de registro para monitorar e solucionar problemas;
+
+    - A capacidade de selecionar o tipo de informações de registro que são capturadas;
+
+    - A capacidade de especificar destinos de mensagens syslog capturadas.
+
+
+

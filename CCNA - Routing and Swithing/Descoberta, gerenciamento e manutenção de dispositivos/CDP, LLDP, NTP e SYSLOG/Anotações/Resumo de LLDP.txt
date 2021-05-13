@@ -1,0 +1,4 @@
+Resumo de LLDP
+
+    O LLDP funciona com dispositivos de rede, como roteadores, switches e pontos de acesso de LAN sem fio. Esse protocolo anuncia sua 
+    identidade e recursos para outros dispositivos e recebe as informações de dispositivos de camada 2 fisicamente conectados.

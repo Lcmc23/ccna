@@ -1,0 +1,13 @@
+Capítulo 10: Descoberta, gerenciamento e manutenção de dispositivos
+
+    O CDP é um protocolo de propriedade da Cisco para a descoberta de rede na camada de enlace de dados. Ele pode compartilhar informações, 
+    como nomes de dispositivos e versões de IOS, com outros dispositivos da Cisco fisicamente conectados. O LLDP é um protocolo independente 
+    de fornecedores na camada de enlace de dados para a descoberta de rede. Os dispositivos de rede anunciam informações, como suas identidades 
+    e recursos, para seus vizinhos.
+
+    O NTP sincroniza a hora do dia entre um conjunto de servidores e clientes de horário distribuídos. Isso permite que os dispositivos de rede 
+    concordem com a hora em que um evento específico ocorreu, como a perda de conectividade entre um roteador e um switch. As mensagens syslog 
+    podem ser interceptadas e enviadas a um servidor syslog, onde o administrador de rede pode investigar o momento em que o link falhou.
+
+    A manutenção de dispositivos inclui as tarefas de fazer backup, restaurar e atualizar imagens do IOS e arquivos de configuração. A 
+    atualização de uma imagem do IOS também inclui tarefas relacionadas ao licenciamento de software.
