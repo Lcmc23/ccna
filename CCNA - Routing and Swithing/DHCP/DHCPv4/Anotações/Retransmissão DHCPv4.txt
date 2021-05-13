@@ -1,0 +1,20 @@
+Retransmissão DHCPv4
+
+Configurar um endereço de ajuda do IOS Cisco - Essa solução permite que um roteador reenvie os broadcasts de DHCPv4 para o servidor DHCPv4. Quando o roteador encaminha uma designação de endereço/solicitações do parâmetro, está atuando como um agente de retransmissão de DHCPv4.
+
+Comando atrelado na interface que receberá o broadcast
+
+(config)#ip helper-address [endereço-ip-do-servidor-de-DHCPv4-em-uma-outra-subrede]
+
+CURIOSIDADE
+
+O DHCPv4 não é o único serviço no qual o roteador pode ser configurado para retransmitir. Por padrão, o comando ip helper-address encaminha os seguintes oito serviços UDP:
+
+Porta 37: tempo
+Porta 49: TACACS
+Porta 53: DNS
+Porta 67: servidor de DHCP/BOOTP
+Porta 68: cliente de DHCP/BOOTP
+Porta 69: TFTP
+Porta 137: serviço de nomes NetBIOS
+Porta 138: serviço de conjunto de dados NetBIOS

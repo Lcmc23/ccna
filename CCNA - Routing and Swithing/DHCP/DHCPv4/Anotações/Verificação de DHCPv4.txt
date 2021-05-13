@@ -1,0 +1,11 @@
+Verificação de DHCPv4
+
+**show running-config | section dhcp** - exibe os comandos DHCPv4 configurados no Router. O parâmetro '| section' exibe somente os comandos associados à configuração de DHCPv4.
+
+**show ip dhcp binding** - exibe uma lista de todos os endereços IPv4 para associações de endereço MAC que foram fornecidas pelo serviço DHCPv4.
+
+**show ip dhcp server statistics** - é usado para verificar se as mensagens estão sendo recebidas ou enviadas pelo roteador. Ele exibe informações sobre a quantidade de mensagens DHCPv4 que foram enviadas e recebidas.
+
+NO PROMPT DE COMANDO 
+
+ipconfig /all -->  exibe os parâmetros TCP/IP

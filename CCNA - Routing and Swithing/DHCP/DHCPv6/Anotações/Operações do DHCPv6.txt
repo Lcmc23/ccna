@@ -1,0 +1,15 @@
+Operações do DHCPv6
+
+O DHCPv6 stateless ou stateful, ou ambos, começam com uma mensagem de RA ICMPv6 do roteador. A mensagem do RA pode ter sido uma mensagem periódica ou solicitada pelo dispositivo usando uma mensagem de RS.
+
+- Se o DHCPv6 stateful ou stateless for indicado na mensagem do RA, o dispositivo iniciará as comunicações do cliente DHCPv6/servidor.
+
+* As mensagens de DHCPv6 são enviadas no UDP.
+
+	- Do servidor para o cliente = porta destino de UDP 546
+	- O cliente envia mensagens DHCPv6 para o servidor usando a porta destino de UDP 547
+
+Cliente DHCPv6 stateless - o cliente envia uma mensagem INFORMATION-REQUEST do DHCPv6 para o servidor DHCPv6 solicitando somente parâmetros de configuração, como o endereço de servidor DNS. O cliente gera seu próprio endereço IPv6 usando o prefixo de mensagens do RA e uma identificação de interface gerada automaticamente.
+
+
+Cliente de DHCPv6 Stateful - o cliente envia uma mensagem de REQUEST do DHCPv6 para o servidor para obter um endereço IPv6 e todos os parâmetros de configuração restantes do servidor.

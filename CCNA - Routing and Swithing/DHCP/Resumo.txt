@@ -1,0 +1,37 @@
+Capítulo 8: DHCP
+
+Todos os nós em uma rede requerem um endereço IP exclusivo para se comunicar com outros dispositivos. A designação estática de informações de endereçamento IP em uma grande rede resulta em uma carga administrativa que pode ser eliminada usando o DHCPv4 ou DHCPv6 para atribuir dinamicamente informações de endereçamento IPv4 e IPv6, respectivamente.
+
+* O DHCPv4 atribui dinamicamente ou aluga o endereço IPv4 de um pool de endereços por um período limitado configurado no servidor, ou até o cliente não precisar mais do endereço.
+
+- O DHCPv4 envolve a troca de vários pacotes diferentes entre o servidor DHCPv4 e o cliente DHCPv4, resultando no aluguel de informações de endereçamento válidas por um período pré-determinado.
+
+- As mensagens originárias do cliente (DHCPDISCOVER, DHCPREQUEST) são transmitidas para permitir que todos os servidores DHCPv4 na rede ouçam a solicitação de cliente e recebam ou lidem com as informações de endereçamento. As mensagens originárias do servidor DHCPv4 (DHCPOFFER, DHCPACK) são enviadas como unicasts diretamente ao cliente.
+
+--------------------------------------------------------------------------------------------------------------------------
+
+Existem dois métodos disponíveis para a configuração dinâmica de endereços globais unicast IPv6.
+
+* Configuração automática de endereço stateless (SLAAC)
+
+* Dynamic Host Configuration Protocol para IPv6 (DHCPv6 Stateful)
+
+- Com a configuração automática stateless, o cliente usa as informações fornecidas pela mensagem do RA de IPv6 para selecionar e configurar automaticamente um endereço IPv6 único. A opção DHCPv6 stateless informa ao cliente para usar as informações na mensagem do RA para endereçamento, mas parâmetros de configuração adicionais estão disponíveis em um servidor DHCPv6.
+
+- O DHCPv6 stateful é semelhante ao DHCPv4. Nesse caso, a mensagem do RA informa ao cliente para não usar as informações na mensagem do RA. Todas as informações de endereçamento e informações de configuração DNS são obtidas de um servidor DHCPv6 stateful. O servidor DHCPv6 mantém as informações de estado do IPv6 da mesma forma que um servidor DHCPv4 aloca endereços IPv4.
+
+- Se o servidor DHCP estiver localizado em um segmento de rede diferente do cliente DHCP, será necessário configurar um agente de retransmissão. O agente de retransmissão envia mensagens de broadcast ou multicast específicas, incluindo mensagens DHCP, originadas de um host em um segmento de LAN e destinadas a um servidor específico localizado em um segmento diferente de LAN.
+
+--------------------------------------------------------------------------------------------------------------------------
+
+A solução de problemas com DHCPv4 e DHCPv6 envolve as mesmas tarefas:
+
+- Resolver conflitos de endereço;
+
+- Verificar a conectividade física;
+
+- Testar a conectividade usando um endereço IP estático;
+
+- Verifique a configuração da porta do switch;
+
+- Testar a operação na mesma sub-rede ou na VLAN.

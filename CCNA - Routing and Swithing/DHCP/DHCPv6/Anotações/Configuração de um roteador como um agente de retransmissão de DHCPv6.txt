@@ -1,0 +1,7 @@
+Configuração de um roteador como um agente de retransmissão de DHCPv6
+
+Se o servidor DHCPv6 estiver localizado em uma rede diferente do cliente, o roteador do IPv6 poderá ser configurado como um agente de retransmissão do DHCPv6. A configuração de um agente de retransmissão do DHCPv6 é semelhante à configuração de um roteador do IPv4 como retransmissão do DHCPv4.
+
+Observação: embora a configuração de um agente de retransmissão do DHCPv6 seja similar ao DHCPv4, os agentes do roteador ou da retransmissão de IPv6 encaminham mensagens DHCPv6 de forma ligeiramente diferente das retransmissões de DHCPv4.
+
+- ipv6 dhcp relay destination (Esse comando é configurado na interface voltada para o cliente usando o endereço do servidor DHCPv6 como destino).

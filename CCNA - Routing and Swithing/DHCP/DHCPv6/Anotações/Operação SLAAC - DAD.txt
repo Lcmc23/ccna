@@ -1,0 +1,24 @@
+Operação SLAAC e DAD
+
+Um roteador deve ter o roteamento IPv6 ativado antes de enviar mensagens de RA:
+Router(config)# ipv6 unicast-routing
+
+Existem duas formas de o PC1 criar sua própria ID original:
+
+* EUI-64 - usando o processo EUI-64, o PC1 criará uma ID com o endereço MAC de 48 bits.
+
+* Gerado de forma aleatória - a ID de 64 bits pode ser um número aleatório gerado pelo sistema operacional do cliente.
+
+OBS: O PC1 usará o endereço link local do roteador como o endereço de gateway padrão IPv6.
+
+--------------------------------------------------------------------------------------------------------------------------
+
+DAD - Detecção de Endereços Duplicados
+
+* Como SLAAC é um processo stateless, o PC1 deve verificar se esse endereço IPv6 recém-criado é exclusivo antes de ser usado
+
+O PC1 enviará uma mensagem de solicitação de vizinho ICMPv6 com um endereço multicast especialmente criado, chamado endereço multicast de nó solicitado, que duplica os últimos 24 bits do endereço IPv6 do PC1.
+
+I) Se nenhum outro dispositivo responder com uma mensagem do anúncio, o endereço será praticamente garantido como exclusivo e poderá ser usado pelo PC1.
+
+II) Se um anúncio vizinho for recebido pelo PC1, o endereço não é exclusivo e o sistema operacional precisará determinar um novo ID de interface a usar.

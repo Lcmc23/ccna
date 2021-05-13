@@ -1,0 +1,35 @@
+Configuração de um servidor DHCPv4 básico 
+
+Passo 1. Exclusão de endereços IPv4
+
+O roteador que funciona como servidor DHCPv4 atribui todos os endereços IPv4 de um pool de endereços DHCPv4, a menos que configurados para excluir endereços específicos. Normalmente, os endereços IPv4 em qualquer um pool são atribuídos a dispositivos de rede que exigem atribuições de endereço estáticas. Portanto, esses endereços IPv4 não devem ser atribuídos a outros dispositivos. Para excluir endereços específicos, use o comando **ip dhcp excluded-address DHCP**.
+
+OBS: Um único endereço ou um intervalo de endereços podem ser excluídos especificando o endereço baixo e o endereço alto do intervalo. Os endereços excluídos devem incluir os endereços atribuídos a roteadores, servidores, impressoras e outros dispositivos que tenham sido ou serão configurados manualmente.
+
+--------------------------------------------------------------------------------------------------------------------------
+
+Passo 2. Configuração de um pool DHCPv4
+
+A configuração de um servidor DHCPv4 envolve definir um pool de endereços para atribuir. O **pool IP DHCP** O comando 'pool-name' cria um pool com o nome especificado e coloca o roteador no modo de configuração DHCPv4, que é identificado por este prompt 'Router(dhcp-config)#'.
+
+--------------------------------------------------------------------------------------------------------------------------
+
+Passo 3. Configuração de tarefas específicas
+
+- O pool de endereço e o roteador de gateway padrão devem ser configurados. Use a instrução **network** para definir o intervalo de endereços disponíveis.
+
+- Use o comando **default-router** para definir o roteador de gateway padrão. Geralmente, o gateway é a interface da LAN do roteador mais próximo aos dispositivos clientes.
+
+	Um gateway é obrigatório, mas 'você pode listar até oito endereços se houver vários gateways'.
+
+- Outros comandos do pool de DHCPv4 são opcionais. Por exemplo
+
+	* O endereço IPv4 do servidor DNS que está disponível para um cliente DHCPv4 é configurado usando o comando **dns-		server**. 
+
+	* O comando **domain-name** 'domínio' é usado para definir o nome de domínio. 
+
+	* A duração do aluguel de DHCPv4 pode ser alterada usando o comando **lease**. 'O valor do aluguel padrão é um 		dia'. 
+
+	* O comando **netbios-name-server** é usado para definir o servidor NetBIOS WINS.
+
+--------------------------------------------------------------------------------------------------------------------------

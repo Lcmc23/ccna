@@ -1,0 +1,115 @@
+﻿SCRIPT - EXERCÍCIO 8.3.1.2
+
+!S2
+!Nome do SW
+en
+conf t
+hostname S2
+
+!Criação das VLANs
+vlan 10
+name Sales
+vlan 20
+name Production
+vlan 30
+name Marketing
+vlan 40
+name HR
+
+!Atrelar as portas no modo de Acesso
+int range f0/5-9
+no shutdown
+description Sales
+switchport mode access
+switchport access vlan 10
+
+int range f0/10-14
+no shutdown
+description Production
+switchport mode access
+switchport access vlan 20
+
+int range f0/15-19
+no shutdown
+description Marketing
+switchport mode access
+switchport access vlan 30
+
+int range f0/20-24
+no shutdown
+description HR
+switchport mode access
+switchport access vlan 40
+exit
+
+!Atrelar as portas no modo Trunk
+int range f0/1-4
+no shutdown
+switchport mode trunk
+
+-------------------------------------------------------------
+
+!R1
+!Nome do RT
+en
+conf t
+hostname R1
+
+!Ativar as interfaces
+int range g0/0-1
+no shutdown
+exit
+
+!Atrelar o endereço IP à uma subinterface (IPv4)
+int g0/0.10
+encapsulation dot1q 10
+ip add 172.31.10.1 255.255.255.224
+description GATEWAY VLAN 10
+
+int g0/0.20
+encapsulation dot1q 20
+ip add 172.31.20.1 255.255.255.240
+description GATEWAY VLAN 20
+
+int g0/0.30
+encapsulation dot1q 30
+ip add 172.31.30.1 255.255.255.128
+description GATEWAY VLAN 30
+
+int g0/0.40
+encapsulation dot1q 40
+ip add 172.31.40.1 255.255.255.192
+description GATEWAY VLAN 40
+exit
+
+!Excluir os endereços específicos
+ip dhcp excluded-address 172.31.10.1 172.31.10.10
+ip dhcp excluded-address 172.31.20.1 172.31.20.10
+ip dhcp excluded-address 172.31.30.1 172.31.30.10
+ip dhcp excluded-address 172.31.40.1 172.31.40.10
+
+!Configuração de um pool DHCPv4
+ip dhcp pool VLAN_10
+network 172.31.10.0 255.255.255.224
+default-router 172.31.10.1
+dns-server 209.165.201.14
+
+ip dhcp pool VLAN_20
+network 172.31.20.0 255.255.255.240
+default-router 172.31.20.1
+dns-server 209.165.201.14
+
+ip dhcp pool VLAN_30
+network 172.31.30.0 255.255.255.128
+default-router 172.31.30.1
+dns-server 209.165.201.14
+
+ip dhcp pool VLAN_40
+network 172.31.40.0 255.255.255.192
+default-router 172.31.40.1
+dns-server 209.165.201.14
+exit
+
+!Configuração do R1 como cliente DHCP (interface g0/1)
+int g0/1
+ip address dhcp

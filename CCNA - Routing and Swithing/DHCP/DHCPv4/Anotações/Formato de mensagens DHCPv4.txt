@@ -1,0 +1,53 @@
+Formato de mensagens DHCPv4
+
+- As mensagens DHCPv4 são encapsuladas no protocolo de transporte UDP.
+
+- As mensagens de DHCPv4 enviadas do cliente usam a porta origem 68 e a porta destino 67 do UDP. 
+
+- As mensagens de DHCPv4 enviadas do servidor ao cliente usam a porta origem 67 e a porta destino 68 do UDP.
+
+* Código da operação (OP) 
+
+	Especifica o tipo geral da mensagem. 
+	- Um valor igual a 1 indica uma mensagem de solicitação; 
+	- Um valor de 2 é uma mensagem de resposta
+
+* Tipo de hardware 
+
+	Identifica o tipo de hardware usado na rede.
+	- 1 é Ethernet
+	- 15 é Frame Relay
+	- 20 é uma linha serial
+	OBS: Esses são os mesmos códigos utilizados em mensagens ARP
+
+* Comprimento do endereço de hardware - especifica o comprimento do endereço
+
+* Saltos - controla o encaminhamento de mensagens. Defina como 0 por um cliente antes de enviar uma solicitação.
+
+--------------------------------------------------------------------------------------------------------------------------
+
+* Identificador de transação - usado pelo cliente para corresponder à solicitação com as respostas recebidas de servidor DHCPv4
+
+--------------------------------------------------------------------------------------------------------------------------
+
+* Segundos - identifica o número de segundos decorridos desde que um cliente começou a tentar adquirir ou renovar um aluguel. Usado pelos servidores DHCPv4 para priorizar respostas quando as solicitações do cliente são excepcionais.
+
+* Flags - usados por um cliente que não sabe seu endereço IPv4 quando envia uma solicitação. Apenas um dos 16 bits é usado, que é a flag de broadcast. Um valor de 1 neste campo informa ao agente de servidor ou retransmissão de DHCPv4 que recebe a solicitação que a resposta deve ser enviada como broadcast.
+
+--------------------------------------------------------------------------------------------------------------------------
+
+* Endereço IP do cliente - usado por um cliente durante a atualização de aluguel quando o endereço do cliente é válido e útil, não durante o processo de aquisição de um endereço. O cliente coloca seu próprio endereço IPv4 nesse campo se, e apenas se, tiver um endereço IPv4 válido no estado limitado; caso contrário, define o campo como 0.
+
+* Seu endereço IP - usado pelo servidor para atribuir endereços IPv4 ao cliente.
+
+* Endereço IP do servidor - usado pelo servidor para identificar o endereço do servidor que o cliente deve usar para a próxima etapa no processo de inicialização, que pode ou não ser o servidor enviando essa resposta. O servidor de envio sempre inclui seu próprio endereço IPv4 em um campo especial chamado opção DHCPv4 do Identificador do Servidor.
+
+* Endereço IP do gateway - mensagens das rotas DHCPv4 em que os agentes de retransmissão DHCPv4 são envolvidos. O endereço de gateway facilita comunicações de solicitações de DHCPv4 e responde entre o cliente e um servidor que estão em sub-redes ou em redes diferentes.
+
+* Endereço de hardware do cliente - especifica a camada física do cliente.
+
+* Nome do servidor - usado pelo servidor que está enviando uma mensagem DHCPOFFER ou DHCPACK. O servidor também pode colocar seu nome nesse campo. Isso pode ser um apelido de texto simples ou um nome de domínio DNS, como dhcpserver.netacad.net.
+
+* Nome de arquivo de inicialização - usado opcionalmente por um cliente para solicitar um determinado tipo de arquivo de inicialização em uma mensagem DHCPDISCOVER. Usado por um servidor em um DHCPOFFER para especificar um diretório e nome do arquivo de inicialização.
+
+* Opções de DHCP - retém as opções de DHCP, incluindo vários parâmetros necessários para a operação básica do DHCP. Este campo tem comprimento variável. O cliente e o servidor podem usar esse campo

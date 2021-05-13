@@ -1,0 +1,28 @@
+Configuração automática de endereço stateless (SLAAC)
+
+Da mesma forma que IPv4, os endereços globais unicast IPv6 podem ser configurados manualmente ou dinamicamente. Entretanto, há dois métodos pelos quais os endereços globais unicast IPv6 podem ser atribuídos dinamicamente:
+
+* Configuração automática do endereço stateless (SLAAC);
+
+* Dynamic Host Configuration Protocol para IPv6 (DHCPv6 Stateful).
+
+--------------------------------------------------------------------------------------------------------------------------
+
+Introdução ao SLAAC
+
+
+SLAAC é um método pelo qual um dispositivo pode obter um endereço global unicast IPv6 sem os serviços de um servidor DHCPv6. No núcleo de SLAAC está o ICMPv6. O ICMPv6 é semelhante ao ICMPv4, mas inclui funcionalidade adicional e é um protocolo muito mais robusto.
+
+- O SLAAC usa a solicitação do roteador ICMPv6 e as mensagens de anúncio do roteador para fornecer informações de endereçamento e outras informações de configuração que seriam normalmente fornecidas por um servidor DHCP:
+
+* Mensagem de solicitação do roteador (RS) - quando um cliente está configurado para obter as informações de endereçamento automaticamente usando o SLAAC, ele envia uma mensagem de RS ao roteador. A mensagem de RS é enviada para o endereço 'multicast all-routers do IPv6 FF02::2'.
+
+* Mensagem de anúncio do roteador (RA) - as mensagens de RA são enviadas pelos roteadores para fornecer informações de endereçamento para clientes configurados para obter os endereços IPv6 automaticamente.
+
+OBS: A mensagem do RA inclui o prefixo e o tamanho do prefixo do segmento local. Um cliente usa essas informações para criar seu próprio endereço unicast global IPv6. Um roteador envia uma mensagem de RA periodicamente ou em resposta a uma mensagem de RS. Por padrão, os roteadores Cisco enviam mensagens de RA a cada 200 segundos. As mensagens de RA são enviadas para o endereço 'IPv6 multicast all-nodes FF02::1'.
+
+CURIOSIDADE: Como o nome indica, o SLAAC é stateless. Um serviço stateless significa que não há um servidor que mantenha as informações de endereço de rede. Diferentemente do DHCP, não há servidor de SLAAC que sabe quais endereços IPv6 estão sendo usados e quais estão disponíveis.
+
+
+
+

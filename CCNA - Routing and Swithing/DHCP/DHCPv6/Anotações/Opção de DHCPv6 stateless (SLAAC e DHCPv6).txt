@@ -1,0 +1,14 @@
+Opção de DHCPv6 stateless (SLAAC e DHCPv6)
+
+A opção DHCPv6 stateless informa ao cliente para usar as informações na mensagem do RA para endereçamento, mas parâmetros de configuração adicionais estão disponíveis em um servidor DHCPv6.
+
+- O cliente se comunicará com um servidor DHCPv6 stateless para obter informações adicionais não fornecidas na mensagem do RA. Esta pode ser uma lista de endereços IPv6 do servidor DNS, por exemplo. Este processo é conhecido como DHCPv6 stateless, porque o servidor não está mantendo nenhuma informação de estado do cliente (ou seja, uma lista de endereços IPv6 disponíveis e alocadas). O servidor DHCPv6 stateless está fornecendo somente parâmetros de configuração para clientes, não endereços IPv6
+
+- Para o DHCPv6 independente, a flag O é definida como 1 e a flag M é mantida com a configuração padrão de 0. O valor de 1 da flag O é usado para informar ao cliente as informações de configuração adicionais disponíveis de um servidor DHCPv6 stateless.
+
+
+IMPORTANTE!!!
+
+Para modificar a mensagem do RA enviada na interface de um roteador para indicar o DHCPv6 stateless, use o comando a seguir:
+
+Router(config-if)# ipv6 nd other-config-flag

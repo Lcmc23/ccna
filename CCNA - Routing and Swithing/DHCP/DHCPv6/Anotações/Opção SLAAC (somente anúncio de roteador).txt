@@ -1,0 +1,18 @@
+Opção SLAAC (somente anúncio de roteador)
+
+A SLAAC é a opção padrão nos roteadores da Cisco. Tanto a flag M quanto a flag O são definidas como 0 no RA.
+
+- Esta opção instrui o cliente a usar apenas as informações na mensagem do RA. Isso inclui o prefixo, o comprimento do prefixo, o servidor DNS, MTU e as informações de gateway padrão.
+
+- Não há informações adicionais disponíveis de um servidor DHCPv6. O endereço unicast global de IPv6 é criado combinando o prefixo do RA e um ID de interface usando EUI-64 ou um valor gerado aleatoriamente.
+
+IMPORTANTE!!!
+
+**As mensagens de RA são configuradas em uma interface individual de um roteador**. Para reativar uma interface para SLAAC que pode ter sido definida como outra opção, as flags M e O devem ser restauradas aos seus valores iniciais de 0. Isso é feito usando os seguintes comandos do modo de configuração da interface:
+
+(config-if)# no ipv6 nd managed-config-flag
+
+(config-if)# no ipv6 nd other-config-flag
+
+
+

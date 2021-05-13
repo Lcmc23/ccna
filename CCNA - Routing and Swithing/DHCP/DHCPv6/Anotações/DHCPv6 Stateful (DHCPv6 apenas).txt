@@ -1,0 +1,8 @@
+DHCPv6 Stateful (DHCPv6 apenas)
+
+Essa opção é a mais semelhante ao DHCPv4. Nesse caso, a mensagem do RA informa ao cliente para não usar as informações na mensagem do RA. Todas as informações de endereçamento e informações de configuração devem ser obtidas de um servidor DHCPv6 stateful. Isso é conhecido como DHCPv6 stateful, pois o servidor DHCPv6 mantém as informações de estado do IPv6. Isso é semelhante a um servidor DHCPv4 que aloca endereços para IPv4.
+
+- A flag M indica se DHCPv6 stateful será ou não usado. A flag O não está envolvida. O comando a seguir é utilizado para alterar a flag M de 0 para 1 para indicar DHCPv6 stateful:
+
+(config-if)# ipv6 nd managed-config-flag
+

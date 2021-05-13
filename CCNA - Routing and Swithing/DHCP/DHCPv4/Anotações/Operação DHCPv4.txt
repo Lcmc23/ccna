@@ -1,0 +1,35 @@
+Origem de leasing
+
+Quando o cliente inicializa (ou quer ingressar em uma rede), ele começa um processo de quatro etapas para obter um aluguel. Um cliente inicia o processo com uma mensagem de broadcast DHCPDISCOVER com seu próprio endereço MAC para descobrir os servidores DHCPv4 disponíveis.
+
+Descoberta do DHCP (DHCPDISCOVER)
+
+A mensagem de broadcast DHCPDISCOVER encontra os servidores DHCPv4 na rede. Como o cliente não tem informações válidas de IPv4 durante a inicialização, ele usa endereços de broadcast de Camada 2 e Camada 3 para se comunicar com o servidor.
+
+Pacote de DHCP Offer (DHCPOFFER)
+
+Quando o servidor DHCPv4 recebe uma mensagem DHCPDISCOVER, reserva o endereço IPv4 disponível para alugar para o cliente. O servidor também cria uma entrada ARP que consiste no endereço MAC do cliente solicitante e o endereço IPv4 alugado do cliente. O servidor DHCPv4 envia mensagem de vinculação DHCPOFFER ao cliente solicitante
+
+Solicitação de DHCP (DHCPREQUEST)
+
+Quando o cliente receber o DHCPOFFER do servidor, enviará uma mensagem DHCPREQUEST. Esta mensagem é usada para geração e renovação do aluguel. Quando usado para geração de aluguel, DHCPREQUEST atua como um aviso de aceitação de vinculação para o servidor selecionado para os parâmetros que oferecia e uma recusa implícita a todos os outros servidores que possam ter fornecido ao cliente uma oferta de vinculação.
+
+OBS: Muitas redes corporativas usam vários servidores DHCPv4. A mensagem DHCPREQUEST é enviada na forma de um broadcast para informar esse servidor DHCPv4 e todos os outros servidores DHCPv4 sobre a oferta aceita.
+
+Reconhecimento de DHCP (DHCPACK)
+
+Ao receber a mensagem DHCPREQUEST, o servidor verifica as informações de aluguel com um ping do ICMP para esse endereço para garantir que ele não esteja sendo usado atualmente, cria uma nova entrada ARP para o aluguel do cliente e envia uma mensagem DHCPACK. A mensagem DHCPACK é uma cópia de DHCPOFFER, exceto por uma mudança no campo do tipo de mensagem. Quando o cliente recebe a mensagem DHCPACK, registra informações sobre configuração e realiza uma pesquisa ARP para o endereço atribuído. Se não houver resposta ao ARP, o cliente sabe que o endereço IPv4 é válido e começa a usá-lo como seu próprio.
+
+--------------------------------------------------------------------------------------------------------------------------
+
+Renovação de leasing
+
+Solicitação de DHCP (DHCPREQUEST)
+
+Conforme mostrado na Figure 6, antes de o aluguel expirar, o cliente envia uma mensagem DHCPREQUEST diretamente para o servidor DHCPv4 que originalmente ofereceu o endereço IPv4. Se um DHCPACK não for recebido dentro de um período especificado, o cliente envia outro DHCPREQUEST, de modo que um dos outros servidores DHCPv4 possa estender o aluguel.
+
+Reconhecimento de DHCP (DHCPACK)
+
+Ao receber a mensagem DHCPREQUEST, o servidor verifica as informações de aluguel retornando um DHCPACK.
+
+Observação: essas mensagens (principalmente DHCPOFFER e DHCPACK) podem ser enviadas como unicast ou de broadcast de acordo com a IETF RFC 2131.
