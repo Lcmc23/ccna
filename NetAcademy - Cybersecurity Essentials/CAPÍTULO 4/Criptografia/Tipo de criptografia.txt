@@ -1,0 +1,12 @@
+Tipo de criptografia
+
+    As cifras de blocos - transformam um bloco de tamanho fixo de texto claro em um bloco comum de texto codificado de 64 ou 128 bits. O tamanho 
+    do bloco é a quantidade de dados criptografados a qualquer momento. Para descriptografar o texto codificado, aplique a transformação 
+    inversa para o bloco de texto codificado, usando a mesma chave secreta.
+
+    Cifras de fluxo - ao contrário das cifras de blocos, as cifras de fluxo criptografam um byte de texto claro ou um bit de cada vez
+
+    * As cifras de fluxo podem ser muito mais rápidas do que as cifras de blocos e geralmente não aumentam o tamanho da mensagem, pois podem 
+    criptografar um número arbitrário de bits.
+
+    - Data Encryption Standard (DES) = é um algoritmo simétrico que criptografa blocos em partes de 64 bits, usando uma chave de 56 bits

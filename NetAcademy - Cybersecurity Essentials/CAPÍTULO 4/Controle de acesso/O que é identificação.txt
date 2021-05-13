@@ -1,0 +1,12 @@
+O que é identificação?
+
+    A identificação aplica as regras estabelecidas pela política de autorização. Um indivíduo solicita acesso a um recurso do sistema. Sempre 
+    que o indivíduo solicita acesso a um recurso, os controles de acesso determinam se devem conceder o negar o acesso. Por exemplo, a política 
+    de autorização determina quais atividades um usuário podem executar em um recurso.
+
+    - Um identificador único assegura a devida associação entre as atividades permitidas e os indivíduos. Um nome de usuário é o método mais 
+    comum usado para identificar um usuário. Um nome de usuário pode ser uma combinação alfanumérica, um número de identificação pessoal 
+    (PIN), um cartão inteligente ou a biometria, como uma impressão digital, escaneamento da retina ou reconhecimento de voz.
+
+    - Um identificador único assegura que um sistema possa identificar cada usuário individualmente; portanto, permite que um usuário autorizado
+    realize as ações apropriadas em um recurso específico.

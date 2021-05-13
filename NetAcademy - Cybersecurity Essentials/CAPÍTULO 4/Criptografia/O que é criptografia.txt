@@ -1,0 +1,26 @@
+O que é criptografia
+
+    A criptologia é a ciência de criar e violar os códigos secretos. A criptografia é o modo de armazenar e transmitir dados, de modo que 
+    somente o destinatário pretendido possa ler ou processá-los. A criptografia moderna usa algoritmos seguros em relação à computação para 
+    nos certificar de que criminosos virtuais não possam comprometer facilmente as informações protegidas.
+
+    Ao ativar a criptografia, os dados legíveis contêm texto claro ou texto não criptografado, enquanto a versão criptografada contém texto 
+    criptografado ou texto codificado. A criptografia converte a mensagem legível de texto claro em texto codificado, que é a mensagem 
+    ilegível disfarçada. A descriptografia reverte o processo. A criptografia também precisa de uma chave, que desempenha um papel crítico 
+    para criptografar e descriptografar uma mensagem. A pessoa que possui a chave pode descriptografar o texto codificado para texto claro.
+
+    EXEMPLO: Cifra de César
+
+        IODQNHDVW DWWDFNDWGDZQ = flankeast attackatdawn = flank east attack at dawn = ataque de flanco leste ao amanhecer
+
+Algoritmos simétricos 
+
+    Esses algoritmos usam a mesma chave pré-compartilhada, às vezes chamada de par de chaves secretas, para criptografar e descriptografar 
+    dados. O remetente e o destinatário conhecem a chave pré-compartilhada, antes de qualquer comunicação criptografada começar. 
+
+Algoritmos assimétricos 
+
+    A criptografia assimétrica usa uma chave para criptografar os dados e uma chave diferente para descriptografá-los. Uma chave é pública e 
+    outra é privada. Em um sistema de criptografia de chave pública, qualquer pessoa pode codificar uma mensagem utilizando a chave pública 
+    do destinatário e o destinatário é o único que pode decifrá-la usando sua chave privada.
+

@@ -1,0 +1,6 @@
+Esteganoanálise - detecção 
+
+    A esteganoanálise é a descoberta de que existem informações ocultas. O objetivo da esteganoanálise é descobrir as informações ocultas. Os 
+    padrões da estego-imagem levantam suspeita. Por exemplo, um disco pode ter áreas não utilizadas que ocultam informações. As utilidades de 
+    análise do disco podem relatar informações ocultas em clusters não utilizados de dispositivos de armazenamento. Os filtros podem capturar 
+    pacotes de dados que contêm informações ocultas nos cabeçalhos dos pacotes. Esses dois métodos são usando assinaturas de estenografia.

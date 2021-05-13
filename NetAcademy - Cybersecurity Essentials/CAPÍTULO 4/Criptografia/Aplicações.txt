@@ -1,0 +1,26 @@
+Aplicações - Há várias aplicações para os algoritmos simétricos e assimétricos.
+
+    * Um token gerador de senha de uso único é um dispositivo de hardware que usa criptografia para gerar uma senha de uso único. Uma senha de 
+    uso único é uma cadeia de caracteres numérica ou alfanumérica gerada automaticamente que autentica um usuário para uma transação de uma 
+    sessão somente. O número muda a cada 30 segundos. A senha de sessão aparece em um visor e o usuário insere a senha.
+
+    * O setor de pagamento eletrônico usa o 3DES. Os sistemas operacionais usam DES para proteger os arquivos e os dados do sistema com senhas. 
+    A maioria dos sistemas de arquivo de criptografia, como NTFS, usa AES.
+
+    Quatro protocolos usam algoritmos de chave assimétrica.
+
+        - Internet Key Exchange (IKE), que é um componente fundamental das redes virtuais privadas IPsec (VPNs).
+
+        - Secure Socket Layer (SSL), que é um meio de implementar a criptografia em um navegador da Web.
+
+        - Secure Shell (SSH), que é um protocolo que fornece uma conexão de acesso remoto seguro a dispositivos de rede.
+
+        - Pretty Good Privacy (PGP), que é um programa de computador que fornece privacidade criptográfica e autenticação para aumentar a 
+        segurança de comunicações de e-mail.
+
+    Uma VPN é uma rede privada que usa rede pública, geralmente a internet, para criar um canal de comunicação seguro. Uma VPN conecta dois 
+    endpoints, como dois escritórios remotos, pela Internet com o objetivo de formar a conexão.
+
+    As VPNs usam IPsec. IPsec é um conjunto de protocolos desenvolvido para obter serviços seguros pelas redes. Os serviços de IPsec permitem 
+    a autenticação, integridade, controle de acesso e confidencialidade. Com a IPsec, os sites remotos podem trocar informações criptografadas 
+    e verificadas.

@@ -1,0 +1,17 @@
+O que é estenografia?
+
+    A estenografia esconde dados (a mensagem) em outro arquivo, como um gráfico, áudio ou outro arquivo de texto. A vantagem da estenografia 
+    em relação à criptografia é que a mensagem secreta não atrai atenção especial. Ao visualizar o arquivo de forma eletrônica ou impressa, 
+    ninguém saberá que uma imagem, na realidade, contém uma mensagem secreta.
+
+    Existem vários componentes envolvidos na ocultação de dados. Primeiro, existem os dados integrados que compõem a mensagem secreta. O texto 
+    de capa (ou imagem de capa ou áudio de capa) oculta os dados integrados, produzindo o estego-texto (ou estego-imagem ou estego-áudio). Uma 
+    estego-chave (stego-key) controla o processo de ocultação.
+
+Estenografia social
+
+    A estenografia social oculta informações de visão simples, criando uma mensagem que pode ser lida de certa forma pela pessoa que receber a 
+    mensagem. As outras pessoas que visualizarem a mensagem de modo normal não a verão. Os adolescentes nas redes sociais usam essa tática 
+    para se comunicar com seus amigos mais próximos, evitando que as outras pessoas, como seus pais, percebam o que a mensagem realmente 
+    significa. Por exemplo, a frase "ir ao cinema" pode significar "ir à praia".
+

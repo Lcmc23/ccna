@@ -1,0 +1,20 @@
+O que é mascaramento de dados?
+
+    A tecnologia de mascaramento de dados protege dados, substituindo as informações confidenciais por uma versão pública. A versão não 
+    confidencial parece e age como a original. Isso significa que um processo empresarial pode usar dados não confidenciais e não há 
+    necessidade de alterar os aplicativos de suporte ou as instalações de armazenamento de dados. No caso de uso mais comum, o mascaramento 
+    limita a propagação de dados sensíveis dentro de sistemas de TI, ao distribuir conjuntos de dados substitutos para teste e análise. As 
+    informações podem ser mascaradas dinamicamente, se o sistema ou aplicativo determinar que uma solicitação de informações confidenciais 
+    feita pelo usuário é arriscada.
+
+Técnicas de mascaramento de dados
+
+    Existem várias técnicas de mascaramento de dados que podem assegurar que os dados permaneçam significativos, mas alterados o suficiente 
+    para protegê-lo.
+
+    - A substituição troca os dados por valores que parecem autênticos para tornar os registros de dados anônimos.
+
+    - O embaralhamento origina um conjunto de substituição da mesma coluna de dados que um usuário deseja mascarar. Esta técnica funciona bem 
+    para informações financeiras em um banco de dados de teste, por exemplo.
+    
+    - A anulação aplica um valor nulo a um campo específico, que impede totalmente a visibilidade dos dados.

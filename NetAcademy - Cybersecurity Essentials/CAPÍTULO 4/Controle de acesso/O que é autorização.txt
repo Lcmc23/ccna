@@ -1,0 +1,9 @@
+O que é autorização?
+
+    A autorização controla o que um usuário pode e não pode fazer na rede após a autenticação com sucesso. Após comprovar a identidade do 
+    usuário, o sistema verifica os recursos da rede que o usuário pode acessar e o que o usuário pode fazer com os recursos.
+
+    - "Quais privilégios de ler, copiar, criar e excluir o usuário tem?"
+
+    OBS: A autorização é automática e não exige que os usuários executem etapas adicionais após a autenticação. Implementar a autorização 
+    imediatamente após a autenticação do usuário.

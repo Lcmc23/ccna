@@ -1,0 +1,16 @@
+O processo de criptografia assimétrica
+
+    A criptografia assimétrica, também chamada de criptografia de chave pública, utiliza uma chave de criptografia que é diferente da chave 
+    usada para descriptografia. Um criminoso não pode calcular uma chave de descriptografia baseada no conhecimento da chave de criptografia 
+    e vice-versa, em qualquer período razoável.
+
+    RSA (Rivest-Shamir-Adleman) - Usa o produto de dois números primos muito grandes, com um tamanho igual de 100 a 200 dígitos. Os 
+    navegadores usam RSA para estabelecer uma conexão segura.
+
+    Diffie-Hellman - Fornece um método de troca eletrônica para compartilhar a chave secreta. Os protocolos seguros, como Secure Sockets Layer 
+    (SSL), Transport Layer Security (TLS), Secure Shell (SSH) e Internet Protocol Security (IPsec) usam Diffie-Hellman.
+
+    ElGamal - Usa o padrão do governo dos E.U.A. para assinaturas digitais. Esse algoritmo é gratuito porque ninguém detém a patente.
+
+    Criptografia de curva elíptica (ECC) - Usa curvas elípticas como parte do algoritmo. Nos Estados Unidos, a Agência Nacional de Segurança 
+    usa ECC para geração de assinatura digital e troca de chave.

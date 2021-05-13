@@ -1,0 +1,21 @@
+Algoritmos de criptografia simétrica
+
+    O Triplo DES criptografa três vezes os dados e usa uma chave diferente para, no mínimo, uma das três passagens, fornecendo um tamanho de 
+    chave cumulativa de 112-168 bits. O 3DES é resistente ao ataque, mas é muito mais lento do que o DES.
+
+        O ciclo de criptografia do 3DES ocorre da seguinte forma:
+
+        1. Dados criptografados pelo primeiro DES
+
+        2. Dados descriptografados pelo segundo DES
+
+        3. Dados criptografados novamente pelo terceiro DES
+
+        OBS: O processo inverso descriptografa o texto codificado.
+
+    AES: O Advanced Encryption Standard (AES) tem um tamanho de bloco fixo de 128 bits, com um tamanho de chave de 128, 192 ou 256 bits.
+
+        O AES é um algoritmo forte que usa chaves de comprimentos maiores. O AES é mais rápido do que DES e 3DES, portanto, oferece uma solução 
+        tanto para aplicações de software quanto para uso de hardware em firewalls e roteadores.
+
+        Outras cifras de bloco incluem Skipjack (desenvolvido pela NSA), Blowfish e Twofish.

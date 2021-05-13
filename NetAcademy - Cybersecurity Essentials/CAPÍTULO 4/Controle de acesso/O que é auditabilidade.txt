@@ -1,0 +1,14 @@
+O que é auditabilidade?
+
+    A auditoria rastreia uma ação até a pessoa ou processo que está efetuando a mudança em um sistema, coleta essas informações e reporta os 
+    dados de uso. A empresa pode usar esses dados para determinadas finalidades, como auditoria ou cobrança. Os dados coletados podem incluir 
+    a hora de login para um usuário, independentemente de o login de usuário ter sido bem ou malsucedido ou quais recursos de rede o usuário 
+    acessou. Isso permite que uma empresa rastreie as ações, erros e erros durante uma auditoria ou investigação.
+
+.LOG - Implementação de Auditabilidade
+
+    A implementação da auditabilidade consiste em tecnologias, políticas, procedimentos e educação. Os arquivos de log fornecem as informações 
+    de detalhes com base nos parâmetros escolhidos. Por exemplo, uma empresa pode procurar falhas e sucessos de login. As falhas de login 
+    podem indicar que um criminoso tentou invadir uma conta. Os sucessos de login informam a uma empresa quais usuários estão usando quais 
+    recursos e quando. É normal que um usuário autorizado acesse a rede corporativa às 03:00? As políticas e procedimentos da empresa 
+    determinam quais ações devem ser registadas e como os arquivos de log são gerados, revisados e armazenados.

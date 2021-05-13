@@ -1,0 +1,17 @@
+Gerenciamento de chaves
+
+    O gerenciamento de chave inclui a geração, troca, armazenamento, utilização e substituição das chaves usadas em um algoritmo de 
+    criptografia.
+
+    O gerenciamento de chaves é a parte mais difícil no projeto de um criptossistema. Muitos criptossistemas falharam devido a erros nos 
+    procedimentos de gerenciamento de chave. Na prática, a maioria dos ataques em sistemas criptográficos aponta para o nível de gerenciamento 
+    de chave, ao invés do próprio algoritmo criptográfico.
+
+    Os dois termos usados para descrever as chaves são:
+
+        Tamanho da chave - É a medida em bits.
+        Espaço da chave - É o número de possibilidades que um tamanho de chave específico pode gerar.
+
+    O espaço da chave aumenta exponencialmente à medida que o tamanho da chave aumenta. O espaço da chave de um algoritmo é o conjunto de todos 
+    os valores de chave possíveis. As chaves maiores são mais seguras; porém, também usam muitos recursos. Quase todos os algoritmos possuem 
+    algumas chaves fracas no espaço da chave, que permitem que um criminoso quebre a criptografia usando um atalho.

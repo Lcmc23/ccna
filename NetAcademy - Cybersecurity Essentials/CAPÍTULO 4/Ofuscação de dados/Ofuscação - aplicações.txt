@@ -1,0 +1,14 @@
+Ofuscação
+
+    A ofuscação de dados é o uso e a prática de técnicas de estenografia e mascaramento de dados na profissão de segurança digital e 
+    inteligência cibernética. A ofuscação é a arte de tornar uma mensagem confusa, ambígua ou mais difícil de entender. Um sistema pode 
+    embaralhar propositalmente as mensagens para evitar o acesso não autorizado a informações confidenciais.
+
+Aplicações
+
+    A marca d’água de software protege o software contra acesso não autorizado ou modificação. A marca d’água insere uma mensagem secreta em 
+    um programa, como prova de propriedade. A mensagem secreta é a marca d’água de software. Se alguém tentar remover a marca d’água, o 
+    resultado é um código não funcional.
+
+    A ofuscação de software traduz o software em uma versão equivalente ao original, mas que é mais difícil de analisar para os invasores. A 
+    tentativa de engenharia reversa do software gera resultados ininteligíveis no software que ainda funciona.

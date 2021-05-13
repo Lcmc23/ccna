@@ -1,0 +1,40 @@
+Controles de acesso físico
+
+    Controles de acesso físico são barreiras reais implantadas para evitar o contato direto com os sistemas. A meta é prevenir que usuários 
+    não autorizados acessem fisicamente as instalações, equipamentos e outros ativos organizacionais.
+
+    - O controle de acesso físico determina quem pode entrar (ou sair), onde podem entrar (ou sair) e quando podem entrar (ou sair).
+
+Controles de acesso lógicos
+
+    Controles de acesso lógico são as soluções de hardware e software usadas para gerenciar o acesso aos recursos e sistemas. Essas soluções 
+    baseadas em tecnologia incluem ferramentas e protocolos que os sistemas de computador usam para identificação, autenticação, autorização 
+    e auditoria.
+
+Controles de acesso administrativos
+
+    Os controles de acesso administrativo são as políticas e procedimentos definidos pelas empresas para implementar e aplicar todos os 
+    aspectos de controle de acesso não autorizado. Os controles administrativos focam em práticas pessoais e de negócios
+
+Controle de acesso obrigatório
+
+    O controle de acesso obrigatório (MAC) restringe as ações que um indivíduo pode executar em um objeto. Um indivíduo pode ser um usuário ou 
+    um processo. Um objeto pode ser um arquivo, uma porta ou um dispositivo de entrada/saída. Uma regra de autorização reforça se um indivíduo 
+    pode ou não acessar o objeto.
+
+Controle de acesso discricionário
+
+    O responsável por um objeto determina se permitirá o acesso a um objeto com controle de acesso discricionário (DAC). O DAC concede ou 
+    restringe o acesso ao objeto determinado pelo respectivo responsável. Como o nome implica, os controles são discricionários pois o 
+    proprietário de um objeto com determinadas permissões de acesso podem concedê-las a outro indivíduo.
+
+Controle de acesso por função
+
+    O controle de acesso por função (RBAC) varia de acordo com a função do indivíduo. Funções são funções de trabalho em uma empresa. Funções 
+    específicas necessitam de permissões para realizar determinadas operações. Os usuários obtêm permissões pelas funções.
+
+Controle de acesso baseado em regras
+
+    O controle de acesso por função usa as listas de controle de acesso (ACLs) para ajudar a determinar se o acesso deve ser concedido. Uma 
+    série de regras está contida na ACL. A determinação de acesso concedido ou não depende dessas regras. Um exemplo de tal regra é declarar 
+    que nenhum funcionário pode ter acesso a folha de pagamentos após o horário comercial ou nos fins de semana.
