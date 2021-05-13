@@ -1,0 +1,16 @@
+O que significam os Cinco Noves?
+
+    Os cinco noves significam que sistemas e serviços estão disponíveis 99,999% do tempo. Também significam que o período de inatividade não 
+    planejado e o período de inatividade planejado são menos de 5,26 minutos por ano.
+
+    Alta disponibilidade se refere a um sistema ou componente que fica em operação continuamente, por um determinado período de tempo. Para 
+    ajudar a garantir a alta disponibilidade, é importante:
+
+    - Eliminar pontos únicos de falha;
+    - Design para confiabilidade;
+    - Detectar falhas, à medida que elas ocorrem.
+
+Sustentar a alta disponibilidade com o padrão de cinco noves pode aumentar os custos e utilizar muitos recursos. O aumento dos custos ocorre 
+devido a compra de hardware adicional, como servidores e componentes. À medida que uma empresa adiciona componentes, o resultado é um aumento 
+na complexidade da configuração. Infelizmente, a maior complexidade na configuração aumenta os fatores de risco. Quanto mais peças móveis 
+envolvidas, maior a probabilidade de componentes com falhas.

@@ -1,0 +1,13 @@
+Network Admission Control
+
+    A finalidade do Network Admission Control (NAC) é permitir que usuários, autorizados em sistemas em conformidade, acessem a rede.
+
+    Uma estrutura NAC pode usar a infraestrutura de rede existente e software de terceiros para aplicar a conformidade com as políticas de 
+    segurança para todos os dispositivos finais. Alternativamente, um dispositivo NAC controla o acesso à rede, avalia a conformidade e aplica 
+    a política de segurança. Verificações de sistemas NAC comuns incluem:
+
+    1. Detecção de vírus atualizada
+
+    2. Patches e atualizações do sistema operacional
+
+    3. Aplicação de senhas complexas

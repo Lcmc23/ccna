@@ -1,0 +1,15 @@
+NetFlow e IPFIX
+
+    NetFlow é uma tecnologia CISCO IOS que fornece estatísticas em pacotes que passam por meio de um switch multicamadas ou de um roteador 
+    da Cisco. NetFlow é o padrão para a coleta de dados operacionais de redes. A Força-tarefa de engenharia da Internet (IETF, Internet 
+    Engineering Task Force) usou o NetFlow da Cisco, versão 9, como base para a exportação de informações de fluxo de IP (IPFIX).
+
+    IPFIX é um formato padrão para exportar informações baseadas em roteador sobre os fluxos de tráfego de rede para dispositivos de coleta 
+    de dados. O IPFIX funciona em roteadores e aplicativos de gestão que suportam o protocolo. Os gerentes de rede podem exportar informações 
+    de tráfego de rede de um roteador e usar essas informações para otimizar o desempenho da rede.
+
+        * Protege a rede contra ameaças internas e externas
+
+        * Soluciona os problemas de falhas de rede de forma rápida e precisa
+        
+        * Analisa os fluxos de rede para o planejamento de capacidade

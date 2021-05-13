@@ -1,0 +1,14 @@
+Atenuação
+
+    A mitigação envolve reduzir a gravidade da perda ou a probabilidade de que a perda ocorra. Muitos controles técnicos mitigam riscos, 
+    incluindo os sistemas de autenticação, permissões de arquivos e firewalls. A empresa e os profissionais de segurança devem entender que a 
+    mitigação de riscos pode ter impacto positivo e negativo na empresa. A boa mitigação de riscos encontra um equilíbrio entre o impacto 
+    negativo das contramedidas e dos controles e o benefício da redução do risco. Existem quatro maneiras comuns de reduzir o risco:
+
+        - Aceitar o risco e reavaliar periodicamente;
+
+        - Reduzir o risco com a implementação de controles;
+
+        - Evitar o risco alterando totalmente a abordagem;
+
+        - Transferir o risco para terceiros.

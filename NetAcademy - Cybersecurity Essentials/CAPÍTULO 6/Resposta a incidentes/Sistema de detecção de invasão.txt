@@ -1,0 +1,18 @@
+Sistema de detecção de invasão
+
+    Os IDSs (Intrusion Detection System, Sistemas de detecção de invasão) monitoram passivamente o tráfego em uma rede. Passivo significa que 
+    o IDS monitora e gera relatórios sobre o tráfego. Ele não executa nenhuma ação. Essa é a definição de funcionamento em modo promíscuo.
+
+    A vantagem de operar com uma cópia do tráfego é que o IDS não afeta negativamente o fluxo de pacotes do tráfego encaminhado. A desvantagem 
+    de operar com uma cópia do tráfego é que o IDS não pode evitar que os ataques mal-intencionados de pacote único atinjam o alvo, antes de 
+    responder ao ataque. Um IDS muitas vezes requer a assistência de outros dispositivos de rede, como roteadores e firewalls, para responder 
+    a um ataque.
+
+    * O IDS trabalha passivamente
+
+    * O dispositivo de IDS está posicionado fisicamente na rede e, portanto, o tráfego deve ser espelhado para atingi-lo
+
+    * O tráfego de rede não passa pelo IDS, a menos que seja espelhado
+
+CURIOSIDADE: Uma solução melhor é usar um dispositivo que pode detectar e parar imediatamente um ataque. Um IPS (Intrusion Prevention System, 
+Sistema de prevenção de invasão) executa essa função.

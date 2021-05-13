@@ -1,0 +1,15 @@
+Identificação de ameaça
+
+    A United States Computer Emergency Readiness Team (US-CERT) e o U.S. Department of Homeland Security patrocinam um dicionário de Common 
+    Vulnerabilities and Exposures (CVE, dicionário de Vulnerabilidades e Exposições Comuns). O CVE contém um número de identificadores padrão 
+    com uma breve descrição e referências para avisos e relatórios de vulnerabilidade relacionados. A MITRE Corporation mantém a lista de CVE 
+    e seu site público.
+
+    A identificação de ameaças começa com o processo de criação de um identificador CVE para vulnerabilidades publicamente conhecidas de 
+    segurança cibernética. Cada identificador CVE inclui o seguinte:
+
+        - O número de identificador CVE;
+
+        - Uma breve descrição da vulnerabilidade da segurança;
+
+        - Todas as referências importantes.

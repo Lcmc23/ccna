@@ -1,0 +1,10 @@
+Sistemas de prevenção de invasão
+
+    Um IPS se baseia na tecnologia IDS. Entretanto, um dispositivo IPS é implementado no modo InLine. Isso significa que todo o tráfego de 
+    entrada e de saída deve fluir através dele para ser processado.
+
+    A vantagem de operar em modo inline é que o IPS pode impedir que ataques de pacote único alcancem o sistema de destino. A desvantagem é 
+    que um IPS mal configurado pode afetar negativamente o fluxo de pacotes do tráfego encaminhado.
+
+    A maior diferença entre o IDS e o IPS é que um IPS responde imediatamente e não permite que nenhum tráfego malicioso passe, enquanto um 
+    IDS permite que tráfego malicioso passe, antes de abordar o problema.

@@ -1,0 +1,22 @@
+Identificação do ativo
+
+    Uma empresa precisa saber qual hardware e software estão presentes, como pré-requisito para conhecer como os parâmetros de configuração 
+    precisam ser. O gerenciamento de ativos inclui um inventário completo de hardware e software.
+
+    Isso significa que a empresa precisa saber todos os componentes que podem estar sujeitos a riscos de segurança, incluindo:
+
+        - Cada sistema de hardware;
+
+        - Cada sistema operacional;
+
+        - Cada dispositivo de rede de hardware;
+
+        - Cada sistema operacional do dispositivo de rede; 
+
+        - Cada aplicativo;
+
+        - Todos os firmwares;
+
+        - Todos os ambientes de tempo de execução da linguagem;
+
+        - Todas as bibliotecas individuais.

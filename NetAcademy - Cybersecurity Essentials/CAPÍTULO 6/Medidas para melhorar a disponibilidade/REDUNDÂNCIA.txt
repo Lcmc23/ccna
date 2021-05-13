@@ -1,0 +1,82 @@
+REDUNDÂNCIA 
+
+    Redundância N+1
+
+        A redundância N+1 garante a disponibilidade do sistema, no caso de falha de um componente. Os componentes (N) precisam ter, no mínimo, 
+        um componente de backup (+1). Por exemplo, um carro tem quatro pneus (N) e um pneu sobressalente no porta-malas, caso um fure (+1).
+
+    RAID
+
+        Uma RAID (Redundant array of independent disks, Matriz redundante de discos independentes) combina vários discos rígidos físicos em 
+        uma única unidade lógica para proporcionar redundância de dados e melhorar o desempenho. O RAID obtém os dados normalmente armazenados 
+        em um único disco e os espalha entre várias unidades. Se qualquer disco único for perdido, o usuário poderá recuperar os dados de 
+        outros discos que também hospedam os dados.
+
+        Os termos a seguir descrevem como a RAID armazena dados nos vários discos:
+
+        Paridade - Detecta erros de dados.
+
+        Distribuição - Grava dados em várias unidades.
+
+        Espelhamento - Armazena dados duplicados em uma segunda unidade.
+
+    Spanning Tree
+
+        A função básica do STP é prevenir loops em uma rede, quando os switches se interconectarem por vários caminhos. O STP garante que os 
+        links físicos redundantes estejam sem loop. Ele garante que haja somente um caminho lógico entre todos os destinos na rede. O STP 
+        bloqueia intencionalmente os caminhos redundantes que poderiam provocar um loop.
+
+        Bloquear os caminhos redundantes é fundamental para evitar loops na rede. Os caminhos físicos ainda existirão para fornecer 
+        redundância, mas o STP desativa esses caminhos para evitar que ocorram loops. Se um cabo ou switch da rede falhar, o STP recalculará 
+        os caminhos e desbloqueará as portas necessárias, para permitir que o caminho redundante se torne ativo.
+
+    Redundância de Roteador
+
+        O gateway padrão é normalmente o roteador que proporciona acesso dos dispositivos ao resto da rede ou à Internet. Se houver somente 
+        um roteador como gateway padrão, é um ponto único de falha. A empresa pode escolher instalar um roteador de standby adicional.
+
+        Cada roteador está configurado com um endereço IP físico e um endereço IP do roteador virtual. Dispositivos finais usam o endereço IP 
+        virtual como o gateway padrão.
+
+        OBS: A capacidade de uma rede de se recuperar dinamicamente da falha de um dispositivo que atua como um gateway padrão é conhecida 
+        como redundância de primeiro salto.
+    
+    Opções de redundância do roteador
+
+        * O HSRP (Hot Standby Router Protocol, protocolo de roteador em espera ativo) - O HSRP proporciona alta disponibilidade da rede, 
+        proporcionando redundância de roteamento de primeiro salto. Um grupo de roteadores usa HSRP para selecionar um dispositivo ativo e um 
+        dispositivo standby. Em um grupo de interfaces de dispositivos, o dispositivo ativo é o dispositivo que encaminha pacotes e o 
+        dispositivo standby é o dispositivo que assume quando o dispositivo ativo falha. A função de roteador em espera do HSRP é monitorar o 
+        status operacional do grupo de HSRP e para assumir rapidamente a responsabilidade de encaminhamento de pacotes se o roteador ativo 
+        falhar.
+
+        * Virtual Router Redundancy Protocol (VRRP, Protocolo de redundância de roteador virtual) - Um roteador VRRP executa o protocolo VRRP em 
+        conjunto com um ou mais outros roteadores conectados a uma LAN. Em uma configuração de VRRP, o roteador eleito é o roteador virtual 
+        mestre, e os outros roteadores atuam como backup, se o roteador virtual mestre falhar.
+
+        * Gateway Load Balancing Protocol (GLBP, Protocolo de balanceamento de carga do gateway) – O GLPB protege o tráfego de dados de um 
+        roteador ou circuito com falha, como HSRP e VRRP, permitindo, também, balanceamento de carga (também chamado de compartilhamento de 
+        carga) entre um grupo de roteadores redundantes.
+
+    Redundância de local
+
+        Uma empresa pode precisar pensar em redundância de local, dependendo de suas necessidades. A seguir, há uma descrição de três formas 
+        de redundância de local.
+
+        Síncrono
+
+        - Sincroniza os dois locais em tempo real
+        - Requer alta largura de banda
+        - Os locais devem ser próximos um do outro, para reduzir a latência
+
+        Replicação assíncrona
+
+        - Não sincronizados em tempo real, mas muito próximo disso
+        - Requer menos largura de banda
+        - Os sites podem estar mais distantes, pois a latência é o menor dos problemas
+
+        Point-in-time-Replication (Replicação de um ponto no tempo)
+
+        - Atualiza periodicamente a localização dos dados de backup
+        - Mais conservador em termos de largura de banda, pois não exige uma conexão constante
+        - O equilíbrio correto entre custo e disponibilidade determinará a escolha correta para uma empresa

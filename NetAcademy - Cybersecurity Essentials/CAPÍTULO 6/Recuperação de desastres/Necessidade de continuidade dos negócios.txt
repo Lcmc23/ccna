@@ -1,0 +1,10 @@
+Necessidade de continuidade dos negócios
+
+    A continuidade dos negócios é um dos mais importantes conceitos em segurança de computador. Mesmo que as empresas façam tudo o que podem 
+    para evitar desastres e perda de dados, é impossível prever todas as possibilidades. É importante que as empresas tenham planos 
+    implementados para garantir a continuidade dos negócios, independentemente do que possa ocorrer. Um plano de continuidade dos negócios é 
+    um plano mais amplo que um DRP, pois inclui levar sistemas essenciais para outro local, enquanto o reparo da instalação original está em 
+    andamento. O pessoal continua a executar todos os processos comerciais de forma alternada, até retomar as operações normais.
+
+    A disponibilidade garante que os recursos necessários para manter a empresa continuarão a estar disponíveis para o pessoal e os sistemas que 
+    dependem deles

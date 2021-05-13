@@ -1,0 +1,46 @@
+Desastres naturais
+
+    Desastres naturais diferem, dependendo do local. Alguns desses eventos são difíceis de prever. Desastres naturais se enquadram nas 
+    seguintes categorias:
+
+        - Desastres geológicos incluem terremotos, deslizamentos de terra, vulcões e tsunamis;
+
+        - Desastres meteorológicos incluem furacões, tornados, tempestades de neve, raios e granizo;
+
+        - Desastres de saúde incluem doenças disseminadas, quarentenas e pandemias;
+
+        - Desastres diversos incluem incêndios, inundações, tempestades solares e avalanches;
+
+        - Desastres provocados por seres humanos
+
+    Desastres provocados por seres humanos envolvem pessoas ou organizações e se enquadram nas seguintes categorias:
+
+        - Eventos trabalhistas incluindo greves, passeatas e “operações tartaruga”;
+
+        - Eventos sócio-políticos incluindo vandalismo, bloqueios, protestos, sabotagem, terrorismo e guerra;
+
+        - Eventos materiais incluindo incêndios e derramamentos perigosos;
+
+        - Interrupções de serviços essenciais incluido falhas de energia, falhas de comunicação, escassez de combustível e precipitação 
+        radioativa;
+
+Plano de recuperação de desastres
+
+    Uma empresa coloca seu DRP (Disaster recovery plan, Plano de recuperação de desastres) em ação enquanto o desastre está em curso e os 
+    funcionários estão lutando para garantir que sistemas essenciais estejam on-line. O DRP inclui as atividades que a empresa realiza 
+    para avaliar, recuperar, reparar e restaurar instalações ou ativos danificados.
+
+    Para criar o DRP, responda às seguintes perguntas:
+
+        - Quem é responsável por esse processo?;
+
+        - O que o indivíduo precisa para realizar o processo?;
+
+        - Onde o indivíduo realiza esse processo?;
+
+        - Qual é o processo?;
+
+        - Por que o processo é essencial?;
+
+        - Um DRP precisa identificar quais processos da empresa são os mais essenciais. Durante o processo de recuperação, a empresa restaura 
+        seus sistemas de missão crítica, primeiro.

@@ -1,0 +1,25 @@
+Ameaças à disponibilidade
+
+    As seguintes ameaças representam um risco elevado para a disponibilidade dos dados e das informações:
+
+        - Um usuário não autorizado entra e compromete o banco de dados principal de uma empresa
+        
+        - Um ataque DoS bem-sucedido afeta significativamente as operações
+        
+        - Uma empresa sofre uma perda significativa de dados confidenciais
+        
+        - Um aplicativo de missão crítica cai
+        
+        - Ocorre um comprometimento do usuário Admin ou root
+        
+        - A detecção de um script entre sites ou de compartilhamento de servidor de arquivos ilegais
+        
+        - A desfiguração do site de uma empresa tem impacto nas relações públicas
+        
+        - Uma tempestade grave, como um furacão ou um tornado
+        
+        - Um evento catastrófico, como um ataque terrorista, bombardeio de edifício ou prédio em chamas
+        
+        - Utilitário de longo prazo ou interrupção do provedor de serviço
+        
+        - Danos causados pela água como resultado de inundações ou de extintores de incêndios
