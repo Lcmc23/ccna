@@ -1,0 +1,26 @@
+Logs de acesso e crachás
+
+    Um crachá de acesso permite que um indivíduo obtenha acesso a uma área com pontos de entrada automáticos. Um ponto de entrada pode ser uma 
+    porta, uma catraca, um portão ou outra barreira. Crachás de acesso usam várias tecnologias, como uma faixa magnética, código de barras ou 
+    biometria.
+
+Guardas e escoltas
+
+    Todos os controles de acesso físicos, incluindo sistemas de impedimento e de detecção dependem, em última análise, de pessoal para intervir 
+    e parar o ataque ou a invasão real. Nas instalações com sistema de informação altamente seguro, guardas controlam o acesso a áreas 
+    confidenciais da empresa.
+
+Vigilância eletrônica e por vídeo
+
+    A vigilância eletrônica e por vídeo complementam ou, em alguns casos, substituem, os guardas de segurança. A vantagem da vigilância por 
+    vídeo e eletrônica é a capacidade de monitorar áreas mesmo que nenhum guarda ou pessoal esteja presente, a capacidade de gravar e 
+    registrar vídeos e dados de vigilância por longos períodos e a capacidade de incorporar a detecção e notificação de movimento.
+
+Vigilância sem fio e RFID
+
+    O benefício de tags do recurso RFID é que elas podem rastrear qualquer ativo que fisicamente deixa uma área segura. Os novos sistemas de 
+    tags do recurso RFID podem ler várias tags ao mesmo tempo. Sistemas RFID não precisam estar na linha de visão para ler as tags. Outra 
+    vantagem do RFID é a capacidade de ler as tags que não estão visíveis. Ao contrário de códigos de barras e tags legíveis humanas que 
+    devem ser fisicamente localizados e visíveis para ler, etiquetas RFID não precisam estar visíveis para serem lidas. Por exemplo, colocar 
+    a tag em um PC embaixo de uma mesa exigiria que o pessoal rastejasse debaixo da mesa para localizar e visualizar fisicamente ao usar um 
+    processo manual ou de código de barras. Usar uma etiqueta RFID permitiria que o pessoal lesse a etiqueta sem nem mesmo precisar vê-la.

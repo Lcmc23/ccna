@@ -1,0 +1,18 @@
+Controle de acesso de arquivos
+
+    Princípio de Menos Privilégio
+
+        Os usuários devem ser limitados apenas aos recursos que precisam em um sistema computacional ou em uma rede. Por exemplo, não devem 
+        poder acessar todos os arquivos de um servidor se só precisarem acessar uma única pasta. Pode ser mais fácil fornecer acesso de 
+        usuários à unidade inteira, mas é mais seguro limitar o acesso somente à pasta que o usuário precisa para realizar seu trabalho. Esse 
+        é o princípio de menos privilégio. Limitar o acesso aos recursos também evita que os programas mal-intencionados acessem esses 
+        recursos, se o computador do usuário ficar infectado.
+
+    Restringindo Permissões de Usuário
+
+        Se um administrador negar permissões a um indivíduo ou a um grupo para um compartilhamento de rede, essa negação substituirá todas as 
+        outras configurações de permissões. Por exemplo, se o administrador negar a alguém permissão para um compartilhamento de rede, o 
+        usuário não poderá acessar esse compartilhamento, mesmo se o usuário for o administrador ou fizer parte do grupo administrador. A 
+        política de segurança local deve descrever quais recursos e o tipo de acesso são permitidos para cada usuário e grupo.
+
+        

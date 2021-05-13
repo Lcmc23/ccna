@@ -1,0 +1,9 @@
+Proteção de portas e serviços
+
+    Os criminosos virtuais exploram os serviços em execução em um sistema, porque eles sabem que a maioria dos dispositivos executam mais 
+    serviços ou programas do que precisam. Um administrador deve olhar para cada serviço para verificar a sua necessidade e avaliar o risco. 
+    Remova todos os serviços desnecessários.
+    
+    EXEMPLO: Um método simples aplicado por muitos administradores para proteger a rede contra acesso não autorizado consiste em desativar 
+    todas as portas não utilizadas em um switch. Por exemplo, se um switch tem 24 portas e há três conexões Fast Ethernet em uso, é boa prática 
+    desativar as 21 portas não utilizadas

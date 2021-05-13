@@ -1,0 +1,15 @@
+Centros de operação
+
+    O NOC (Network Operation Center, Centro de operação de rede) é um ou mais locais que contêm as ferramentas que fornecem aos administradores 
+    um status detalhado da rede da empresa. O NOC é a base da solução de problemas de rede, monitoramento de desempenho, distribuição e 
+    atualizações de software e gerenciamento de dispositivo.
+
+    O SOC (Security Operation Center, Centro de operação de segurança) é um site dedicado que monitora, avalia e defende os sistemas de 
+    informação da empresa, como sites, aplicações, bancos de dados, data centers, redes, servidores e sistemas de usuários. Um SOC é uma 
+    equipe de analistas de segurança que detecta, analisa, responde, relata e previne incidentes de segurança cibernética.
+
+OBS: Para medir a eficácia geral de um centro de operação, uma empresa irá realizar exercícios e treinos realistas. Um exercício de simulação 
+tabletop é um procedimento estruturado por uma equipe para simular um evento e avalia a eficácia do centro de operação. Uma medida mais eficaz
+é simular uma invasão completa, sem nenhum aviso. Isso envolve o uso de uma equipe vermelha (Red Team), um grupo de indivíduos independentes 
+que desafia os processos dentro de uma empresa, para avaliar a eficácia da empresa. Por exemplo, a equipe vermelha deve atacar um sistema de 
+missão crítica e incluir o reconhecimento e ataque, escalonamento de privilégios e acesso remoto.

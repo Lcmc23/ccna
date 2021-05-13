@@ -1,0 +1,11 @@
+Aquecimento, ventilação e ar-condicionado (HVAC)
+
+    Sistemas HVAC são críticos para a segurança de pessoas e sistemas de informação nas instalações da empresa. Ao projetar instalações 
+    modernas de TI, esses sistemas desempenham um papel muito importante na segurança geral. Sistemas HVAC controlam o meio ambiente 
+    (temperatura, umidade, fluxo de ar e filtragem do ar) e devem ser planejados e operados juntamente com outros componentes do data center, 
+    como hardware de computação, cabeamento, armazenamento de dados, proteção contra incêndio, sistemas de segurança física e energia. Quase 
+    todos os dispositivos de hardware de computador físicos vêm com requisitos ambientais que incluem temperatura aceitável e faixas de 
+    umidade. Os requisitos ambientais estão em um documento de especificações do produto ou em um guia de planejamento físico. É fundamental 
+    manter esses requisitos ambientais para evitar falhas de sistema e prolongar a vida dos sistemas de TI. Sistemas HVAC comerciais e outros 
+    sistemas de gerenciamento de edifício agora se conectam à Internet para monitoramento e controle remotos. Eventos recentes mostraram que 
+    esses sistemas (geralmente chamados “sistemas inteligentes”) também criam grandes implicações de segurança.

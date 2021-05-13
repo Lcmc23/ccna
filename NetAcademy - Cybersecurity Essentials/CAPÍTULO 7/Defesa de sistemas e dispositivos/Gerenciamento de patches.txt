@@ -1,0 +1,19 @@
+Gerenciamento de patches
+
+    Os patches são atualizações de código que os fabricantes fornecem para evitar que um vírus ou um worm recém-descoberto façam um ataque 
+    bem-sucedido. De tempos em tempos, os fabricantes combinam patches e atualizações em uma aplicação completa de atualização chamada de 
+    service pack. Muitos ataques devastadores de vírus poderiam ter sido muito menos graves, se mais usuários tivessem baixado e instalado o 
+    service pack mais recente.
+
+    Os benefícios de usar um serviço de atualização automática de patch incluem o seguinte:
+
+        Os administradores podem aprovar ou recusar atualizações;
+        
+        Os administradores podem forçar a atualização de sistemas para uma data específica;
+        
+        Os administradores podem obter relatórios sobre a atualização necessária para cada sistema;
+        
+        Cada computador não tem que se conectar ao serviço do fornecedor para baixar os patches. Um sistema obtém a atualização de um servidor 
+        local;
+        
+        Os usuários não podem desativar ou contornar as atualizações.

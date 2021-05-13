@@ -1,0 +1,10 @@
+Firewalls baseados em host e sistemas de detecção de invasão
+
+    Firewalls baseados em host
+
+        Um firewall de software é um programa que é executado em um computador para permitir ou negar tráfego entre o computador e outros 
+        computadores conectados
+
+    Sistemas de detecção de invasão do host
+
+        Um sistema de detecção de invasão do host (HIDS) é um software que é executado em um computador que monitora atividades suspeitas.

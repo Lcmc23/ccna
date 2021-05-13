@@ -1,0 +1,42 @@
+Serviços de rede e de roteamento
+
+    Protocolo de Controle Dinâmico de Host (DHCP)
+
+        O DHCP usa um servidor para atribuir um endereço IP e outras informações de configuração automaticamente aos dispositivos de rede. Na 
+        realidade, o dispositivo está obtendo uma permissão do servidor DHCP para usar a rede. Os invasores podem direcionar os servidores 
+        DHCP para negar o acesso a dispositivos na rede.
+
+    Sistema de Nomes de Domínio (DNS)
+
+        O DNS resolve um endereço de URL (Uniform Resource Locator, Localizador de recursos uniformes) ou de site (http://www.cisco.com) para 
+        o endereço IP do site. Quando os usuários digitam um endereço da Web na barra de endereços eles dependem de servidores DNS para 
+        resolver o endereço IP real desse destino. Os invasores podem direcionar os servidores DNS para negar o acesso aos recursos da rede ou 
+        redirecionar o tráfego para sites falsos. 
+
+    Protocolo ICMP
+
+        Dispositivos de rede usam ICMP para enviar mensagens de erro como quando um serviço solicitado não está disponível ou se o host não 
+        pode acessar o roteador. O comando ping é um utilitário de rede que usa o ICMP para testar a acessibilidade de um host em uma rede. 
+        O ping envia mensagens ICMP para o host e aguarda uma resposta. O Ataques de negação de serviço usam ICMP e, por isso, tantas redes 
+        filtram determinadas solicitações ICMP para impedir esses ataques.
+
+    Protocolo de Informação de Roteamento (RIP)
+
+        O RIP limita o número de saltos permitidos em um caminho em uma rede do dispositivo de origem para o destino. O número máximo de saltos 
+        permitidos para o RIP é 15. O RIP é um protocolo de roteamento usado para trocar informações de roteamento sobre quais redes cada 
+        roteador pode acessar e a que distância estão essas redes. O RIP calcula a melhor rota, com base na contagem de saltos. Os hackers podem 
+        direcionar roteadores e o protocolo RIP. Ataques em serviços de roteamento podem afetar o desempenho e a disponibilidade. Alguns 
+        ataques podem resultar, até mesmo, em redirecionamento de tráfego. Use os serviços seguros com autenticação e implemente patches e 
+        atualizações de sistema para proteger serviços de roteamento como o RIP.
+
+    Network Time Protocol (NTP)
+
+        É importante ter o horário correto nas redes. Carimbos de data e hora corretos são necessários para rastrear com precisão os eventos 
+        da rede, como as violações de segurança. Além disso, a sincronização do relógio é fundamental para a interpretação correta dos eventos 
+        nos arquivos de dados syslog, bem como para os certificados digitais.
+
+        O NTP (Network Time Protocol, Protocolo de tempo de rede) é um protocolo que sincroniza os relógios de sistemas de computadores em 
+        redes de dados. O NTP permite que os dispositivos de rede sincronizem as configurações de hora com um servidor NTP. Os criminosos 
+        virtuais atacam servidores de tempo para interromper a comunicação segura que depende de certificados digitais e esconder informações 
+        do ataque, como carimbos de data e hora.
+

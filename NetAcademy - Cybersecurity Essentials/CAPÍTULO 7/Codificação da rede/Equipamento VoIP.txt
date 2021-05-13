@@ -1,0 +1,27 @@
+Equipamento VoIP
+
+    Voz sobre IP (VoIP) usa redes como a Internet para fazer e receber chamadas de telefone. O equipamento necessário para VoIP inclui uma 
+    conexão com a Internet e um telefone. Várias opções estão disponíveis como configuração do telefone:
+
+        Um telefone tradicional, com um adaptador (o adaptador atua como uma interface de hardware entre um telefone tradicional, analógico e 
+        uma linha digital VoIP)
+
+        Um telefone ativado para VoIP
+
+        Software VoIP instalado em um computador
+
+    Implemente as seguintes contramedidas para proteger o VoIP:
+
+Criptografe os pacotes de mensagens de voz para proteger contra espionagem.
+
+        Use o SSH para proteger gateways e switches.
+
+        Altere todas as senhas padrão.
+
+        Use um sistema de detecção de invasão para detectar ataques, como envenenamento ARP.
+
+        Use autenticação forte para mitigar o spoofing de registro (os criminosos virtuais roteiam todas as chamadas recebidas da vítima para 
+        eles), representação de proxy (engana a vítima para se comunicar com um proxy falso configurado pelos criminosos virtuais) e 
+        sequestro de chamadas (a chamada é interceptada e reencaminhada para um caminho diferente, antes de chegar ao destino).
+
+        Implemente firewalls que reconhecem VoIP para monitorar os streams e filtrar sinais anormais

@@ -1,0 +1,21 @@
+Proteções e barricadas
+
+    - Sistema de cerca de perímetro
+
+    - Sistema de portão de segurança
+    
+    - Bollards (um poste curto usado para proteger contra invasões de veículo, conforme mostrado na Figura 2)
+    
+    - Barreiras de entrada de veículo
+    
+    - Abrigos de proteção
+
+Uma cerca é uma barreira que protege áreas seguras e designa os limites da propriedade. Todas as barreiras devem atender a requisitos 
+específicos do projeto e a especificações da fábrica. Áreas de alta segurança geralmente requerem uma “proteção superior”, como arame farpado 
+ou fio de arame farpado. Ao projetar o perímetro, os sistemas de cerca usam as seguintes regras:
+
+    Um metro (3 a 4 pés) só irá deter invasores casuais
+    
+    Dois metros (6 a 7 pés) é muito alto para invasores casuais subirem
+    
+    Dois metros e meio (8 pés) oferecerá atraso limitado para um invasor determinado

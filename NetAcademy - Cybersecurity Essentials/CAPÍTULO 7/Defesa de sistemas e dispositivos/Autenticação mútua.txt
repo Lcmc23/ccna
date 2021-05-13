@@ -1,0 +1,14 @@
+Autenticação mútua
+
+    Uma das grandes vulnerabilidades das redes sem fio é o uso de access points não autorizados. Access points são os dispositivos que se 
+    comunicam com os dispositivos sem fio e os conectam de volta à rede cabeada. Qualquer dispositivo que tenha uma interface transmissora 
+    sem fio e cabeada ligada a uma rede pode, possivelmente, agir como access point não autorizado. O access point não autorizado pode imitar 
+    um access point autorizado. O resultado é que os dispositivos sem fio na rede sem fio estabelecem comunicação com o access point não 
+    autorizado, em vez de com o access point autorizado.
+
+    O impostor pode receber solicitações de conexão, copiar os dados na solicitação e encaminhar os dados para o access point autorizado da 
+    rede. Esse tipo de ataque man in the middle é muito difícil de detectar e pode resultar em credenciais de logon roubadas e dados 
+    transmitidos. Para evitar access points não autorizados, o setor de computadores desenvolveu a autenticação mútua. A autenticação mútua, 
+    também chamada de autenticação bidirecional, é um processo ou tecnologia em que as duas entidades de um link de comunicação se autenticam. 
+    Em um ambiente de rede sem fio, o cliente faz a autenticação no access point e o access point autentica o cliente. Essa melhoria permitiu 
+    aos clientes detectar access points não autorizados, antes de se conectarem a esse dispositivo.

@@ -1,0 +1,14 @@
+Políticas de grupo
+
+    Na maioria das redes que usam computadores Windows, um administrador configura o Active Directory com domínios em um Windows Server. 
+    Computadores Windows são membros de um domínio. O administrador configura uma política de segurança de domínio que se aplica a todos os 
+    computadores que participam do domínio. As diretivas de contas são configuradas automaticamente, quando um usuário faz login no Windows.
+
+    * Um administrador configura políticas de conta de usuário, como políticas de senha e políticas de bloqueio, expandindo o menu Políticas de 
+    conta > Política de senha. Os usuários devem alterar suas senhas a cada 90 dias e usar essa nova senha por pelo menos um (1) dia. As senhas 
+    devem conter oito (8) caracteres e três das quatro categorias a seguir: letras maiúsculas, letras minúsculas, números e símbolos. Por 
+    último, o usuário pode reutilizar uma senha somente depois de 24 senhas exclusivas.
+
+    * Uma política de bloqueio de conta bloqueia um computador por uma período configurado quando ocorrem muitas tentativas de logon incorretas.
+
+    

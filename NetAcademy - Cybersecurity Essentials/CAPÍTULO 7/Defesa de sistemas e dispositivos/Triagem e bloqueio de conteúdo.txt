@@ -1,0 +1,6 @@
+Triagem e bloqueio de conteúdo
+
+    O software de controle de conteúdo restringe o conteúdo que um usuário pode acessar usando um navegador da Web na Internet. O software de 
+    controle de conteúdo pode bloquear sites que contenham certos tipos de material, como pornografia ou conteúdo controverso político ou 
+    religioso. Um pai pode implementar o software de controle de conteúdo no computador usado pelo filho. Escolas e bibliotecas também 
+    implementam o software para impedir o acesso a conteúdos considerados inadequados.

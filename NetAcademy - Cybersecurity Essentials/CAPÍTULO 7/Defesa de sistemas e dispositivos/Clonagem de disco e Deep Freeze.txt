@@ -1,0 +1,15 @@
+Clonagem de disco e Deep Freeze
+
+    A clonagem de disco copia o conteúdo do disco rígido do computador em um arquivo de imagem. Por exemplo, um administrador cria as partições necessárias em um sistema, formata a partição e, em seguida, instala o sistema operacional. Ele instala todos os softwares de aplicativo necessários e configura todo o hardware. Em seguida, o administrador usa um software de clonagem de disco para criar o arquivo de imagem O administrador pode usar a imagem clonada da seguinte forma:
+
+        Para limpar automaticamente um sistema e restaurar uma imagem principal limpa
+        
+        Para implantar novos computadores dentro da organização
+        
+        Para fornecer um backup completo do sistema
+
+    Deep Freeze "congela" a partição do disco rígido. Quando um usuário reinicia o sistema, o sistema é revertido para sua configuração 
+    congelada. O sistema não salva as alterações que o usuário faz, portanto, todos os aplicativos instalados ou arquivos salvos são perdidos 
+    quando o sistema é reiniciado.
+
+    

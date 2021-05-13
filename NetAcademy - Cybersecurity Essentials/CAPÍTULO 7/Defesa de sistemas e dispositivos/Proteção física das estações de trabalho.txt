@@ -1,0 +1,6 @@
+Proteção física das estações de trabalho
+
+    - Cabos e bloqueios de segurança
+    - Temporizadores de logoff
+    - Rastreamento de GPS
+    - Inventário e etiquetas RFID

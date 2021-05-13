@@ -1,0 +1,16 @@
+Telnet, SSH e SCP
+
+    O Secure Shell (SSH) é um protocolo que fornece uma conexão de gerenciamento seguro (criptografado) a um dispositivo remoto. O SSH deve 
+    substituir o Telnet nas conexões de gerenciamento.
+
+        - SSH usa a porta TCP 22
+
+    O Telnet é um protocolo mais antigo que usa transmissão de texto não criptografado, não protegido, tanto para autenticação de logon 
+    (nome de usuário e senha) quanto para dados transmitidos entre os dispositivos de comunicação.
+
+        - Telnet usa a porta 23
+
+    A SCP (Secure Copy, cópia segura), transfere, com segurança, arquivos de computador entre dois sistemas remotos. O SCP usa o SSH para a 
+    transferência de dados (incluindo o elemento de autenticação), para que o SCP garanta a autenticidade e a confidencialidade dos dados em 
+    trânsito.
+

@@ -1,0 +1,6 @@
+Gerenciamento de acesso remoto
+
+    Acesso remoto refere-se a qualquer combinação de hardware e software que permite aos usuários acessar remotamente uma rede local interna.
+
+OBS: O processo de instalação do Windows não ativa o desktop remoto por padrão. Ativar esse recurso abre a porta 3389 e pode resultar em uma 
+vulnerabilidade, se um usuário não precisar desse serviço.

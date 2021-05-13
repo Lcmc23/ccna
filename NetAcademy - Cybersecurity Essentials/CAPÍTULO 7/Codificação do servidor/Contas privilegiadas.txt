@@ -1,0 +1,35 @@
+Contas privilegiadas
+
+    Os criminosos virtuais exploram as contas com privilégios, pois são as contas mais poderosas da organização. Contas com privilégios têm as 
+    credenciais para acessar sistemas e fornecem acesso elevado e irrestrito. Os administradores usam essas contas para implantar e gerenciar 
+    sistemas operacionais, aplicativos e dispositivos de rede.
+
+    A organização deve adotar as seguintes melhores práticas para proteger as contas com privilégios:
+
+        - Identificar e reduzir o número de contas com privilégios
+        
+        - Aplicar o princípio de menor privilégio
+        
+        - Estabelecer um processo de extinção dos direitos, quando os funcionários saem ou mudam de emprego
+        
+        - Eliminar contas compartilhadas com senhas que não expiram
+        
+        - Armazenar a senha de forma segura
+        
+        - Eliminar as credenciais compartilhadas por vários administradores
+        
+        - Alterar automaticamente as senhas de contas com privilégio a cada 30 ou 60 dias
+        
+        - Registro de sessões com privilégios
+        
+        - Implementar um processo para alterar senhas incorporadas para scripts e contas de serviço
+        
+        - Registrar todas as atividades do usuário
+        
+        - Gerar alertas para comportamento incomum
+        
+        - Desativar contas inativas com privilégios
+        
+        - Use a autenticação de vários fatores para todos os acessos administrativos
+        
+        - Implementar um gateway entre o usuário final e os recursos ativos sensíveis para limitar a exposição da rede ao malware

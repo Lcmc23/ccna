@@ -1,0 +1,14 @@
+Comunicações seguras
+
+    Ao se conectar à rede local e compartilhar arquivos, a comunicação entre computadores permanece dentro dessa rede. Os dados permanecem 
+    seguros porque são mantidos fora de outras redes e fora da Internet. Para comunicar e compartilhar recursos por uma rede que não seja 
+    segura, os usuários empregam uma rede privada virtual (VPN).
+
+    A VPN é uma rede privada que conecta usuários ou sites remotos por uma rede pública, como a Internet. O tipo mais comum de VPN acessa uma 
+    rede privada corporativa. A VPN usa conexões seguras dedicadas, roteadas pela Internet, da rede corporativa privada para o usuário remoto. 
+    Quando conectados à rede privada corporativa, os usuários se tornam parte dela e têm acesso a todos os serviços e recursos, como se 
+    estivessem fisicamente conectados à LAN corporativa.
+
+    Os usuários de acesso remoto devem ter o cliente VPN instalado em seus computadores para formar uma conexão segura com a rede privada 
+    corporativa. O software do cliente VPN criptografa os dados antes de enviá-los pela Internet para o gateway VPN na rede privada corporativa. 
+    Os gateways VPN estabelecem, gerenciam e controlam conexões VPN, também conhecidas como túneis VPN.

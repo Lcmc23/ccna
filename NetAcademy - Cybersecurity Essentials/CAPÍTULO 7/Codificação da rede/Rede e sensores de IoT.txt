@@ -1,0 +1,13 @@
+Rede e sensores de IoT
+
+    Um dos setores mais rápidos da tecnologia da informação é o uso de sensores e dispositivos inteligentes. O setor de informática identifica 
+    esse setor como a Internet das Coisas (IoT). Empresas e consumidores usam dispositivos de IoT para automação de processos, monitoramento 
+    de condições ambientais e sistema de alerta ao usuário sobre condições adversas. A maioria dos dispositivos IoT se conectam a uma rede 
+    via tecnologia sem fio e incluem câmeras, fechaduras, sensores de proximidade, luzes e outros tipos de sensores usados para coletar 
+    informações sobre o ambiente ou o status de um dispositivo. Vários fabricantes de dispositivos usam IoT para informar os usuários que 
+    precisam substituir peças, que componentes estão falhando ou que suprimentos estão acabando.
+
+    As empresas usam esses dispositivos para controlar inventário, veículos e pessoal. Os dispositivos IoT contêm sensores geoespaciais. Um 
+    usuário pode localizar, monitorar e controlar globalmente as variáveis ambientais, como temperatura, umidade e iluminação. O setor de IoT 
+    constitui um enorme desafio para profissionais de segurança da informação, pois muitos dispositivos IoT capturam e transmitem informações 
+    confidenciais. Os criminosos virtuais têm como alvo esses sistemas para interceptar dados ou para afetar o desempenho e a disponibilidade.

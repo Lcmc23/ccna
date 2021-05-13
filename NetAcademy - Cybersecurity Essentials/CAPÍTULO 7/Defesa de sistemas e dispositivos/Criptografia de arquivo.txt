@@ -1,0 +1,20 @@
+Criptografia de arquivo
+
+    A criptografia é uma ferramenta usada para proteger os dados. A criptografia transforma os dados usando um algoritmo complicado para 
+    torná-los ilegíveis. Uma chave especial transforma as informações ilegíveis novamente em dados legíveis. Programas são usados para 
+    criptografar arquivos, pastas e, até mesmo, unidades inteiras.
+
+    O EFS (Encrypting File System, Sistema de Criptografia de Arquivos) é uma característica do Windows que pode criptografar dados. A 
+    implementação do Windows EFS leva-o diretamente para uma conta de usuário específica. Apenas o usuário que criptografou os dados poderá 
+    acessar os arquivos ou pastas criptografados.
+
+    Um usuário também pode escolher criptografar um disco rígido inteiro no Windows, usando um recurso chamado BitLocker. Para usar BitLocker, 
+    pelo menos dois volumes devem estar presentes em um disco rígido.
+
+    Antes de usar o BitLocker, o usuário precisa ativar o TPM (Trusted Platform Module, Módulo de plataforma confiável) na BIOS. O TPM é um 
+    chip especializado instalado na placa-mãe. O TPM armazena informações específicas do sistema host, como chaves de criptografia, 
+    certificados digitais e senhas. Os aplicativos, como o BitLocker, que usam criptografia, podem usar o chip de TPM. Clique em Administração 
+    do TPM para visualizar os detalhes do TPM, como mostrado na Figura.
+
+    O BitLocker To Go criptografa unidades removíveis. O BitLocker To Go não usa um chip de TPM, mas ainda fornece criptografia dos dados e 
+    exige uma senha.

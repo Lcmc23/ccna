@@ -1,0 +1,24 @@
+WPA/WPA2
+
+    DEFINIÇÃO
+
+        A próxima grande melhoria na segurança sem fio foi a introdução de WPA e WPA2. O WPA (Wi-Fi Protected Access, Acesso protegido por WiFi) 
+        foi a resposta do setor de computadores para a fraqueza do padrão WEP. A configuração mais comum de WPA é WPA-PSK (Pre-Shared Key, Chave 
+        pré-compartilhada). As chaves usadas pelo WPA são 256 bits, um aumento significativo sobre as chaves de 64 bits e 128 bits usadas no 
+        sistema WEP.
+
+    WPA 
+
+        O padrão WPA forneceu várias melhorias de segurança. Primeiro, o WPA fornecia verificações de integridade da mensagem (Message 
+        Integrity Checks - MIC) que poderiam detectar se um invasor tinha capturado e alterado os dados transmitidos entre o ponto de acesso 
+        sem fio e um cliente sem fio. Outra melhoria importante de segurança foi o protocolo TKIP (Temporal Key Integrity Protocol, Protocolo 
+        de integridade da chave temporal). O padrão TKIP proporcionou a capacidade de tratar, proteger e alterar melhor as chaves de 
+        criptografia. O AES (Advanced Encryption Standard, Padrão de criptografia avançada) substituiu o TKIP por um melhor gerenciamento de 
+        chaves e proteção de criptografia.
+
+    WPA2
+
+        O WPA, assim como seu antecessor, o WEP, incluiu várias vulnerabilidades amplamente reconhecidas. Como resultado, o lançamento do 
+        padrão WPA2 (Wi-Fi Protected Access II, Acesso protegido por Wi-Fi II) aconteceu em 2006. Uma das melhorias de segurança mais 
+        significativas do WPA para o WPA2 foi o uso obrigatório de algoritmos AES e a introdução do Modo de cifra do contador com protocolo de 
+        código de autenticação de mensagem de encadeamento de bloco (CCM) como um substituto para TKIP.

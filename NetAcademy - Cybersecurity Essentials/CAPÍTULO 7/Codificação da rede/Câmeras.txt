@@ -1,0 +1,7 @@
+Câmeras
+
+    Uma câmera de Internet envia e recebe dados por uma LAN e/ou Internet. Um usuário pode visualizar remotamente um vídeo em tempo real usando 
+    um navegador da Web em uma ampla variedade de dispositivos, incluindo sistemas de computador, laptops, tablets e smartphones.
+
+    As câmeras têm várias formas, incluindo a câmera de segurança tradicional. Outras opções incluem câmeras de Internet discretamente 
+    escondidas em rádios-relógio, livros ou leitores de DVD

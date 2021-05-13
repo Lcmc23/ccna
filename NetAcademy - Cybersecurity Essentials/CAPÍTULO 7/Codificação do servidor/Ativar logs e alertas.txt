@@ -1,0 +1,19 @@
+Ativar logs e alertas
+
+    Um log registra todos os eventos que ocorrem. Entradas de log compõem um arquivo de log e uma entrada de log contém todas as informações 
+    relacionadas a um evento específico. Registros relacionados à segurança de computador têm tido cada vez mais importância.
+
+        Logs do sistema operacional
+
+            Os logs do sistema operacional registram eventos que ocorrem por causa de ações operacionais executadas pelo sistema operacional. 
+            Eventos do sistema incluem o seguinte:
+
+            - Solicitações do cliente e respostas do servidor, como autenticações de usuário bem-sucedidas
+            - Informações de uso que contêm o número e o tamanho das transações em um determinado período de tempo
+
+        Logs de aplicativos de segurança
+
+            As empresas usam software de segurança pela rede ou pelo sistema para detectar atividade mal-intencionada. Esse software gera um 
+            log de segurança para fornecer dados de segurança do computador. Os logs são úteis para a realização de análise de auditoria e 
+            para a identificação de tendências e de problemas no longo prazo. Os logs também permitem que uma empresa forneça documentação que 
+            mostre que está em conformidade com as leis e os requisitos regulatórios.

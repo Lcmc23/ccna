@@ -1,0 +1,5 @@
+Equipamentos de videoconferência
+
+    A videoconferência permite que dois ou mais locais se comuniquem simultaneamente usando tecnologias de telecomunicações. Essas tecnologias 
+    aproveitam os novos padrões de vídeo de alta definição. Produtos como o Cisco TelePresence permitem que um grupo de pessoas em um local 
+    façam conferência com um grupo de pessoas de outros locais em tempo real.

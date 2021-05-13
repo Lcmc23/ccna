@@ -1,0 +1,25 @@
+Dispositivos móveis e sem fio
+
+    Dispositivos móveis e sem fio se tornaram o tipo predominante de dispositivos na maioria das redes modernas. Eles fornecem mobilidade e 
+    conveniência, mas também representam uma série de vulnerabilidades. Essas vulnerabilidades incluem roubo, invasão e acesso remoto não 
+    autorizado, sniffing, ataques man in the middle e ataques contra o desempenho e a disponibilidade.
+
+    Tipos de autenticação:
+
+        Autenticação de sistema aberto – Qualquer dispositivo sem fio pode se conectar à rede sem fio. Use esse método em situações em que a 
+        segurança não seja uma preocupação.
+    
+        Autenticação de chave compartilhada – Fornece mecanismos para autenticar e criptografar dados entre um cliente sem fio e um AP ou um 
+        roteador sem fio.
+
+    Técnicas de autenticação de chave compartilhada para WLANs:
+
+        WEP (Wired Equivalent Privacy - Privacidade Equivalente à de Redes com Fios) – Era a especificação 802.11 original que protegia as
+         WLANs. Entretanto, como a chave de criptografia nunca muda durante a troca de pacotes, é fácil de invadir.
+        
+        WPA (Wi-Fi Protected Access - Acesso Protegido a Wi-FI) – Este padrão usa WEP, mas protege os dados com um algoritmo de criptografia 
+        muito mais forte: o TKIP (Temporal Key Integrity Protocol - Protocolo de Integridade de Chave Temporal). O TKIP muda a chave para cada 
+        pacote, dificultando o trabalho dos hackers.
+        
+        IEEE 802.11i/WPA2 – O IEEE 802.11i é o padrão do setor em vigor para proteger WLANs. O 802.11i e o WPA2 usam o AES (Advanced Encryption 
+        Standard, Padrão de criptografia avançada) para criptografia, que atualmente é o protocolo de criptografia mais forte.
