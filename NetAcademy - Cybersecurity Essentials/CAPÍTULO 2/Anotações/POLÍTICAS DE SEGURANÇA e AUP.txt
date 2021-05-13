@@ -1,0 +1,18 @@
+POLÍTICAS DE SEGURANÇA
+
+Políticas de identificação e autenticação - Especifica pessoas autorizadas para acesso aos recursos de rede e define procedimentos de verificação.
+
+Políticas de senhas - Garante que as senhas atendam aos requisitos mínimos e sejam alteradas regularmente.
+
+Políticas de uso aceitável - Identifica os recursos e o uso da rede que são aceitáveis para a empresa. Também pode identificar ramificações para violações de política.
+
+Políticas de acesso remoto - Identifica como os usuários remotos podem acessar uma rede e o que é remotamente acessível.
+
+Políticas de manutenção de rede - Especifica procedimentos de atualização de sistemas operacionais e de aplicativos de usuários finais dos dispositivos de rede.
+
+Políticas de tratamento de incidentes - Descreve como os incidentes de segurança são tratados.
+
+
+AUP
+
+ Esse componente define o que os usuários podem ou não fazer nos vários componentes do sistema. A AUP deve ser o mais explícita possível, para evitar mal-entendidos. Por exemplo, uma AUP lista sites, grupos de notícias ou aplicativos específicos de uso intensivo de largura de banda que os usuários não podem acessar usando computadores ou a rede da empresa.

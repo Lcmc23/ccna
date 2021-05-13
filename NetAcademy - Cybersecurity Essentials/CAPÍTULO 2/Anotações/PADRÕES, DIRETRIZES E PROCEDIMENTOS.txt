@@ -1,0 +1,19 @@
+PADRÕES, DIRETRIZES E PROCEDIMENTOS
+
+PADRÕES - EXEMPLO 
+
+Uma empresa estabelece uma política de senhas. O padrão é que as senhas requerem um mínimo de oito caracteres alfanuméricos maiúsculos e minúsculos, incluindo pelo menos um caractere especial. Um usuário deve alterar a senha a cada 30 dias e um histórico das 12 senhas anteriores garante que o usuário crie senhas exclusivas durante um ano.
+
+DIRETRIZES - EXEMPLO
+
+As diretrizes são uma lista de sugestões sobre como fazer as coisas de forma mais eficiente e com segurança. Eles são semelhantes aos padrões, mas mais flexíveis e, geralmente, não são obrigatórios. As diretrizes definem como os padrões são desenvolvidos e garantem adesão às políticas de segurança gerais.
+
+PROCEDIMENTOS - EXEMPLO
+
+Documentos de procedimentos são mais longos e mais detalhados que os padrões e diretrizes. Documentos de procedimentos incluem detalhes de implementação que normalmente contêm instruções e gráficos passo a passo.
+
+
+
+
+
+

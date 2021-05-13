@@ -1,0 +1,22 @@
+CONTROLE DE ACESSO - AAA
+
+Autenticação: verifica a identidade de um usuário para evitar acesso não autorizado. Os usuários provam sua identidade com um nome de usuário ou um ID.
+
+Autorização: determinam quais recursos os usuários podem acessar, juntamente com as operações que os usuários podem executar.
+
+	Alguns sistemas fazem isso usando uma lista de 	controle de acesso, ou uma ACL. Uma ACL determina se um usuário tem certos privilégios 	de acesso depois de se autenticar.
+
+	R (read / leitura)
+	W (write / escrever)
+	X (execute / executar)
+
+	EXEMPLO:
+		
+		Proprietário   Grupo   Todos 
+	
+	File01      RWX         RW-     R--
+	File02      RWX         RW-     R--
+
+Accounting: mantém controle sobre o que os usuários fazem, incluindo o que acessam, a quantidade de tempo que acessam os recursos e as alterações feitas.
+
+

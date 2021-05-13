@@ -1,0 +1,29 @@
+AS TRÊS DIMENSÕES DO CUBO DA SEGURANÇA CIBERNÉTICA
+
+Os princípios de segurança
+
+A confidencialidade - impede a divulgação de informações para pessoas, recursos ou processos não autorizados. 
+
+Integridade - refere-se à precisão, consistência e confiabilidade dos dados. 
+
+Disponibilidade - garante que as informações estejam acessíveis para usuários autorizados quando necessário.
+
+--------------------------------------------------------
+
+Os estados dos dados / informações
+
+- Dados em trânsito
+
+- Dados inativos ou em armazenamento
+
+- Dados em processamento
+
+--------------------------------------------------------
+
+Contramedidas
+
+- A primeira qualificação profissional inclui as **tecnologias**, os dispositivos e os produtos disponíveis para proteger os sistemas de informação e se defender de criminosos virtuais. Os profissionais de segurança cibernética têm uma reputação de dominar as ferramentas tecnológicas à sua disposição. 
+
+- Os profissionais de segurança cibernética também devem construir uma defesa com o **estabelecimento de políticas**, procedimentos e diretrizes que permitem que os usuários do espaço cibernético fiquem seguros e sigam as boas práticas. 
+
+- Finalmente, os **usuários** do espaço cibernético devem se esforçar para ter mais conhecimento sobre as ameaças do espaço cibernético e estabelecer uma cultura de aprendizagem e reconhecimento.

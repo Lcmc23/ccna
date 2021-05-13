@@ -1,0 +1,14 @@
+MÉTODOS DE TRANSMISSÃO DE DADOS
+
+Rede sigilosa – usa mídia removível para transferir fisicamente os dados de um computador para outro
+
+Redes cabeadas – usam cabos para transmitir dados (cobre e fibra óptica)
+
+Redes sem fio – usam ondas de rádio para transmitir dados (SOHO, sigla para Small Office Home Office, na prática, é uma tendência para que as pessoas trabalhem em pequenos escritórios ou em casa, conectando-se, via Internet, à empresa para a qual presta serviços ou até mesmo a sua própria Micro Empresa (ME))
+
+--------------------------------------------------------
+
+PACOTE
+
+O termo pacote refere-se a uma unidade de dados que percorre o caminho entre uma origem e um destino na rede. Protocolos padrão como o protocolo de Internet (IP) e o protocolo de transferência de hipertexto (HTTP) definem a estrutura e a formação de pacotes de dados. Esses padrões têm código aberto e estão disponíveis ao público.
+

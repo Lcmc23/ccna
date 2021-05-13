@@ -1,0 +1,25 @@
+INTEGRIDADE DOS DADOS
+
+Nível crítico
+EXEMPLO: Serviços de saúde e emergência
+- Todos os dados são validados e testados
+- Os dados são verificados para dar confiabilidade
+- Os exemplos incluem os registros financeiros e de saúde.
+
+Nível alto
+EXEMPLO: Comércio eletrônico e análise
+- Todos os dados são validados
+- Os dados são conferidos para dar confiabilidade
+- Os exemplos incluem os bancos de dados das empresas.
+
+Nível intermediário
+EXEMPLO: Vendas on-line e mecanismos de busca
+- Ocorre pouca verificação
+- Os dados não são totalmente confiáveis
+- Os dados são coletados através de formulários publicamente.
+
+Nível baixo
+EXEMPLO: Blogs e sites de postagens pessoais
+- Os dados podem não ser verificados
+- Nível baixo de confiança no conteúdo
+- Os exemplos incluem opinião pública e contribuição aberta

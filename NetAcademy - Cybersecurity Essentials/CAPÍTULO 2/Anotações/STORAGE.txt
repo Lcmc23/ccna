@@ -1,0 +1,11 @@
+Tipos de Armazenamento de Dados - STORAGE
+
+Armazenamento local (DAS) é um armazenamento conectado a um computador. Um disco rígido ou flash drive USB é um exemplo de armazenamento local. Por padrão, os sistemas não são configurados para compartilhar o armazenamento com conexão direta.
+
+A Matriz redundante de riscos independentes (RAID) usa vários discos rígidos em uma matriz, o que é um método de combinação de vários discos para que o sistema operacional os veja como um único disco. A RAID fornece desempenho melhorado e tolerância a falhas.
+
+Um dispositivo de armazenamento em rede (NAS) é um dispositivo de armazenamento conectado a uma rede que permite o armazenamento e a recuperação de dados de um local centralizado por usuários de rede autorizados. Os dispositivos NAS são flexíveis e escaláveis, o que significa que os administradores podem aumentar a capacidade, conforme precisarem
+
+Uma arquitetura SAN (storage area network, rede de área de armazenamento) é um sistema de armazenamento em rede. Os sistemas SAN conectam-se à rede usando interfaces de alta velocidade que permitem desempenho melhorado e a habilidade de conectar vários servidores em um repositório de armazenamento de disco centralizado.
+
+Armazenamento em nuvem é uma opção de armazenamento remoto que usa o espaço em um provedor de data center e é acessível de qualquer computador com acesso à Internet. Google Drive, iCloud e Dropbox são exemplos de provedores de armazenamento em nuvem.

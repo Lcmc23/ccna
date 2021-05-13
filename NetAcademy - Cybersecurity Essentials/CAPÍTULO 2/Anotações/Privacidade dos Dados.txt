@@ -1,0 +1,22 @@
+EXEMPLOS DE INFORMAÇÕES - Privacidade dos Dados
+
+Informações Pessoais
+
+- Número de Previdência Social
+- Registros médicos
+- Número do cartão de crédito
+- Registros financeiros
+
+Informações Comerciais Confidenciais
+
+- Segredos comerciais
+- Planos de aquisição
+- Dados financeiros
+- Informações do cliente
+
+Confidencial com base no sigilo
+
+- Ultrasecreto
+- Segredo
+- Confidencial
+- Restrito

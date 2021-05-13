@@ -1,0 +1,11 @@
+Proteções de tecnologia baseadas em rede
+
+Rede privada virtual (VPN) é uma rede virtual segura que usa a rede pública (ou seja, a Internet). A segurança de uma VPN está na criptografia do conteúdo do pacote entre os endpoints que definem a VPN.
+
+--------------------------------------------------------
+
+Network Access Control (NAC) requer um conjunto de verificações antes de permitir que um dispositivo se conecte a uma rede. Algumas verificações comuns incluem software antivírus atualizados ou atualizações do sistema operacional instaladas.
+
+--------------------------------------------------------
+
+Segurança de access point sem fio inclui a implementação de autenticação e criptografia.

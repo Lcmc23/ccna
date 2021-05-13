@@ -1,0 +1,7 @@
+Exemplos de erros no processamento de dados
+
+Apenas duas semanas antes do Natal, alguns varejistas parceiros da **Amazon** perceberam uma mudança no preço anunciado em seus artigos para apenas um centavo de dólar. A falha durou uma hora. O erro resultou em milhares de compradores fazendo o melhor negócio de suas vidas e na empresa perdendo receitas.
+
+--------------------------------------------------------
+
+Em 2016, o termostato Nest apresentou defeito e deixou os usuários sem aquecimento. O termostato Nest é uma tecnologia inteligente, da Google. Uma falha de software deixou os usuários, literalmente, no frio. Uma atualização deu errado, drenando as baterias do dispositivo e deixando-o incapaz de controlar a temperatura. Como resultado, os clientes não conseguiram aquecer suas casas ou obter água quente em um dos fins de semana mais frios do ano.

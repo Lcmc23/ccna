@@ -1,0 +1,13 @@
+IPSec - de uma forma bem resumida, é um conjunto de padrões utilizados para que possamos garantir uma comunicação segura (criptografada) entre dois ou mais hosts em uma rede, mesmo que as informações sejam enviadas por um meio não seguro, como a internet por exemplo.
+
+-------------------------------------------------------
+
+VPN ou Virtual Private Network (Rede Privada Virtual) -  trata-se de uma rede privada construída sobre a infraestrutura de uma rede pública.
+
+-------------------------------------------------------
+
+SSL é a abreviação de Secure Sockets Layer, ou seja, uma ferramenta de encriptação de páginas antes de serem transmitidas pela internet que autentifica as partes envolvidas. É muito utilizada para pagamentos online com cartão de crédito
+
+--------------------------------------------------------
+
+O Hot-Standby permite a implementação do conceito de failover em um sistema supervisório. Este conceito consiste na possibilidade de se ter dois servidores (principal e backup) atuando um como contingência do outro, ou seja, se o servidor principal falhar, um servidor de backup entra em ação imediatamente, sem perda da continuidade do processo. Diz-se do servidor em espera que está em modo Standby

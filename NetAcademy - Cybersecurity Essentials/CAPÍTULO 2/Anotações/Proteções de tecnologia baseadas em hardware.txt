@@ -1,0 +1,15 @@
+Proteções de tecnologia baseadas em hardware
+
+Dispositivos de firewall bloqueiam o tráfego indesejado. Os firewalls contêm regras que definem o tráfego permitido dentro e fora de uma rede.
+
+--------------------------------------------------------
+
+Sistemas de detecção de invasão (IDS) detectam sinais de ataques ou tráfego incomum em uma rede e enviam um alerta.
+
+--------------------------------------------------------
+
+Sistemas de prevenção de intrusões (IPS) detectam sinais de ataques ou tráfego incomum em uma rede, geram um alerta e tomam medidas corretivas.
+
+--------------------------------------------------------
+
+Os serviços de filtros de conteúdo controlam o acesso e a transmissão de conteúdo ofensivo ou censurável.

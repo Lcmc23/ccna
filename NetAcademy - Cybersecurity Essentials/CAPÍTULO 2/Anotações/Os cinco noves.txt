@@ -1,0 +1,27 @@
+Os cinco noves
+
+Dentre as práticas mais populares de alta disponibilidade estão os cinco noves. Os cinco noves referem-se a 99,999%. Isso significa que o período de inatividade é menos de 5,26 minutos por ano.
+
+------------------------------------------------------
+
+Princípios de Projeto
+
+* Eliminar pontos únicos de falha
+
+	Identificar todos os dispositivos e componentes em um sistema que resultariam em uma falha do sistema
+
+* Fornecer transição confiável
+
+	Fontes de alimentação redundantes, sistemas de energia de backup e sistemas de comunicação de backup proporcionaram transição confiável	
+
+* Detectar falhas à medida que ocorrem
+
+	Monitoramento ativo do dispositivo e do sistema
+
+------------------------------------------------------
+
+99,999% 
+
+* Sistemas padronizados
+* Sistemas de componente compartilhado
+* Clustering 

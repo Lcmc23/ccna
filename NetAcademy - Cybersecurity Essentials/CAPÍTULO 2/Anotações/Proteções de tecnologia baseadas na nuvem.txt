@@ -1,0 +1,15 @@
+Proteções de tecnologia baseadas na nuvem
+
+Software as a Service (SaaS) permite aos usuários ter acesso a bancos de dados e software de aplicativo. Os provedores de nuvem gerenciam a infraestrutura. Os usuários armazenam dados nos servidores do provedor de nuvem.
+
+--------------------------------------------------------
+
+Infrastructure as a Service (IaaS) fornece recursos de computação virtualizados pela Internet. O provedor hospeda o hardware, o software, os servidores e os componentes de armazenamento.
+
+--------------------------------------------------------
+
+Platform as a Service (PaaS) proporciona acesso a ferramentas e serviços de desenvolvimento usados para entregar os aplicativos.
+
+--------------------------------------------------------
+
+IT as a Service (ITaaS), que proporciona suporte para os modelos de serviço IaaS, PaaS e SaaS. No modelo ITaaS, a empresa contrata serviços individuais ou em pacote com o provedor de serviços em nuvem.

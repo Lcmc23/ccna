@@ -1,0 +1,19 @@
+Proteções de Tecnologia baseadas em software
+
+Os firewalls de software controlam o acesso remoto a um software. Os sistemas operacionais normalmente incluem um firewall ou um usuário pode comprar ou fazer download de software de terceiros.
+
+--------------------------------------------------------
+
+Scanners de rede e de porta detectam e monitoram portas abertas em um host ou servidor.
+
+--------------------------------------------------------
+
+Analisadores de protocolo, ou analisadores de assinatura, são dispositivos que coletam e examinam o tráfego de rede. Eles identificam problemas de desempenho, detectam problemas de configuração, identificam aplicativos com comportamento inadequado, estabelecem o parâmetro e os padrões de tráfego normal e depuram problemas de comunicação.
+
+--------------------------------------------------------
+
+Scanners de vulnerabilidades são programas de computador projetados para avaliar os pontos fracos em computadores ou redes.
+
+--------------------------------------------------------
+
+Sistemas de detecção de invasão baseados em host (IDS) examinam as atividades apenas em sistemas de host. Um IDS gera arquivos de log e mensagens de alarme quando detecta atividade incomum. Um sistema que armazena dados confidenciais ou que presta serviços essenciais é um candidato para IDS baseado em host.
