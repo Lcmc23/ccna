@@ -1,0 +1,25 @@
+Plugins de navegador e envenenamento de navegador
+
+    Os plugins Flash e Shockwave da Adobe permitem a criação de animações gráficas e desenhos interessantes que melhoram muito o visual de 
+    uma página da Web. Os plugins exibem o conteúdo desenvolvido usando o software apropriado.
+
+    PERIGO - Até pouco tempo, os plugins tinham um registro de segurança considerável. À medida que o conteúdo baseado em Flash cresceu e se 
+    tornou mais popular, os criminosos examinaram os plugins e softwares Flash, determinaram vulnerabilidades e exploraram o Flash Player. 
+    A exploração com sucesso pode causar uma falha no sistema ou permitir que um criminoso assuma o controle do sistema afetado. Espera-se 
+    um aumento nas perdas de dados à medida que os criminosos continuem analisando as vulnerabilidades dos plugins e protocolos mais populares.
+
+Envenenamento de SEO (Search Engine Optimization - Otimização de mecanismos de busca)
+
+    O objetivo mais comum do envenenamento de SEO é para aumentar o tráfego em sites maliciosos que podem hospedar malware ou executar 
+    engenharia social. Para forçar um site malicioso a obter uma classificação mais elevada nos resultados de pesquisa, os invasores utilizam 
+    termos de busca populares.
+
+Sequestrador de navegador
+
+    Um sequestrador de navegador é o malware que altera as configurações do navegador de um computador para redirecionar o usuário para sites 
+    pagos pelos clientes de criminosos virtuais.
+
+    drive-by:
+        Normalmente, os sequestradores de navegador são instalados sem a permissão do usuário e fazem parte de um download drive-by. Um 
+        download drive-by é um programa que é transferido para o computador automaticamente, quando um usuário visita um site da Web ou 
+        visualiza uma mensagem de e-mail HTML.

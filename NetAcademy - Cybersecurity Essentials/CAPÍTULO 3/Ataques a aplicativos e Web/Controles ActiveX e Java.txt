@@ -1,0 +1,12 @@
+Controles ActiveX e Java
+
+    Ao navegar na Web, algumas páginas podem não funcionar corretamente, a menos que o usuário instale um controle ActiveX. Os controles 
+    ActiveX oferecem um recurso de plugin para o Internet Explorer. Os controles ActiveX são partes de software instalados pelos usuários para 
+    fornecer recursos estendidos. Terceiros escrevem alguns controles ActiveX e, portanto, podem ser mal-intencionados. Eles podem monitorar 
+    os hábitos de navegação, instalar malware ou registrar toques de tela. Os controles ActiveX também funcionam em outros aplicativos da 
+    Microsoft.
+
+    O Java opera por meio de um intérprete, o Java Virtual Machine (JVM, máquina virtual Java). O JVM ativa a funcionalidade do programa Java. 
+    O JVM coloca em sandboxes ou isola o código não confiável do restante do sistema operacional. Essas são vulnerabilidades, que permitem ao 
+    código não confiável ignorar as restrições impostas pelo sandbox. Também existem vulnerabilidades na biblioteca de classe do Java, que um 
+    aplicativo usa para sua segurança. Java é a segunda maior vulnerabilidade de segurança, juntamente com o plugin do Flash da Adobe.

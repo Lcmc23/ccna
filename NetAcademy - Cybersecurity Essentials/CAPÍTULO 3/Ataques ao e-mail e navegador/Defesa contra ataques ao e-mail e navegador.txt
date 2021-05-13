@@ -1,0 +1,17 @@
+Defesa contra ataques ao e-mail e navegador
+
+    Os métodos de controle de spam incluem filtrar e-mails, ensinar o usuário a tomar cuidado com e-mails desconhecidos e usar filtros de 
+    host/servidor.
+
+    É difícil impedir um spam, mas existem maneiras de diminuir seus efeitos. Por exemplo, a maioria dos ISPs filtram os spams, antes que eles 
+    atinjam a caixa de entrada do usuário. Muitos antivírus e programas de software de e-mail executam a filtragem de e-mail automaticamente. 
+    Isso significa que detectam e removem spam de uma caixa de entrada.
+
+    As empresas também devem conscientizar os funcionários sobre os perigos de se abrir anexos de e-mail que possam conter um vírus ou um worm. 
+    Não presuma que os anexos de e-mail são seguros, mesmo quando são enviados por um contato confiável. Um vírus pode estar tentando se 
+    espalhar usando o computador do remetente. Sempre varra anexos de e-mail, antes de abri-los.
+
+
+Anti-Phishing Working Group (APWG)
+
+    É uma associação do setor voltada para eliminar o roubo de identidade e a fraude resultantes de phishing e spoofing de e-mail.

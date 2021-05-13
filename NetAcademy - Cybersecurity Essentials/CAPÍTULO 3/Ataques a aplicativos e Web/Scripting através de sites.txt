@@ -1,0 +1,10 @@
+Scripting através de sites
+
+    O Cross-site scripting (XSS) é uma vulnerabilidade encontrada nos aplicativos da Web. XSS permite que os criminosos injetem scripts em 
+    páginas da Web visualizadas por usuários. Esse script pode conter código malicioso.
+
+    O script entre o site tem três participantes: o criminoso, a vítima e o site. O criminoso virtual não mira diretamente em uma vítima. O 
+    criminoso explora a vulnerabilidade dentro de um site ou aplicativo da Web. Os criminosos injetam scripts no cliente em páginas da Web 
+    visualizadas pelos usuários, as vítimas. O script mal-intencionado inadvertidamente passa para o navegador do usuário. Um script 
+    mal-intencionado desse tipo pode acessar quaisquer cookies, tokens de sessão ou outras informações confidenciais. Se obtiverem o cookie 
+    de sessão da vítima, os criminosos poderão se passar pelo usuário.

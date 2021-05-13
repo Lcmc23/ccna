@@ -1,0 +1,25 @@
+Spyware, Adware e Scareware
+
+    Spyware
+
+        É o software que permite que um criminoso obtenha informações sobre as atividades do computador do usuário. O spyware frequentemente 
+        inclui rastreadores de atividade, coleta de toque de tela e captura de dados. Para tentar combater as medidas de segurança, o spyware 
+        quase sempre modifica as configurações de segurança. Muitas vezes, o spyware se junta ao software legítimo ou a cavalos de Troia. 
+        Muitos sites de shareware estão cheios de spyware.
+
+    Adware 
+
+        Exibe pop-ups irritantes para gerar receita para seus autores. O malware pode analisar os interesses do usuário rastreando os sites 
+        visitados. Em seguida, ele pode enviar anúncios pop-ups relacionados a esses sites. Algumas versões do software instalam Adware 
+        automaticamente. Alguns tipos de adware só oferecem anúncios, mas também é comum que o adware venha com spyware.
+
+        OBS: O pop-up é um tipo de janela que se abre no navegador ao visitar uma página web ou acessar uma hiperligação específica. O pop-up é 
+        utilizado por autores de sites para abrir alguma informação extra ou como meio de propaganda.
+
+    Scareware
+
+        Persuade o usuário a executar uma ação específica por medo. O scareware simula janelas pop-up que se assemelham às janelas de diálogo 
+        do sistema operacional. Essas janelas transmitem mensagens falsificadas que afirmam que o sistema está em risco ou precisa da execução 
+        de um programa específico para retornar à operação normal. Na verdade, não há problemas e, se o usuário concordar e permitir a execução 
+        do programa mencionado, o malware infectará o sistema.
+

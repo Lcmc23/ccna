@@ -1,0 +1,27 @@
+Ataques de WEP e WPA
+
+    Wired Equivalent Privacy (WEP) 
+    
+        É um protocolo de segurança que tentou fornecer uma rede de área local sem fio (WLAN) com o mesmo nível de segurança de uma LAN com 
+        fio. Como as medidas de segurança físicas ajudam a proteger uma LAN com fio, o WEP procura fornecer proteção similar para dados 
+        transmitidos pela WLAN com criptografia.
+
+        O WEP usa uma chave de criptografia. Não há provisão para gerenciamento de tecla com WEP, então o número de pessoas que compartilham a 
+        chave continuará a crescer. Desde que todo mundo está usando a mesma chave, o criminoso tem acesso a uma grande quantidade de tráfego 
+        para ataques analíticos.
+
+        O WEP também tem vários problemas com o seu vetor de inicialização (IV), que é um dos componentes do sistema criptográfico:
+
+        - É um campo de 24 bits, que é muito pequeno.
+        
+        - É um texto desprotegido, o que significa que é legível.
+        
+        - É estático para que fluxos de chave idênticos se repitam em uma rede dinâmica.
+
+    O Wi-Fi Protected Access (WPA) 
+    
+        E, em seguida, o WPA2 surgiram como protocolos melhorados para substituir o WEP. O WPA2 não tem os mesmos problemas de criptografia 
+        pois um invasor não pode recuperar a chave pela observação do tráfego. O WPA2 está suscetível ao ataque porque os criminosos virtuais 
+        podem analisar os pacotes transmitidos entre o access point e um usuário legítimo. Os criminosos virtuais usam um analisador de pacote 
+        e, em seguida, executa os ataques off-line na frase secreta.
+            

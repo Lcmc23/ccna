@@ -1,0 +1,24 @@
+Injeção de código
+
+    Uma maneira de armazenar dados em um site é usar um banco de dados. Há vários tipos diferentes de bancos de dados, como SQL 
+    (Structured Query Language, Linguagem de Consulta Estruturada) ou Extensible Markup Language (XML). Ambos os ataques de injeção de XML e 
+    SQL exploram as vulnerabilidades no programa, como a não validação correta de consultas de banco de dados.
+
+    Injeção de XML
+
+        Ao usar um banco de dados XML, uma injeção de XML é um ataque que pode corromper os dados. Depois que o usuário dá a entrada, o sistema 
+        acessa os dados necessários através de uma consulta. O problema ocorre quando o sistema não examina corretamente a solicitação de 
+        entrada fornecida pelo usuário. Os criminosos podem manipular a consulta, programando para atender às necessidades dos criminosos e 
+        acessar as informações no banco de dados.
+
+        Todos os dados confidenciais armazenados no banco de dados são acessíveis para os criminosos e eles podem efetuar quantas alterações 
+        desejarem no site. Um ataque de injeção XML ameaça a segurança do site.
+
+    Injeção de SQL
+
+        O criminoso virtual explora uma vulnerabilidade, inserindo uma instrução SQL mal-intencionada em um campo de entrada. Mais uma vez, o 
+        sistema não filtra a entrada do usuário corretamente para os caracteres em uma instrução SQL. Os criminosos usam a injeção de SQL em 
+        sites ou qualquer banco de dados SQL.
+
+        Os criminosos podem falsificar uma identidade, modificar os dados existentes, destruir os dados ou se tornar os administradores do 
+        servidor do banco de dados.

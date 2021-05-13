@@ -1,0 +1,5 @@
+Buffer Overflow
+
+    Um buffer overflow ocorre quando os dados ultrapassam os limites de um buffer. Os buffers são áreas de memórias alocadas a um aplicativo. 
+    Ao alterar os dados além dos limites de um buffer, o aplicativo acessa a memória alocada a outros processos. Isso pode levar à queda do 
+    sistema, comprometimento de dados ou fornecer o escalonamento de privilégios.

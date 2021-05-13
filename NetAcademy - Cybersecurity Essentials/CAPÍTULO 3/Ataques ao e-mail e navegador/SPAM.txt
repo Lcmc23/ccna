@@ -1,0 +1,22 @@
+SPAM 
+
+    Spam, também conhecido como lixo eletrônico, é e-mail não solicitado, nem autorizado. Na maioria dos casos, o spam é um método de anúncio. 
+    Entretanto, o spam pode enviar links perigosos, malware ou conteúdo enganoso. O objetivo final é obter informações confidenciais, como o 
+    número na previdência social ou informações da conta no banco. A maioria dos spam vem de vários computadores em redes infectadas por um 
+    vírus ou worm. Esses computadores infectados enviam o máximo de lixo eletrônico possível.
+
+    Observe alguns dos indicadores mais comuns de Spam:
+
+    - Um e-mail sem assunto;
+    
+    - Um e-mail solicitando uma atualização de uma conta;
+    
+    - O texto do e-mail tem erros de ortografia ou uma pontuação estranha;
+    
+    - Links no e-mail são longos e/ou incompreensíveis;
+    
+    - Um e-mail parece uma correspondência de uma empresa idônea;
+    
+    - Um e-mail que solicita que o usuário abra um anexo.
+
+    https://www.consumer.ftc.gov/articles/0038-spam

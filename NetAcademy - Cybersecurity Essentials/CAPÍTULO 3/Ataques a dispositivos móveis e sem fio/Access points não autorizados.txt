@@ -1,0 +1,9 @@
+Access points não autorizados
+
+    Um access point não autorizado é um access point sem fio instalado em uma rede segura sem autorização explícita. Um access point não 
+    autorizado pode ser configurado de duas maneiras. A primeira é quando um funcionário bem intencionado que tenta ser útil, facilitando a 
+    conexão de dispositivos móveis. A segunda maneira é quando um criminoso obtém acesso físico a uma empresa e discretamente instala o access 
+    point não autorizado. Como não são autorizados, ambos representam riscos para a empresa.
+
+    Um access point não autorizado também pode se referir ao access point de um criminoso. Neste caso, o criminoso configura o access point 
+    como um dispositivo de MitM para capturar as informações de login dos usuários.

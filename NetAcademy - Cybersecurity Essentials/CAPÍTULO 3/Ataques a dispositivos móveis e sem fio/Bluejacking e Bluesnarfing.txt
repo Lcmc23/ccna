@@ -1,0 +1,7 @@
+Bluejacking e Bluesnarfing
+
+    Bluejacking é o termo usado para enviar mensagens não autorizadas para outro dispositivo Bluetooth. Uma variação disso é enviar uma imagem 
+    chocante para o outro dispositivo.
+    
+    O bluesnarfing ocorre quando o invasor copia as informações da vítima no dispositivo dela. Essas informações podem incluir e-mails e listas 
+    de contato.

@@ -1,0 +1,9 @@
+Congestionamento de RF
+
+    Os sinais sem fio são suscetíveis à interferência eletromagnética (EMI), interferência de rádio frequência (RFI) e podem até ser 
+    suscetíveis a relâmpagos ou ruídos de luzes fluorescentes. Sinais sem fio também são suscetíveis a congestionamento deliberado. O 
+    congestionamento de radiofrequência (RF) interfere na transmissão de uma estação de rádio ou satélite, para que o sinal não alcance a 
+    estação de recepção.
+
+    A frequência, modulação e potência do interferidor de RF precisam ser iguais às do dispositivo que o criminoso deseja corromper, para 
+    congestionar com sucesso o sinal sem fio.

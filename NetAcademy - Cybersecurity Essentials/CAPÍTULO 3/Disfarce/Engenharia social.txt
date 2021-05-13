@@ -1,0 +1,28 @@
+Engenharia social
+
+    Engenharia social é um meio totalmente não técnico de um criminoso coletar informações sobre a vítima. Engenharia social é um ataque que 
+    tenta manipular indivíduos para realizar ações ou divulgar informações confidenciais.
+
+    Os engenheiros sociais frequentemente dependem da boa vontade das pessoas para ajuda, mas também miram nos pontos fracos.
+
+Pretexting - Ocorre quando um invasor chama uma pessoa e mente para ela na tentativa de obter acesso a dados confidenciais. Um exemplo envolve 
+um invasor que finge precisar de dados pessoais ou financeiros para confirmar a identidade do destinatário.
+
+Something for Something (Quid pro quo) - Ocorre quando um invasor solicita informações pessoais de uma pessoa em troca de algo, como um 
+presente.
+
+Táticas de Engenharia social
+
+    Autoridade – As pessoas são mais propensas a cooperar quando instruídas por "uma autoridade"
+
+    Intimidação – Os criminosos intimidam a vítima a realizar uma ação
+
+    Consenso/prova social – As pessoas realizarão essa ação se acharem que as outras pessoas aprovarão
+
+    Escassez – As pessoas realizarão essa ação se acharem que existe uma quantidade limitada
+
+    Urgência – As pessoas realizarão essa ação se acharem que existe um tempo limitado
+
+    Familiaridade/gosto – Os criminosos criam empatia com a vítima para estabelecer um relacionamento
+
+    Confiança – Os criminosos criam uma relação de confiança com uma vítima, que pode precisar de mais tempo para ser estabelecida

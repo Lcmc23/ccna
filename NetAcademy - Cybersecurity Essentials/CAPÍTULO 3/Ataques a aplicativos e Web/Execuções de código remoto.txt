@@ -1,0 +1,11 @@
+Execuções de código remoto
+
+    As vulnerabilidades permitem que um criminoso virtual execute códigos maliciosos e assumam o controle de um sistema com os privilégios do 
+    usuário que opera o aplicativo. A execução de código remota permite que o criminoso execute qualquer comando em uma máquina de destino.
+
+    Veja, por exemplo, o Metasploit. Metasploit é uma ferramenta para o desenvolvimento e execução do código de exploit contra uma vítima 
+    remota. Meterpreter é um módulo de exploit dentro do Metasploit que oferece recursos avançados. O Meterpreter permite que os criminosos 
+    gravem suas próprias extensões como um objeto compartilhado. Os criminosos carregam e injetam esses arquivos em um processo em execução 
+    no alvo. O Meterpreter carrega e executa todas as extensões na memória, portanto, nunca envolvem o disco rígido. Isso também significa 
+    que esses arquivos não são detectados pelo antivírus. O Meterpreter tem um módulo para controlar a webcam do sistema remoto. Ao instalar 
+    o Meterpreter no sistema da vítima, o criminoso pode exibir e capturar imagens da webcam da vítima.

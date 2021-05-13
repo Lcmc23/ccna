@@ -1,0 +1,9 @@
+Phishing
+
+    Phishing é uma forma de fraude. Os criminosos virtuais usam e-mail, mensagem instantânea ou outras mídias sociais para coletar 
+    informações, como credenciais de logon ou informações da conta, ao colocar uma fachada de entidade ou pessoa confiável. 
+
+Spear phishing
+
+    É um ataque de phishing altamente direcionado. Embora o phishing e o spear phishing usem e-mails para alcançar as vítimas, o spear 
+    phishing envia e-mails personalizados a uma pessoa específica. O criminoso pesquisas os interesses da vítima antes de enviar o e-mail.

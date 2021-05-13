@@ -1,0 +1,11 @@
+Grayware e SMiShing
+
+    Grayware - O grayware está se tornando uma área de problema na segurança móvel com a popularidade dos smartphones. Grayware inclui 
+    aplicativos que se comportam de modo incômodo ou indesejável. O grayware pode não ter malware reconhecível oculto nele, mas ainda pode 
+    ser um risco ao usuário. Por exemplo, o Grayware pode rastrear a localização do usuário. Os autores do Grayware geralmente mantêm a 
+    legitimidade, incluindo recursos do aplicativo nas letras miúdas do contrato de licença de software. Os usuários instalam muitos 
+    aplicativos móveis sem pensar realmente em seus recursos.
+
+    SMiShing é abreviação do SMS phishing. Ele usa o Serviço de mensagens curtas (SMS) para enviar mensagens de texto falsas. Os criminosos 
+    fazem com que o usuário acesse um site ou ligue para um telefone. As vítimas enganadas podem fornecer informações confidenciais, como os 
+    dados de cartão de crédito. O acesso a um site pode resultar em download de malware que invade o dispositivo, sem o conhecimento do usuário.

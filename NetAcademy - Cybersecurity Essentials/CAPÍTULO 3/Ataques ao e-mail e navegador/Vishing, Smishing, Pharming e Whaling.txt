@@ -1,0 +1,25 @@
+Vishing, Smishing, Pharming e Whaling
+
+    Vishing 
+    
+        É o phishing que usa a tecnologia de comunicação de voz. Os criminosos podem falsificar as chamadas de origens legítimas usando a 
+        tecnologia VoIP (voice over IP). As vítimas também podem receber uma mensagem gravada que pareça legítima. Os criminosos querem obter 
+        números de cartão de crédito ou outras informações para roubar a identidade da vítima. O vishing se vale do fato de que as pessoas 
+        confiam na rede telefônica.
+
+    Smishing (Short Message Service phishing) 
+    
+        É o phishing que usa mensagens de texto em celulares. Os criminosos se passam por uma fonte legítima na tentativa de ganhar a confiança 
+        da vítima. Por exemplo, um ataque de smishing pode enviar à vítima o link de um site. Quando a vítima visita o site, o malware é 
+        instalado no telefone celular.
+
+    Pharming
+
+        É a representação de um site legítimo na tentativa de enganar os usuários para inserir as credenciais. O pharming leva os usuários para 
+        um site falso que parece ser oficial. Então, as vítimas digitam as informações pessoais, achando que estão conectadas a um site legítimo.
+
+    Whaling
+
+        é um ataque de phishing que buscam vítimas de alto perfil em uma empresa, como executivos seniores. Outras vítimas incluem políticos 
+        ou celebridades.
+
