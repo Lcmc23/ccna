@@ -1,0 +1,26 @@
+Capítulo 9: NAT para IPv4
+
+    Este capítulo descreveu como o NAT é usado para ajudar a aliviar a redução do espaço de endereços IPv4. O NAT para IPv4 permite que os 
+    administradores de rede usem a RFC 1918 de espaço de endereço privado para fornecer conectividade à Internet usando um número de endereços 
+    públicos único ou limitado.
+
+    O NAT mantém o espaço de endereço público e poupa uma sobrecarga administrativa considerável no gerenciamento de anúncios, movimentações e 
+    alterações. NAT e PAT podem ser implementados para conversar o espaço de endereço público sem afetar a conexão com o ISP. No entanto, o NAT 
+    tem problemas em termos de seus efeitos negativos no desempenho, na mobilidade e na conectividade ponto a ponto do dispositivo e deve-se 
+    considerar uma implementação no curto prazo para exaustão de endereço com a solução no longo prazo sendo o IPv6.
+
+    Este capítulo discutiu o NAT para IPv4, incluindo:
+
+        - Características do NAT, terminologia e operações gerais
+        
+        - Os tipos diferentes de NAT, incluindo o NAT estático, NAT dinâmico e PAT.
+        
+        - As vantagens e desvantagens do NAT
+        
+        - A configuração, a verificação e a análise de NAT estático, NAT dinâmico e PAT.
+        
+        - Como o encaminhamento de portas pode ser usado para acessar um dispositivo interno da Internet
+        
+        - Por que o NAT está disponível, mas não totalmente, à rede IPv6
+        
+        - A solução de problemas de NAT usando os comandos show e debug

@@ -1,0 +1,9 @@
+NAT dinâmico
+
+    O NAT dinâmico usa um pool de endereços públicos e os atribui por ordem de chegada. Quando as solicitações internas de um dispositivo 
+    acessam uma rede externa, o NAT dinâmico designa um endereço IPv4 público disponível do pool.
+
+OBS:
+
+    Da mesma forma que o NAT estático, o NAT dinâmico requer que endereços públicos suficientes estejam disponíveis para satisfazer o número 
+    total de sessões simultâneas de usuário.

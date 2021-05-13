@@ -1,0 +1,6 @@
+Exemplo de roteador sem fio
+
+    A abordagem feita para configurar o encaminhamento de portas depende da marca e do modelo do roteador de banda larga na rede. No entanto, 
+    há algumas etapas genéricas a seguir. Se as instruções fornecidas pelo ISP, ou as que vieram com o roteador, não fornecerem orientação 
+    adequada, o site http://www.portforward.com fornecerá guias para vários roteadores de banda larga. Você pode seguir as instruções para 
+    adicionar ou excluir conforme necessário, para atender às necessidades de todos os aplicativos que deseja permitir ou negar.

@@ -1,0 +1,4 @@
+Configuração do encaminhamento de porta com IOS
+
+    Implementar o encaminhamento de portas com comandos IOS é semelhante ao uso dos comandos para configurar o NAT estático. O encaminhamento 
+    de portas é essencialmente uma conversão de NAT estático com número de porta TCP ou UDP especificada.

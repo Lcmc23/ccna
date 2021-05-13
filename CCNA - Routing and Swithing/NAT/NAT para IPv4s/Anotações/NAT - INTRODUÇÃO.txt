@@ -1,0 +1,13 @@
+NAT - INTRODUÇÃO
+
+    * O NAT fornece a conversão de endereços particulares para endereços públicos. Isso permite a um dispositivo com endereço IPv4 privado acessar
+    recursos fora de sua rede privada, como aqueles encontrados na Internet. 
+
+    - O NAT combinado com o endereço IPv4 privado provou ser um método útil de preservar endereços IPv4 públicos. Um único IPv4 público pode ser 
+    compartilhado por centenas, mesmo milhares de dispositivos, cada um configurado com um IPv4 privado original.
+
+OBS: 
+
+    Sem o NAT, o esgotamento do espaço de endereços IPv4 ocorreria bem antes do ano 2000. Entretanto, o NAT tem certas limitações, que serão 
+    exploradas mais adiante neste capítulo. A solução para a redução do espaço de endereços IPv4 e limitações do NAT é a eventual transição 
+    para IPv6.
