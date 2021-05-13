@@ -1,0 +1,32 @@
+Tipos de software maligno
+
+	Spyware – Este software maligno é concebido para monitorizar e espiar o utilizador.
+
+	Adware – O software suportado por publicidade é concebido para apresentar automaticamente anúncios.
+	
+	Bot – Derivado da palavra “robot”, um bot é software maligno concebido para realizar automaticamente uma ação, 	geralmente online.
+	
+	Ransomware – Este software maligno é concebido para manter cativo um sistema informático ou os dados que contém, 		até que seja realizado um pagamento (de um resgate).
+
+	Scareware – Este tipo de software maligno é concebido para persuadir o utilizador a realizar uma ação específica 	com base no medo. O scareware imita janelas 
+	de pop-up que se assemelham a janelas de caixa de diálogo do sistema operativo. Estas janelas apresentam mensagens 	falsificadas que indicam que o sistema está em risco ou que requer a execução de um programa específico para 	regressar ao funcionamento normal.
+
+	Rootkit – Este software maligno é concebido para modificar o sistema operativo a fim de criar uma backdoor. Os 	atacantes utilizam a backdoor para aceder remotamente ao computador.
+
+	Vírus – Um vírus consiste num código executável maligno que é anexado a outros ficheiros executáveis, muitas 	vezes, a programas legítimos.
+
+	Trojan – Um trojan, ou cavalo de troia, consiste em software maligno que realiza operações malignas sob a 	aparência de uma operação pretendida.
+
+OBS: Um trojan difere de um vírus na medida em que se une a ficheiros não executáveis.
+
+	Worms – Worms são códigos maliciosos que se replicam, explorando vulnerabilidades em redes de modo independente. 		Geralmente, os worms tornam as redes lentas. Enquanto um vírus requer a execução de um programa host (hospedeiro), 	os worms podem ser executados de forma independente.
+
+
+CURIOSIDADE:
+
+	Man-In-The-Middle (MitM) – O MitM permite que o atacante assuma o controlo de um dispositivo sem conhecimento do utilizador.
+	
+	Man-In-The-Mobile (MitMo) – Uma variante de man-in-the-middle, MitMo é um tipo de ataque utilizado para assumir o controlo de um dispositivo móvel.
+
+
+	

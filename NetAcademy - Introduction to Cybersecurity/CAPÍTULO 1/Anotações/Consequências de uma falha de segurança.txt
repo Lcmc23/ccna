@@ -1,0 +1,20 @@
+Consequências de uma falha de segurança
+
+	- Reputação arruinada;
+
+		Um pirata informático (ou um grupo de pirataria informática) pode vandalizar o Web site da empresa, publicando informações falsas, e arruinar a
+		reputação da empresa que levou anos a construir.
+
+	- Vandalismo;
+
+	- Roubo;
+
+	- Receitas perdidas;
+
+		Os piratas informáticos também podem desativar o Web site da empresa, levando à perda de receitas da empresa. Se o Web site estiver desativado 
+		durante períodos de tempo mais longos, a empresa pode aparentar pouco fiável e, possivelmente, perder credibilidade
+
+	- Propriedade Intelectual danificada.
+
+		Se o Web site ou a rede da empresa tiver sofrido uma falha, pode ocorrer a divulgação de documentos confidenciais, a revelação segredos comerciais 
+		e o roubo de propriedade intelectual.

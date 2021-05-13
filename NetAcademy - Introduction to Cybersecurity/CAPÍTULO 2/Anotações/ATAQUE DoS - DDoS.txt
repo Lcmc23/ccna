@@ -1,0 +1,20 @@
+ATAQUE DoS 
+
+ Os ataques de negação de serviço (Denial-of-Service, DoS) são um tipo de ataque de rede. Um ataque DoS resulta 	numa espécie de interrupção do serviço de rede para utilizadores, dispositivos ou aplicações.
+
+ Quantidade esmagadora de tráfego – Ocorre quando uma rede, um host (hospedeiro) ou uma aplicação recebe uma quantidade enorme de dados a uma velocidade que não consegue processar. Esta situação provoca um abrandamento da transmissão ou da resposta, ou o bloqueio de um dispositivo ou serviço.
+
+ Pacotes com formatação maliciosa – Ocorre quando um pacote com formatação maliciosa é enviado a um host ou a uma aplicação e o recetor não consegue processá-lo. Por exemplo, um atacante reencaminha pacotes com erros que não podem ser identificados pela aplicação ou reencaminha pacotes com formatação incorreta. Esta situação faz com que o dispositivo recetor funcione de forma muito lenta ou bloqueie.
+
+ATAQUE DDoS
+
+ Um ataque DoS distribuído (Distributed DoS Attack, DDoS) é semelhante a um ataque DoS, mas tem origem em múltiplas fontes coordenadas.
+
+EXEMPLO: 
+
+ Um atacante constrói uma rede de hosts infetados, denominada botnet. Os hosts infetados são designados por zombies. Os zombies são controlados por sistemas de controladores.
+
+ Os computadores zombies analisam constantemente e infetam mais hosts, criando mais zombies. Quando está preparado, o pirata informático dá ordem aos sistemas de controlo para que façam com que a botnet de zombies realize um ataque DDoS.
+
+	
+

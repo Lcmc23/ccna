@@ -1,0 +1,17 @@
+Aplicações de segurança
+
+Routers – Os routers Cisco Integrated Services Router (ISR)
+
+	Têm diversas funcionalidades de firewall além das funções de encaminhamento, incluindo a filtragem de tráfego, a 	capacidade de execução de um Sistema de Prevenção de Intrusões (IPS), criptografia e funcionalidades de VPN para 	tunelamento encriptado seguro.
+
+Firewalls – As firewalls Cisco Next Generation possuem todas as funcionalidades de um router ISR
+
+IPS – Os dispositivos de IPS Cisco Next Generation
+
+	Dedicados à prevenção de intrusões.
+
+VPN – As aplicações de segurança da Cisco estão equipadas com um servidor de VPN (Virtual Private Network, rede privada virtual)
+
+	 São concebidas para tunelamento encriptado seguro.
+
+Software maligno/antivírus – A Cisco Advanced Malware Protection (AMP) encontra-se em firewalls, dispositivos IPS, aplicações de segurança para a Web e e-mail e routers Cisco de última geração. Além disso, também pode ser instalada como software em computadores host.

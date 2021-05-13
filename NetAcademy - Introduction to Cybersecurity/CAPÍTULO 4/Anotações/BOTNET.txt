@@ -1,0 +1,7 @@
+BOTNET 
+
+	Um botnet é um grupo de bots, ligados através da Internet, com capacidade para ser controlado por um indivíduo ou 	grupo mal intencionado. Tipicamente, um computador bot é infetado através de uma visita a um Web site, da abertura 	de um anexo de e-mail ou de um ficheiro multimédia infetado.
+
+OBS: Um botnet pode ter dezenas de milhares ou até mesmo centenas de milhares de bots. Estes bots podem ser ativados para distribuir software maligno, iniciar ataques DDoS, distribuir e-mail indesejado ou executar ataques de palavra-passe de força bruta. Os botnets são tipicamente controlados através de um servidor de comando e controlo.
+
+CURIOSIDADE: Muitas vezes, os cibercriminosos alugam botnets por um determinado preço a terceiros, para fins maliciosos.

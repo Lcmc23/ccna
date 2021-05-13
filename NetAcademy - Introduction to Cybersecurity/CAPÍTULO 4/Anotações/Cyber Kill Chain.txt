@@ -1,0 +1,17 @@
+Cyber Kill Chain é constituída pelas seguintes fases:
+
+Fase 1. Reconhecimento – O atacante recolhe informações sobre o alvo.
+
+Fase 2. Armamentização – O atacante cria um exploit e um payload maligno para enviar ao alvo.
+
+Fase 3. Envio – O atacante envia o exploit e o payload maligno ao alvo por e-mail ou através de outro método.
+
+Fase 4. Exploração – O exploit é executado.
+
+Fase 5. Instalação – São instaladas backdoors e software maligno no alvo.
+
+Fase 6. Comando e controlo – É obtido o controlo remoto do alvo através de um canal ou servidor de comando e controlo.
+
+Fase 7. Ação – O atacante realiza ações mal intencionadas, tais como o roubo de informações, ou executa ataques noutros dispositivos a partir da rede, percorrendo novamente as fases da Kill Chain.
+
+OBS: Backdoor (em português, "porta dos fundos") é um método, geralmente secreto, de escapar de uma autenticação ou criptografia normais em um sistema computacional, um produto ou um dispositivo embarcado (por exemplo, um roteador doméstico)

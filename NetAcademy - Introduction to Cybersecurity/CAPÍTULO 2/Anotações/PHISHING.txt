@@ -1,0 +1,14 @@
+PHISHING 
+
+	O phishing ocorre quando uma entidade maliciosa envia um e-mail fraudulento pretendendo ser originário de uma 
+	fonte legítima e fiável. A mensagem tem a intenção de ludibriar o destinatário a fim de instalar software 
+	maligno no dispositivo ou partilhar informações pessoais ou financeiras.
+
+SPEAR PHISHING
+
+	Spear phishing é um ataque de phishing altamente direcionado. Embora tanto o phishing como o spear phishing 
+	utilizem e-mails para chegar às vítimas, os e-mails de spear phishing são personalizados para um indivíduo 
+	específico. O atacante pesquisa os interesses do alvo antes de enviar o e-mail.
+
+	
+	

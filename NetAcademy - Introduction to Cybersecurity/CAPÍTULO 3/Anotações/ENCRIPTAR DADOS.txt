@@ -1,0 +1,14 @@
+ENCRIPTAR DADOS
+
+**Criptografia** - é o processo de converter a informação numa forma que não possa ser lida por uma parte não 		autorizada Só uma pessoa fidedigna e autorizada, com a palavra-passe ou a chave secreta, poderá decifrar e aceder 		aos dados na sua forma original. A criptografia em si não impede que os dados sejam intercetados. A criptografia 		só impede que uma pessoa não autorizada veja ou aceda ao conteúdo.
+
+O Encrypting File System (EFS – Sistema de criptografia de ficheiros) é uma funcionalidade do Windows que pode encriptar dados. O EFS é associado diretamente à conta de um utilizador específico. Só o utilizador que cifrou os dados poderá aceder aos mesmos após encriptação usando o sistema EFS. Para cifrar dados utilizando o EFS em todas as versões do Windows, siga estas instruções:
+
+Passo 1. Selecione um ou mais ficheiros ou pastas.
+
+Passo 2. Clique com o botão direito do rato nos dados selecionados >Propriedades.
+
+Passo 3. Clique em Avançadas…
+
+Passo 4. Selecione a caixa de verificação Encriptar conteúdos para proteger dados.
+

@@ -1,0 +1,5 @@
+Advanced Malware Protection (AMP) Threat Grid
+
+ Analisa milhões de ficheiros e os correlaciona com centenas de milhões de outros artefactos de software maligno analisados. Isto proporciona uma visão global de ataques e campanhas de software maligno e a respetiva distribuição. A AMP é o software de cliente/servidor implementado em pontos finais de host, como um servidor autónomo, ou noutros dispositivos de segurança de rede.
+
+CURIOSIDADE: O software não é perfeito. Quando um pirata informático explora um defeito num software antes do criador corrigir esse defeito, este procedimento designa-se por **ataque de dia zero**.

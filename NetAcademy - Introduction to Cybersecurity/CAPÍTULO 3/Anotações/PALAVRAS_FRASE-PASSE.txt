@@ -1,0 +1,28 @@
+PALAVRAS-PASSE
+
+Sugestões para a escolha de uma boa palavra-passe:
+
+	Não utilize palavras de dicionário nem nomes em nenhum idioma;
+
+	Não utilize palavras de dicionário com erros ortográficos comuns;
+
+	Não utilize nomes de computadores ou nomes de contas;
+
+	Se possível, utilize carateres especiais, tais como ! @ # $ % ^ & * ( );
+	
+	Utilize uma palavra-passe com dez ou mais carateres.
+
+FRASE-PASSE
+
+Sugestões para a escolha de uma boa frase-passe:
+
+	Escolha uma afirmação que tenha sentido para si;
+
+	Junte-lhe carateres especiais, como ! @ # $ % ^ & * ( );
+
+	Quando mais comprida, melhor;
+	
+	Evite afirmações comuns ou famosas, por exemplo, a letra de uma canção popular.
+
+
+

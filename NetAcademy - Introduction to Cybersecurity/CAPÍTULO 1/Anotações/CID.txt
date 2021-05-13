@@ -1,0 +1,42 @@
+Triade CID - Confidencialidade, integridade e disponibilidade
+
+
+Confidencialidade
+
+	Outro termo para confidencialidade seria privacidade. As políticas das empresas devem restringir o acesso à informação a pessoal autorizado e assegurar que 
+	apenas tais indivíduos autorizados possam visualizar estes dados.
+
+	EXEMPLO: Um programador de Java não deve ter acesso à informação pessoal de todos os funcionários
+
+	Os métodos para garantir a confidencialidade:
+
+	- Criptografia de dados;
+	- ID de nome de utilizador e palavra-passe;
+	- Autenticação de dois fatores; 
+	- Minimização da exposição de informações sensíveis.
+
+Integridade
+
+	A integridade corresponde à precisão, consistência e confiabilidade dos dados durante o ciclo de vida completo dos mesmos. Os dados têm de permanecer 
+	inalterados durante o tráfego e não serem modificados por entidades não autorizadas.
+
+	**HASH**: É utilizada uma soma de controlo para verificar a integridade de ficheiros ou de cadeias de carateres depois da transferência dos mesmos de um 
+	dispositivo para outro na sua rede local ou na Internet. As somas de controlo são calculadas com funções hash. Algumas somas de controlo comuns são MD5, 
+	SHA-1, SHA-256 e SHA-512. Uma função hash utiliza um algoritmo matemático para transformar os dados num valor de comprimento fixo que representa os dados.
+
+		OBS: O valor do hash está presente apenas para comparação. A partir do valor do hash, não é possível obter diretamente os dados originais. 
+		Por exemplo, se se esquecer da sua palavra-passe, não é possível recuperá-la a partir do valor do hash. É necessário repor a palavra-passe.
+
+	Depois de transferir um ficheiro, pode verificar a integridade do mesmo verificando os valores do hash a partir da origem com o que gerou através de uma 
+	calculadora de hash. Ao comparar os valores do hash, pode assegurar que o ficheiro não foi adulterado ou danificado durante a transferência.
+
+Disponibilidade
+
+	Ao realizar a manutenção do equipamento, reparações de hardware, a atualização dos sistemas operativos e do software e criar cópias de segurança garante a 
+	disponibilidade da rede e dos dados para os utilizadores autorizados. Devem ser previamente estabelecidos planos para uma rápida recuperação de desastres 
+	naturais ou provocados pelo homem. O equipamento ou software de segurança como, por exemplo, as firewalls, evita a ocorrência de tempos de indisponibilidade 
+	devido a ataques, tais como: 
+
+	Negação de Serviço (DoS) - A negação de serviço ocorre quando um ataque tenta **sobrecarregar** recursos de modo a que os serviços fiquem indisponíveis para 
+	os utilizadores.
+

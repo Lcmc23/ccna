@@ -1,0 +1,17 @@
+Ferramentas de prevenção e deteção de incidentes
+Seguem-se algumas das ferramentas utilizadas para detetar e prevenir incidentes de segurança:
+
+SIEM – Um sistema de ** gestão de informações e eventos de segurança ** (SIEM) consiste em software que recolhe e analisa alertas de segurança, registos e outros dados em tempo real e históricos a partir de dispositivos de segurança na rede.
+
+DLP – O software de ** prevenção ** contra perda de dados (DLP) é um sistema de software ou de hardware concebido para impedir o roubo ou a fuga de dados sensíveis de uma rede. Um sistema DLP pode concentrar-se na autorização de acesso a ficheiros, troca de dados, cópia de dados, monitorização da atividade dos utilizadores e muito mais. Os sistemas DLP destinam-se a monitorizar e proteger dados em três estados diferentes: dados em uso, dados em movimento e dados em repouso. Os dados em uso focam-se no cliente, os dados em movimento são referentes a dados que se deslocam através da rede e os dados em repouso são referentes ao armazenamento de dados.
+
+Cisco ISE e TrustSec – O Cisco Identity Services Engine (Cisco ISE) e o Cisco TrustSec reforçam o acesso a recursos de rede, criando ** políticas de controlo de acesso ** baseadas em funções que segmentam o acesso à rede (convidados, utilizadores móveis, funcionários) sem complexidade acrescida. A classificação de tráfego baseia-se na identidade do utilizador ou do dispositivo. Clique em Play (Reproduzir) na figura para saber mais acerca do ISE.
+
+--------------------------------------------------------------------------------------------------------------------------
+
+Um sistema de deteção de intrusões (IDS) - consiste num dispositivo de rede dedicado ou numa das várias ferramentas num servidor ou numa firewall que analisa dados em comparação com uma base de dados de regras ou assinaturas de ataque, procurando tráfego maligno. Se for detetada uma correspondência, o IDS irá registar a deteção e criar um alerta para um administrador de rede.
+
+Um sistema de prevenção de intrusões (IPS) - tem a capacidade de bloquear ou negar tráfego com base numa regra positiva ou numa correspondência de assinatura. Um dos sistemas IPS/IDS mais conhecidos é o Snort. A versão comercial do Snort é o Sourcefire da Cisco. O Sourcefire tem a capacidade para realizar o registo, a pesquisa e a correspondência de conteúdo e a análise de tráfego e portas em tempo real. Além disso, pode detetar sondas, ataques e análises de portas. Integra-se igualmente noutras ferramentas de terceiros para análise de registos, desempenho e relatórios.
+
+
+

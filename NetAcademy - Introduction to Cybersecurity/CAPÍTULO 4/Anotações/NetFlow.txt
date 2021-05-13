@@ -1,0 +1,5 @@
+NetFlow
+
+A tecnologia Cisco NetFlow é utilizada para recolher informação sobre os dados que fluem através de uma rede.
+
+- É um componente importante na deteção e análise baseada no comportamento. Os switches, routers e firewalls Cisco equipados com NetFlow podem comunicar informações sobre introdução, saída e percurso de dados na rede. São enviadas informações a Coletores NetFlow que recolhem, armazenam e analisam registos NetFlow.

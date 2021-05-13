@@ -1,0 +1,22 @@
+O perfil de um Ciberatacante
+
+	**Piratas informáticos bem intencionados**:
+
+		Invadem redes ou sistemas informáticos para descobrir fraquezas, a fim de melhorar a segurança destes sistemas. Estas invasões são realizadas 
+		com autorização prévia e todos os resultados são comunicados ao proprietário
+
+	**Piratas informáticos com intenção neutra**:
+ 
+		Encontram-se entre os bem intencionados e os mal intencionados. Os atacantes de intenção neutra podem encontrar uma vulnerabilidade no sistema e 
+		comunicar essa vulnerabilidade aos proprietários do sistema, caso essa ação coincida com a sua agenda. Alguns piratas informáticos de intenção neutra 
+		publicam os factos relativos à -vulnerabilidade na Internet para que outros atacantes possam explorá-la.
+
+	**Piratas informáticos mal intencionados**:
+
+		Tiram partido de qualquer vulnerabilidade para proveito pessoal, financeiro ou político ilegal.
+
+
+CURIOSIDADE: "Amadores" - Por vezes, estas pessoas designam-se por “miúdos dos scripts”. Normalmente, são atacantes com pouco ou nenhum conhecimento que, muitas vezes,
+utilizam ferramentas ou instruções encontradas na Internet para iniciar ataques. Alguns deles são apenas curiosos, enquanto outros tentam demonstrar os seus 
+conhecimentos e provocar danos. Podem utilizar ferramentas básicas, mas os resultados podem, contudo, ser devastadores.
+	

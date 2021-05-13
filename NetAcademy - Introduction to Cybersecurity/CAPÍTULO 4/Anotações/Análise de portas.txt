@@ -1,0 +1,10 @@
+Análise de portas - Nmap
+
+A análise de portas é um processo através do qual um computador, um servidor ou outro host de rede é sondado relativamente a portas abertas. Em redes, é atribuído um identificador denominado número de porta a cada aplicação em execução num dispositivo. Este número de porta é utilizado de ambos os lados da transmissão, para que sejam transmitidos os dados corretos à aplicação correta.
+
+Aberta ou Aceite – O host respondeu indicando que um serviço está a escutar na porta.
+
+Fechada, Negada ou Sem escuta – O anfitrião respondeu indicando que as ligações serão negadas à porta.
+
+Filtrada, Abandonada ou Bloqueada – Não houve resposta do host.
+

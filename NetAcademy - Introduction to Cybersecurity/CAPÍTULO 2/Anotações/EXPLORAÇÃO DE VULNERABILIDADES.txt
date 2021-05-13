@@ -1,0 +1,19 @@
+EXPLORAÇÃO DE VULNERABILIDADES 
+
+	Passo 1. Recolha de informações sobre o sistema alvo. Este procedimento pode ser realizado de várias formas, tais 	como um analisador de portas ou engenharia social. O objetivo é obter o máximo de informações possível sobre o 	computador alvo.
+
+	Passo 2. Uma das informações relevantes obtidas no passo 1 pode ser o sistema operativo, a respetiva versão e uma 	lista de serviços em execução.
+
+	Passo 3. Quando o sistema operativo e a versão do alvo já são conhecidos, o atacante procura quaisquer 	vulnerabilidades conhecidas dessas versão do SO ou de outros serviços do SO.
+
+	Passo 4. Quando for encontrada uma vulnerabilidade, o atacante procura um exploit previamente escrito para 	utilizar. Se não tiverem sido escritos quaisquer exploits, o atacante pode considerar a escrita de um.
+
+Whois - base de dados pública da Internet que contém informações sobre nomes de domínio e respetivos inscritos.
+
+Nmap, um analisador de portas popular. Com um analisador de portas, um atacante pode sondar portas de um computador alvo para obter informações sobre os serviços que estão em execução nesse computador.
+
+Uma forma de conseguir a infiltração é através de ameaças persistentes avançadas (APAs). Estas consistem numa operação multifaseada, a longo prazo, furtiva e avançada contra um alvo específico. Dada a sua complexidade e o nível de conhecimentos necessário, geralmente, uma APA é bem financiada. Uma APA é direcionada a organizações ou países por motivos comerciais ou políticos.
+
+
+
+	

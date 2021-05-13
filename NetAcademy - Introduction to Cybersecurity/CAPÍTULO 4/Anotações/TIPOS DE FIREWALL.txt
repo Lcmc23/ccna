@@ -1,0 +1,25 @@
+TIPOS DE FIREWALL - Em redes informáticas, um firewall é concebido para controlar ou filtrar, as comunicações que podem entrar e sair de um dispositivo ou de uma rede.
+
+
+- Um firewall pode ser instalada num único computador com a finalidade de o proteger **(firewall baseada em host)** 
+
+- Constituída por um dispositivo de rede autônomo que protege toda uma rede de computadores e todos os dispositivos hosts   nessa rede **(firewall baseada em rede)**
+
+--------------------------------------------------------------------------------------------------------------------------
+
+- Firewall de camada de rede = filtragem baseada em *endereços IP* de origem e destino
+
+- Firewall de camada de transporte = filtragem baseada em *portas* de dados de origem e destino e filtragem baseada em estados de ligação
+
+- Firewall de camada de aplicação = filtragem baseada em *aplicação, programa ou serviço*
+
+- Firewall de aplicação sensível ao contexto = filtragem baseada no utilizador, dispositivo, função, tipo de aplicação e perfil de ameaça
+
+- Servidor proxy = filtragem de pedidos de conteúdo da Web como URL, domínio, multimédia, etc
+
+- Servidor proxy inverso = colocados a seguir a servidores Web, os servidores proxy inversos protegem, ocultam, reduzem a 
+carga e distribuem o acesso a servidores Web
+
+- Firewall de tradução de endereços de rede (NAT) = *oculta ou mascara os endereços privados de hosts* (anfitriões) de rede
+
+- Firewall baseada em host = filtragem de portas e chamadas de serviço do sistema no sistema operativo de um único computador

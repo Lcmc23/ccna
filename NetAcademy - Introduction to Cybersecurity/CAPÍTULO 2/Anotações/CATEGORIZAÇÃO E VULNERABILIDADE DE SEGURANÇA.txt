@@ -1,0 +1,18 @@
+CATEGORIZAÇÃO E VULNERABILIDADE DE SEGURANÇA
+
+	**Capacidade da memória intermédia excedida** – Esta vulnerabilidade ocorre quando são escritos dados além dos limites de uma memória intermédia.
+
+	**Entrada não validada** – Os programas trabalham frequentemente com entrada de dados. Estes dados que entram no programa podem incluir conteúdo maligno, 
+	concebido para forçar o programa a comportar-se de forma indesejada.
+
+	**Condições de corrida** – Esta vulnerabilidade ocorre quando a saída de um evento depende de saídas ordenadas ou temporizadas. Uma condição de corrida 
+	torna-se uma fonte de vulnerabilidade quando os eventos ordenados ou temporizados não ocorrem pela ordem ou dentro da temporização correta.
+
+	**Fraquezas em práticas de segurança** – Os sistemas e dados sensíveis podem ser protegidos por técnicas como a autenticação, autorização e criptografia. 
+	Os programadores não devem tentar criar os seus próprios algoritmos de segurança, pois é provável que estes introduzam vulnerabilidades. Aconselha-se 
+	vivamente que os programadores utilizem bibliotecas de segurança que já tenham sido criadas, testadas e verificadas.
+
+	**Problemas de controlo de acesso** – O controlo de acesso é o processo que controla a ação de cada elemento e vai desde a gestão do acesso físico a 
+	equipamento à indicação de quem tem acesso a um recurso como, por exemplo, um ficheiro, e o que é possível fazer com o mesmo, como ler ou alterar o ficheiro.
+
+	

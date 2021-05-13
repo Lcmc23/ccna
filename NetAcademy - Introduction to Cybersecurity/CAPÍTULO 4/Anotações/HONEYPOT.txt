@@ -1,0 +1,3 @@
+HONEYPOT
+
+Um honeypot é uma ferramenta definida por um administrador para atrair um atacante de modo a que o comportamento do ataque possa ser analisado. Esta informação pode ajudar o administrador a identificar fraquezas e construir uma defesa mais forte

@@ -1,0 +1,5 @@
+OAuth 2.0
+
+A autorização aberta (OAuth) é um protocolo de norma aberta que permite aos utilizadores finais acederem a aplicações de terceiros sem exporem as respetivas palavras-passe. O OAuth atua como intermediário para decidir se permite o acesso dos utilizadores finais a aplicações de terceiros. Por exemplo, digamos que queria aceder à aplicação Web XYZ e que não tem uma conta de utilizador desta aplicação. A XYZ oferece, contudo, a possibilidade de iniciar sessão utilizando as credenciais da rede social ABC. Por isso, acede ao Web site com as informações de início de sessão da rede social.
+
+Para que isto funcione, a aplicação “XYZ” está registada junto da “ABC” e é uma aplicação aprovada. Quando acede à XYZ utiliza as suas credenciais para entrar em ABC. De seguida, a XYZ solicita um token de acesso à ABC em seu nome. Agora tem acesso à XYZ. A XYZ não sabe nada sobre si nem sobre as suas credenciais de utilizador e esta interação é totalmente integrada para o utilizador. A utilização de tokens secretos impede uma aplicação maligna de obter as suas informações e os seus dados.

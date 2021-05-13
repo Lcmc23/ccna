@@ -1,0 +1,23 @@
+Sintomas de software maligno
+
+	- Ocorre um aumento da utilização da CPU.
+
+	- Ocorre uma redução da velocidade do computador.
+
+	- O computador congela ou fica bloqueado frequentemente.
+
+	- Ocorre uma redução da velocidade de navegação na Internet.
+
+	- Existem problemas inexplicáveis com ligações de rede.
+
+	- Ocorre a modificação de ficheiros.
+
+	- Ocorre a eliminação de ficheiros.
+
+	- Estão presentes ficheiros, programas ou ícones do ambiente de trabalho desconhecidos.
+
+	- Existem programas desconhecidos em execução.
+
+	- Alguns programas desligam-se ou reconfiguram-se automaticamente.
+
+	- São enviados e-mails sem conhecimento ou autorização do utilizador.

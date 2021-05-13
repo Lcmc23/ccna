@@ -1,0 +1,19 @@
+Decifração da palavra-passe de Wi-Fi
+
+	Engenharia social – O atacante manipula uma pessoa que conhece a palavra-passe no sentido de a divulgar.
+
+	Ataques de força bruta
+
+		O atacante experimenta várias palavras-passe possíveis numa tentativa de adivinhar a palavra-passe. 
+		Se a palavra-passe for um número de 4 algarismos, o atacante terá de experimentar cada uma das 10 000 
+		combinações. Geralmente, os ataques de força bruta envolvem um ficheiro de lista de palavras. Trata-se 
+		de um ficheiro de texto que contém uma lista de palavras retiradas de um dicionário. Um programa 
+		experimenta então cada palavra e combinações comuns. Na medida em que os ataques de força bruta são 
+		demorados, as palavras-passe complexas demoram muito mais tempo a adivinhar. Algumas ferramentas de força bruta 
+		para palavras-passe incluem o **Ophcrack, L0phtCrack, THC Hydra, RainbowCrack e Medusa**.
+
+	Interceção de rede 
+
+		Ao escutar e capturar pacotes enviados na rede, um atacante pode conseguir descobrir a palavra-passe se 
+		esta for enviada sem criptografia (em texto simples). Se a palavra-passe estiver cifrada, o atacante 
+		pode, ainda assim, conseguir revelá-la através de uma ferramenta de decifração de palavras-passe.

@@ -1,0 +1,21 @@
+PROTEÇÃO DOS DISPOSITIVOS INFORMÁTICOS 
+
+**Manter o firewall ativado** - quer se trate de um software de firewall ou de um hardware de firewall num router, o firewall deve estar ativo e atualizado de modo a impedir que os piratas informáticos acedam aos seus dados pessoais ou aos dados da empresa.
+
+**Utilizar antivírus e antispyware** –  O software antivírus é concebido para analisar o computador e as mensagens de e-mail recebidas para verificar a existência de vírus e eliminá-los. Por vezes, o software antivírus também inclui antispyware. Mantenha o seu software atualizado para proteger o seu computador contra o mais recente software maligno.
+
+**Gerir o sistema operativo e o browser** – Para proteger o seu computador e os seus dados, configure as definições de segurança do seu computador e browser para os níveis médio ou alto. Atualize o sistema operativo do seu computador, incluindo os navegadores Web, e descarregue e instale, regularmente, as mais recentes correções e atualizações de segurança de software disponibilizadas pelos fornecedores.
+
+**Proteger todos os seus dispositivos** – Quer se trate do PC, portátil, tablet ou smartphone, todos os seus dispositivos computacionais devem estar protegidos por palavra-passe para impedir o acesso não autorizado. As informações armazenadas devem ser cifradas (encriptadas), especialmente os dados sensíveis ou confidenciais. Nos dispositivos móveis, armazene apenas informações necessárias, para o caso de estes dispositivos serem roubados ou perdidos quando está fora de casa.
+
+
+OBS: Por que é que os dispositivos IoT representam um risco maior do que outros dispositivos informáticos numa rede?
+     R: A maioria dos dispositivos IoT não recebe atualizações de firmware frequentes.
+
+     Qual é o melhor método para impedir a exploração do Bluetooth?
+     R: Desativar sempre o Bluetooth quando não estiver em uso ativo.
+
+
+
+
+
