@@ -1,0 +1,21 @@
+Ameaças comuns aos aplicativos
+
+    O domínio de aplicação inclui todos os sistemas, aplicativos e dados essenciais. Além disso, inclui o hardware e qualquer design lógico 
+    necessário. As empresas estão transferindo aplicativos como e-mail, monitoramento de segurança e gerenciamento de banco de dados para a 
+    nuvem pública.
+
+    A seguir temos exemplos de ameaças a aplicativos:
+
+        Acesso não autorizado a data centers, salas de computador e armário de fiação
+        
+        Período de inatividade do servidor para manutenção
+        
+        Vulnerabilidade de software do sistema operacional de rede
+        
+        Acesso não autorizado a sistemas
+        
+        Perda de dados
+        
+        Período de inatividade de sistemas de TI por um tempo prolongado
+        
+        Vulnerabilidades de desenvolvimento de aplicativos cliente/servidor ou Web

@@ -1,0 +1,31 @@
+Ameaças e vulnerabilidades do usuário comum
+
+    As práticas arriscadas ou ruins do usuário normalmente prejudicam, até mesmo, o melhor sistema de segurança. Abaixo, alguns exemplos de 
+    ameaças comuns encontradas em muitas empresas:
+
+        Nenhuma conscientização sobre segurança – os usuários devem ter consciência dos dados confidenciais, políticas e procedimentos de 
+        segurança, das tecnologias e das contramedidas oferecidas para proteger as informações e os sistemas de informação.
+        
+        Políticas de segurança mal aplicadas – todos os usuários devem conhecer as políticas de segurança e as consequências da não 
+        conformidade com as políticas da empresa.
+        
+        Roubo de dados – o roubo de dados por usuários pode custar às empresas financeiramente, resultando em danos à reputação de uma empresa,
+        ou levar a uma responsabilidade jurídica associada à divulgação de informações confidenciais.
+        
+        Downloads não autorizados – muitas infecções e ataques de redes e de estações de trabalho estão relacionados a usuários que fazem 
+        downloads não autorizados de e-mails, fotos, músicas, jogos, aplicativos, programas e vídeos para estações de trabalho, redes ou 
+        dispositivos de armazenamento.
+        
+        Mídia não autorizada – o uso de mídia não autorizada, como CDs, unidades de USB e dispositivos de armazenamento de rede, pode resultar 
+        em infecções e ataques por malware.
+        
+        VPNs não autorizadas – VPNs podem esconder o roubo de informações. A criptografia normalmente usada para proteger a confidencialidade 
+        cega o pessoal de TI para a transmissão de dados sem a autorização adequada.
+        
+        Sites não autorizados – acessar sites não autorizados pode representar um risco para os dados, dispositivos e para a empresa do usuário. 
+        Muitos sites alertam os visitantes quanto a fazer download de scripts ou plugins que contêm código malicioso ou adware. Alguns desses 
+        sites podem infectar dispositivos como câmeras e aplicativos.
+        
+        Destruição de sistemas, aplicativos ou dados – a destruição acidental ou deliberada ou sabotagem de sistemas, aplicativos e dados 
+        representa um grande risco para todas as empresas. Ativistas, funcionários descontentes e concorrentes do setor podem excluir dados, 
+        destruir dispositivos ou tornar dados e sistemas de informação indisponíveis.

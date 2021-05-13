@@ -1,0 +1,12 @@
+Teste de penetração
+
+    O teste de penetração (pen testing) é um método de testar áreas de fraquezas em sistemas usando várias técnicas maliciosas. O teste de 
+    penetração não é o mesmo que teste de vulnerabilidade. O teste de vulnerabilidade apenas identifica os possíveis problemas. O pen testing 
+    envolve um especialista em segurança cibernética que entra em um site, rede ou servidor com permissão da empresa para tentar obter acesso 
+    a recursos com o conhecimento de nomes de usuários, senhas ou outros meios normais.
+
+    OBS: A diferenciação importante entre criminosos virtuais e especialistas em segurança cibernética é que os especialistas em segurança 
+    cibernética têm a permissão da organização para realizar os testes.
+
+    CURIOSIDADE: Um dos motivos principais por que uma empresa usa o pen testing é encontrar e corrigir todas as vulnerabilidades, antes dos 
+    criminosos virtuais. Testes de penetração são também conhecidos como ataque ético de hacker.

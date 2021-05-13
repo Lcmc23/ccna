@@ -1,0 +1,16 @@
+Ameaças comuns à nuvem privada
+
+    O domínio de nuvem privada inclui os servidores privados, os recursos e a infraestrutura disponíveis para os membros de uma empresa via 
+    Internet.
+
+    A seguir temos exemplos de ameaças à nuvem privada:
+
+        Detecção de rede não autorizada e varredura de porta
+        
+        Acesso não autorizado a recursos
+        
+        Vulnerabilidade de software de sistema operacional de dispositivo de rede, de firewall ou de roteador
+        
+        Erro de configuração do roteador, firewall ou dispositivo de rede
+        
+        Usuários remotos que acessam a infraestrutura da empresa e fazem download de dados confidenciais

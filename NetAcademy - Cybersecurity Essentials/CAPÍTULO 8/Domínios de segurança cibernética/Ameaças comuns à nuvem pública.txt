@@ -1,0 +1,33 @@
+Ameaças comuns à nuvem pública
+
+    O domínio da nuvem pública inclui serviços hospedados por um provedor de nuvem, provedor de serviço ou provedor de Internet. Provedores de 
+    nuvem implementam controles de segurança para proteger o ambiente de nuvem, mas as empresas são responsáveis por proteger seus recursos na 
+    nuvem. Há três modelos de serviço diferentes dentre os quais uma empresa pode escolher:
+
+        SaaS (Software as a Service, Software como serviço) – um modelo de assinatura que proporciona acesso ao software que é centralmente 
+        hospedado e acessado por usuários por um navegador da Web.
+        
+        PaaS (Platform as a service, Plataforma como serviço) – proporciona uma plataforma que permite a uma empresa desenvolver, executar e 
+        gerenciar seus aplicativos em hardware de serviço usando ferramentas que o serviço fornece.
+        
+        IaaS (Infrastructure as a service Infraestrutura como serviço) – fornece recursos de computação virtualizados, como hardware, software, 
+        servidores, armazenamento e outros componentes de infraestrutura pela Internet.
+
+    A seguir temos exemplos de ameaças à nuvem pública:
+
+        Violação de dados
+        
+        Perda ou roubo de propriedade intelectual
+        
+        Credenciais comprometidas
+        
+        Os repositórios de identidade federada são um alvo de alto valor
+        
+        Sequestro de conta
+        
+        Falta de compreensão da parte da empresa
+        
+        Ataques de engenharia social que enganam a vítima
+        
+        Violação de conformidade
+    

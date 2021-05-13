@@ -1,0 +1,17 @@
+CERT
+
+    O Software Engineering Institute (SEI) da Universidade Carnegie Mellon ajuda governos e empresas do setor a desenvolver, operar e manter 
+    sistemas de software que são inovadores, acessíveis e confiáveis. É um centro de pesquisa e desenvolvimento financiado pelo governo 
+    federal com dinheiro do Departamento de Defesa dos EUA.
+
+    Divisão CERT de estudos SEI
+
+        Ajuda a resolver vulnerabilidades de software
+        
+        Desenvolve ferramentas, produtos e métodos para realizar exames de computação forense
+        
+        Desenvolve ferramentas, produtos e métodos para analisar vulnerabilidades
+        
+        Desenvolve ferramentas, produtos e métodos para monitorar redes grandes
+        
+        Ajuda as empresas a determinar se suas práticas relacionadas à segurança são eficazes

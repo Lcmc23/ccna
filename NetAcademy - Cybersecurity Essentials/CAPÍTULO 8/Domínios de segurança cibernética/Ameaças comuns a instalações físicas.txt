@@ -1,0 +1,24 @@
+Ameaças comuns a instalações físicas
+
+    O domínio de instalações físicas inclui todos os serviços usados por uma empresa, incluindo HVAC, água e detecção de incêndio. Esse domínio 
+    inclui também medidas de segurança física, usadas para proteger as instalações.
+
+    A seguir temos exemplos de ameaças às instalações de uma empresa:
+
+        Ameaças naturais, incluindo problemas climáticos e riscos geológicos
+        
+        Acesso não autorizado às instalações
+        
+        Interrupções de energia
+        
+        Engenharia social para aprender sobre procedimentos e políticas de segurança do escritório
+        
+        Violação de defesas do perímetro eletrônico
+        
+        Roubo
+        
+        Um lobby aberto que permite que um visitante entre direto nas instalações
+        
+        Um data center destrancado
+        
+        Ausência de vigilância

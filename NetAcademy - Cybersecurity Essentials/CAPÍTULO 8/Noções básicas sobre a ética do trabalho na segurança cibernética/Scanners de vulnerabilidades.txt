@@ -1,0 +1,21 @@
+Scanners de vulnerabilidades
+
+    Um scanner de vulnerabilidades avalia computadores, sistemas de computador, redes ou aplicações, em busca de pontos fracos. Os scanners de 
+    vulnerabilidades ajudam a automatizar a auditoria de segurança ao buscar riscos de segurança na rede e produzir uma lista priorizada para 
+    abordar as vulnerabilidades. Um scanner de vulnerabilidades procura os seguintes tipos de vulnerabilidades:
+
+        - Uso de senhas padrão ou senhas comuns
+        
+        - Patches não instalados
+        
+        - Portas abertas
+        
+        - Erro de configuração de software e de sistemas operacionais
+        
+        - Endereços IP ativos
+
+    Ao avaliar um scanner de vulnerabilidades, analise como ele é classificado com relação a precisão, confiabilidade, escalabilidade e geração 
+    de relatórios. Existem dois tipos de scanners de vulnerabilidades para escolher — baseados em software ou baseado em nuvem.
+
+IMPORTANTE!!! A varredura de vulnerabilidade é fundamental para empresas com redes que incluem um grande número de segmentos de rede, 
+roteadores, firewalls, servidores e outros dispositivos comerciais

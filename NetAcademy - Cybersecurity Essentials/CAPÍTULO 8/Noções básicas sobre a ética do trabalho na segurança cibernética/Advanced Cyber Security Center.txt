@@ -1,0 +1,15 @@
+Advanced Cyber Security Center
+
+    O Advanced Cyber Security Center (ACSC) é uma empresa sem fins lucrativos que reúne indústria, academia e governo para abordar ameaças 
+    cibernéticas avançadas. A empresa compartilha informações sobre ameaças digitais, faz pesquisa e desenvolvimento sobre segurança 
+    cibernética e cria programas de educação para promover a profissão de segurança cibernética.
+
+    O ACSC definiu quatro desafios que ajudarão a moldar as suas prioridades:
+
+        Construir sistemas resilientes para se recuperar de ataques e falhas.
+
+        Melhorar a segurança móvel.
+
+        Desenvolver o compartilhamento de ameaças em tempo real.
+
+        Integrar os riscos cibernéticos com as estruturas de risco da empresa.

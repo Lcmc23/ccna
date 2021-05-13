@@ -1,0 +1,9 @@
+Ferramentas de segurança
+
+    Não há um padrão universal quando se trata das melhores ferramentas de segurança. Muito vai depender da situação, circunstância e 
+    preferência pessoal. Um especialista em segurança cibernética deve saber onde obter informações fundamentadas.
+
+    Kali
+
+        Kali é uma distribuição de segurança Linux de código aberto. Profissionais de TI usam o Kali Linux para testar a segurança de suas 
+        redes. O Kali Linux incorpora mais de 300 testes de penetração e programas de auditoria de segurança em uma plataforma Linux.

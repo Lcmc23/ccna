@@ -1,0 +1,14 @@
+Banco de dados nacional de vulnerabilidades
+
+    O banco de dados nacional de vulnerabilidades (NVD) é um repositório padronizado de dados do governo dos EUA para controle de 
+    vulnerabilidades que usa o protocolo de automação de conteúdo de segurança (SCAP).
+
+    SCAP = usa padrões abertos para enumerar falhas de software de segurança e problemas de configuração. As especificações organizam e medem 
+    as informações relacionadas à segurança de forma padronizada. A comunidade SCAP é uma parceria entre o setor público e privado para 
+    avançar a padronização das operações de segurança técnica.
+
+    NVD = usa o sistema de pontuação de vulnerabilidade comum para avaliar o impacto das vulnerabilidades. Uma empresa pode usar a pontuação 
+    para classificar a gravidade das vulnerabilidades que encontra dentro de sua rede. Isso, por sua vez, pode ajudar a determinar a 
+    estratégia de mitigação.
+
+    

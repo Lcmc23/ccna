@@ -1,0 +1,21 @@
+Ética de um especialista em segurança cibernética
+
+    A ética é um sussuro que orienta um especialista em segurança cibernética sobre o que ele deve ou não fazer, independentemente de ser 
+    lícito. A empresa confia ao especialista em segurança os dados e recursos mais confidenciais. O especialista em segurança cibernética 
+    precisa compreender como a lei e os interesses da empresa ajudam a orientar as decisões éticas.
+
+    Ética utilitarista
+
+        Durante o século XIX, Jeremy Benthan e John Stuart Mill criaram a ética utilitarista. O princípio orientador é que todas as ações que 
+        proporcionam a maior quantidade de bem sobre o mal são escolhas éticas.
+
+    A abordagem dos direitos
+
+        O princípio orientador para a abordagem de direitos é que os indivíduos têm o direito de fazer suas próprias escolhas. Essa perspectiva 
+        analisa como uma ação afeta os direitos dos outros para julgar se uma ação é certa ou errada. Esses direitos incluem o direito à verdade, 
+        privacidade, segurança, e que a sociedade aplica leis de forma justa a todos os seus membros.
+
+    A abordagem do bem comum
+
+        A abordagem do bem comum propõe que o bem comum é tudo o que beneficia a comunidade. Nesse caso, um especialista em segurança 
+        cibernética analisa como uma ação afeta o bem comum da sociedade ou da comunidade.

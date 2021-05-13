@@ -1,0 +1,18 @@
+Ameaças comuns aos dispositivos
+
+    A seguir temos exemplos de ameaças aos dispositivos:
+
+        Estações de trabalho sem supervisão – estações de trabalho deixadas ligadas e sem supervisão representam um risco de acesso não 
+        autorizado aos recursos da rede
+        
+        Downloads do usuário – arquivos, fotos, músicas ou vídeos baixados podem ser um veículo de código malicioso
+        
+        Software sem instalação de patches – vulnerabilidades de segurança do software fornecem fraquezas que os cyber criminosos podem 
+        explorar
+        
+        Malware – novos vírus, worms e outros códigos maliciosos aparecem diariamente
+        
+        Mídia não autorizada – os usuários que inserem unidades de USB, CDs ou DVDs podem introduzir malware ou correr o risco de comprometer 
+        os dados armazenados na estação de trabalho
+        
+        Violação da política de uso aceitável – as políticas existem para proteger a infraestrutura de TI da empresa

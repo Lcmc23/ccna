@@ -1,0 +1,22 @@
+Ameaças comuns à LAN
+
+    A seguir temos exemplos de ameaças à LAN:
+
+        Acesso LAN não autorizado – armários de fiação, data centers e salas de computadores devem permanecer seguros
+        
+        Acesso não autorizado a sistemas, aplicações e dados
+        
+        Vulnerabilidades de software do sistema operacional de rede
+        
+        Atualizações do sistema operacional de rede
+        
+        Acesso não autorizado por usuários falsos em redes sem fio
+        
+        Explorações de dados em trânsito
+        
+        Servidores de LAN com hardware ou sistemas operacionais diferentes – O gerenciamento e a solução de problemas de servidores fica mais 
+        difícil com configurações variadas
+        
+        Detecção de rede não autorizada e varredura de porta
+        
+        Firewall configurado incorretamente
