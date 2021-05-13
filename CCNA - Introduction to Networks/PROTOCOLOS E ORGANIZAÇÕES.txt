@@ -1,0 +1,39 @@
+PROTOCOLOS E ORGANIZAÇÕES
+
+    802.3 - ETHERNET
+    802.11 - LAN sem fio (WLAN)
+    802.1 - LAN
+    802.15 - WPAN
+
+    ISOC (Internet Society) - Responsável por promover o desenvolvimento aberto e a evolução da Internet no mundo todo.
+
+        IAB (Internet Architecture Board) - Responsável pelo gerenciamento e desenvolvimento geral de padrões da Internet.
+
+            Internet Engineering Task Force (IETF) - Desenvolve, atualiza e mantém a Internet e as tecnologias TCP/IP. Isso inclui o processo
+            e os documentos para desenvolver novos protocolos e atualizar os protocolos existentes. Esses documentos são conhecidos como
+            Solicitação de Comentários (Request for Comments - RFCs)
+
+            Internet Research Task Force (IRTF) - Focada na pesquisa de longo prazo relacionada aos protocolos da Internet e TCP/IP, como 
+            Anti-Spam Research Group (ASRG), Crypto Forum Research Group (CFRG) e ponto a ponto Research Group (P2PRG).
+
+
+    Internet Corporation for Assigned Names and Numbers (ICANN) - Com sede nos Estados Unidos, coordena a alocação de endereços IP, o 
+    gerenciamento de nomes de domínio e a atribuição de outras informações usadas por protocolos TCP/IP.
+
+        Internet Assigned Numbers Authority (IANA) - Responsável por supervisionar e gerenciar a alocação de endereços IP, o gerenciamento
+        de nomes de domínio e os identificadores de protocolos para ICANN
+
+
+    Institute of Electrical and Electronics Engineers (IEEE, pronuncia-se “I-três-E”) – Organização padronizadora de engenharia elétrica e 
+    eletrônica que se dedica ao progresso da inovação tecnológica e à criação de padrões em vários setores, inclusive força e energia, saúde, 
+    telecomunicações e redes. A Figura 1 mostra vários dos padrões relacionados às redes.
+
+    Electronic Industries Alliance (EIA) - Mais conhecida por seus padrões relacionados à fiação elétrica, conectores e racks de 19 
+    polegadas usados para montar os equipamentos de rede.
+
+    Telecommunications Industry Association (TIA) - Responsável pelo desenvolvimento de padrões de comunicação em várias áreas que incluem
+    equipamentos de rádio, torres de celular, dispositivos de voz sobre IP (VoIP), comunicação por satélite e muito mais. 
+
+    International Telecommunications Union-Telecommunication Standardization Sector (ITU-T) - Uma das maiores e mais antigas empresas de 
+    padrões de comunicação. A ITU-T define padrões para a compactação de vídeo, televisão por IP (IPTV) e comunicações de banda larga, como
+    DSL.

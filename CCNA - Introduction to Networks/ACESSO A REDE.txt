@@ -1,0 +1,146 @@
+ACESSO A REDE
+
+    As placas de interface de rede (NICs) conectam um dispositivo à rede. As NICs Ethernet são usadas para uma conexão com fio. 
+    EXEMPLO: Uma impressora de rede, por exemplo, pode só ter uma NIC Ethernet e, portanto, deve ser conectada à rede com um cabo Ethernet. 
+    Outros dispositivos, como tablets e smartphones, só contém uma NIC WLAN e devem usar uma conexão sem fio.
+
+    CAMADA FÍSICA - codifica os quadros e cria os sinais de onda elétrica, óptica ou de rádio que representam os bits em cada quadro.
+
+        Cabo de cobre: os sinais são padrões de pulsos elétricos.
+        
+        Cabo de fibra óptica: os sinais são padrões de luz.
+    
+        Sem fio: os sinais são padrões de transmissões de micro-ondas.
+
+    NÚMEROS BINÁRIOS - 1 e 0
+
+    LARGURA DE BANDA - b/s
+
+        É a capacidade de um meio de transportar dados. A largura de banda digital mede a quantidade de dados que podem fluir de um lugar para 
+        outro durante um determinado tempo 
+
+            kb/s - 10^3
+            Mb/s - 10^6
+            Gb/s - 10^9
+            Tb/s - 10^12
+
+    TAXA DE TRANSFERÊNCIA (Throughput)
+
+        Velocidade real que será medida, dependendo do:
+
+            - Quantidade de tráfego (quantos hosts na rede?);
+            - O tipo de tráfego (fastEthernet, GigabitEthernet);
+            - Latência (refere-se ao tempo, incluindo atrasos, para os dados viagarem de um ponto ao outro) criada pelo número de dispositivos
+              de rede encontrados entre a origem e o destino
+
+    OBS: Ethernet - 10 Mbps
+         FastEthernet - 100 Mbps 
+         GigabitEthernet - 1000 Mbps
+         10GigabitEthernet - 10.000 Mbps
+
+    Interferência eletromagnética (EMI) ou interferência de radiofrequência (RFI) - Os sinais de EMI e RFI podem distorcer e corromper os 
+    sinais de dados transportados pelas mídias de cobre
+    EXEMPLO: Possíveis fontes de EMI e RFI são dispositivos de ondas de rádio e eletromagnéticos, como luzes fluorescentes ou motores elétricos.
+
+    Crosstalk (Diafonia) - Crosstalk é um distúrbio causado pelos campos elétricos ou magnéticos de um sinal em um cabo para o sinal em um
+    cabo adjacente.
+
+
+    Mídia de Cobre
+
+        U (UNSHIELD) - Não possui blindagem
+        F (FOILED) - Blindagem de folha metálica (aumínio
+        S (SCREENED) - Blindagem de rede (forma de malha)
+
+    Padrões de Cabeamento UTP
+
+        Cat3:
+        - Usado para comunicação por voz
+        - Usado com mais frequência para linhas telefônicas
+
+        Cat5 e 5e;
+        - Usado para transmissão de dados
+        - Compatível com 100 Mb/s e 1000 mb/s (não recomendável)
+        - Cat 5e permite 1000 Mb/s
+
+        Cat6;
+        - Usado para transmissão de dados
+        - Um separador é adicionado entre cada par de fios, o que permite seu funcionamento em velocidades mais elevadas
+        - Compatível com 1000 Mb/s a 10 Gb/s (não recomendável)
+
+        Conectores - RJ-45
+
+    Tipos de Cabo UTP
+
+        Ethernet Direto (T568A ou T568B): o tipo mais comum de cabo de rede. Geralmente é usado para interconectar um host a um switch e um switch a um roteador.
+
+        Ethernet Crossover/Cruzado (Uma extremidade é T568A, outra é T568B): um cabo usado para interconectar dispositivos semelhantes. 
+        Por exemplo, para conectar um switch a um switch, um host a um host, ou um roteador a um roteador.
+
+        Rollover: um cabo proprietário da Cisco usado para conectar uma estação de trabalho a uma porta de console do roteador ou do switch.
+
+        A (LARANJA INVERTE)- BV, V, BL, A, BA, L, BM, M
+        B (VERDE INVERTE) - BL, L, BV, A, BA, V, BM, M
+
+    Propriedades do Cabeamento de Fibra Óptica
+
+        Redes corporativas: usado para aplicações de cabeamento de backbone e interconexão de dispositivos de infraestrutura.
+        
+        Fiber-to-the-Home (FTTH): usado para fornecer serviços de banda larga sempre ativos para casas e pequenas empresas.
+
+        Redes de longa distância: usado por provedores de serviço para conectar países e cidades.
+        
+        Redes a cabo submarinas: usado para fornecer soluções confiáveis de alta velocidade e alta capacidade, capazes de sobreviver em
+        ambientes submarinos hostis e em distâncias transoceânicas.
+
+    Tipos de Fibra
+
+        Fibra monomodo (SMF): consiste em um núcleo muito pequeno e usa a cara tecnologia de laser para enviar um único raio de luz
+
+        Fibra multimodo (MMF): consiste em um núcleo grande e usa emissores de LED para enviar pulsos de luz. Especificamente, a luz de um LED 
+        entra na fibra multimodo em ângulos diferentes,
+
+        Conectores - ST, SC, LC Simplex, LC Duplex
+
+    Propriedades do Meio Físico Sem Fio
+
+        - Área de cobertura, segurança, meio compartilhado (half-duplex - Ambos os dispositivos podem transmitir e receber no meio, mas não 
+        podem fazer isso simultaneamente)
+
+        Comunicação full-duplex - ambos os dispositivos podem transmitir e receber no meio ao mesmo tempo.
+
+
+    Tipos de Meio Físico sem fio
+
+        Wi-fi (802.11)
+        Bluetooth / WPAN (802.15)
+
+    LAN sem fio
+
+        Access Point (Ponto de Acesso) Sem Fio (AP): concentra os sinais sem fio dos usuários e se conecta, geralmente por meio de um cabo 
+        de cobre, a uma infraestrutura de rede de cobre existente, como a Ethernet
+
+        Placas de Rede Sem Fio: fornecem o recurso da comunicação sem fio para cada host da rede
+
+    CURIOSIDADE
+
+        A camada de enlace de dados prepara um pacote para transporte pelo meio físico local encapsulando-o com um cabeçalho e um trailer 
+        para criar um quadro
+
+        cabeçalho --> pacote (dados) --> Trailer
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+

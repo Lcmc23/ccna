@@ -1,0 +1,93 @@
+EXPLORANDO A REDE
+
+    QoS (Quality of Service, em inglês) - é uma tecnologia presente em roteadores para garantir ao usuário maior controle sobre sua rede Wi-Fi. 
+    Por meio da ferramenta, é possível determinar quais dispositivos e serviços terão maior prioridade de conexão.
+    EXEMPLO - videoconferências
+
+    BYOD (Bring your own device) - descreve uma política adotada por empresas e espaços educacionais que dá aos funcionários, alunos e 
+    professores a oportunidade de utilizar os seus próprios aparelhos para acessar dados e informações da companhia em seu local de trabalho
+    e/ou estudo.
+
+    DATA CENTER - instalação usada para armazenar informações provenientes de usuários ou empresas
+
+    REDE POWERLINE - conexão de dispositivos à Internet usando a fiação elétrica atual
+    EXEMPLO - Um dispositivo se conecta a uma LAN doméstica existente usando um adaptador e uma tomada elétrica existente.
+
+    REDE CONVÊRGIDA - uma rede com a capacidade de entregar tráfego com requisitos diferentes, porém usando a mesma infraestrutura de rede.
+
+    DSL - tecnologia que fornece ao usuário uma conexão de largura de banda larga elevada com a Internet em uma linha telefônica.
+
+    PEER TO PEER - tipo de rede na qual os computadores podem executar a função de um servidor e um cliente ao mesmo tempo
+
+    INTRANET - uma interconexão privada de LANs e WANs dentro de uma empresa que só pode ser acessada pelos membros da empresa ou por pessoas 
+    autorizadas
+
+    EXTRANET - uma rede que fornece acesso seguro aos dados de uma empresa para pessoas autorizadas que trabalham fora dela
+
+
+CRITÉRIOS USADOS PARA AJUDAR A SELECIONAR UMA MÍDIA DE REDE ENTRA VÁRIAS OUTRAS
+
+    * A distância pela qual a mídia selecionada consegue carregar um sinal com êxito
+    * O ambiente em que a mídia selecionada deve ser instalada
+
+
+FUNÇÕES DOS DISPOSITIVOS FINAIS NA REDE
+
+    * Eles são a interface entre as pessoas e a rede de comunicação.
+    * Eles originam os dados que fluem na rede.
+
+
+SEGURANÇA
+
+    * Confidencialidade - A confidencialidade dos dados significa que somente os receptores desejados e autorizados podem acessar e ler 
+    os dados.
+
+    * Integridade - Integridade dos dados significa ter a certeza de que a informação não é alterada durante a transmissão da origem 
+    ao destino.
+
+    * Disponibilidade - Disponibilidade de dados significa assegurar o acesso confiável e no tempo certo a serviços de dados para usuários
+    autorizados.
+
+
+AMEAÇAS E SEGURANÇA
+
+    * Vírus, worms e cavalos de Troia - Software mal-intencionado e código arbitrário executados em um dispositivo do usuário
+
+    * Spyware e adware - Software instalado em um dispositivo do usuário que coleta, de forma secreta, informações sobre o usuário
+
+    * Ataques de dia zero, também conhecidos como ataques de zero hora - um ataque que ocorre no primeiro dia em que uma vulnerabilidade 
+    se torna conhecida
+
+    * Ataques de hackers - Um ataque por uma pessoa com conhecimentos a dispositivos ou recursos de rede do usuário
+
+    * Ataques de negação de serviço - Ataques projetados para deixar aplicações e processos lentos ou travá-los em um dispositivo de rede
+
+    * Interceptação e roubo de dados - Um ataque para capturar informações privadas da rede de uma empresa
+
+    * Roubo de identidade - Um ataque para roubar credenciais de login de usuário para acessar dados confidenciais
+
+
+SOLUÇÕES DE SEGURANÇA
+
+    DOMÉSTICO:
+
+        * Antivírus e antispyware – São usados para proteger os dispositivos finais contra softwares mal-intencionados.
+
+        * Filtragem por firewall – Para bloquear o acesso não autorizado à rede. Isso pode incluir um sistema de firewall baseado em host 
+        que é implementado para impedir o acesso não autorizado ao dispositivo final, ou um serviço de filtragem básico no roteador doméstico 
+        para impedir o acesso não autorizado do mundo externo à rede.
+
+    CORPORATIVO:
+
+        * Listas de controle de acesso (ACL) – Usadas para filtrar ainda mais o acesso e o encaminhamento de tráfego.
+        
+        * Sistemas de prevenção de invasão (IPS) – Usados para identificar ameaças como ataques de dia zero ou de zero hora
+        
+        * Redes privadas virtuais (VPN) – Usadas para fornecer acesso seguro para funcionários remotos.
+
+
+
+
+
+
+

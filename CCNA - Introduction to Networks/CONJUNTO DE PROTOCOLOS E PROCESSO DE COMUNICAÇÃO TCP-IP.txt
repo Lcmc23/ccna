@@ -1,0 +1,112 @@
+﻿CONJUNTO DE PROTOCOLOS E PROCESSO DE COMUNICAÇÃO TCP/IP
+
+    CAMADADA DE APLICAÇÃO:
+        
+        Representa dados para o usuário, além do controle de codificação e diálogo
+
+            WEB:
+
+                HTTP - é um protocolo comum que rege a maneira como um servidor Web e um cliente Web interagem. O HTTP define o conteúdo e 
+                formatação das solicitações e respostas trocadas entre o cliente e o servidor. Tanto o software do cliente quanto o do servidor Web 
+                implementam HTTP como parte da aplicação.
+
+            SISTEMA DE NOMES:
+
+                DNS (Domain Name System - Sistema de Nome de Domínio) ou (Serviço) - Converte nomes de domínio, como cisco.com, em endereço IP
+
+            CONFIGURAÇÃO DE HOSTS:
+
+                DHCP (Dynamic Host Configuration Protocol - Protocolo de configuração dinâmica de hosts)
+                * Atribui dinamicamente endereços IP às estações clientes de inicialização;
+                * Permite que os endereços sejam reutilizados quando não são mais necessários.
+
+            E-MAIL:
+
+                SMTP (Simple Mail Transfer Protocol - Protocolo de Transferência de Correio Simples)
+                * Permite que os clientes enviem e-mail para um servidor de e-mail;
+                * Permite que servidores enviem e-mail para outros servidores.
+
+                POP3 (Post Office Protocol - Protocolo dos Correios)
+                * Permite que os clientes recuperem e-mails de um servidor de e-mail;
+                * Faz dowloads de e-mails do servidor de e-mail para o desktop.
+
+                IMAP (Internet Message Access Protocol - Protocolo de Acesso a Mensagem de Internet)
+                * Permite que os clientes acessem e-mails armazenados em um servidor;
+                * Mantém o e-mail no servidor.
+
+            TRANSFERÊNCIA DE ARQUIVOS:
+
+                FTP (File Transfer Protocol - Protocolo de Transferência de arquivos) - Protocolo de entrega de arquivos confiável (de um host para
+                outro em uma rede), orientado à conexão e com confirmação de recebimento de pacotes.
+
+                TFTP -  Protocolo FTP simples e sem conexão, não confirmando assim o recebimento de pacotes.
+
+
+    TRANSPORTE:
+    
+        Permite a comunicação entre vários dispositivos diferentes em redes distintas
+
+            UDP (User Datagram Protocol - Protocolo de Datagrama de Usuário) - Não confirma a transmissão bem-sucedida do datagrama (encapsulado 
+            num pacote IPv4 ou IPv6 a um destino).
+
+            TCP (Transmission Control Protocol - Protocolo de Controle de Transmissão) e IP (Internet Protocol - Protocolo de Internet)
+            transmissões confiáveis e reconhecidas que confirmam a entrega bem-sucedida
+            OBS: é o protocolo de transporte que gerencia as conversas individuais. O TCP divide as mensagens HTTP em partes menores, chamadas de 
+            segmentos. Esses segmentos são enviados entre os processos do servidor e cliente Web em execução no host destino. O TCP também 
+            é responsável por controlar o tamanho e o ritmo em que as mensagens são trocadas entre o servidor e o cliente.
+
+
+    INTERNET: (IPv4, IPv6)
+    
+        Determina o melhor caminho pela rede
+
+            IP (Internet Protocol - Protocolo de Internet) - é responsável por retirar os segmentos formatados do TCP, encapsulando-os em pacotes,
+            atribuindo os endereços adequados e entregando ao host destino.
+
+            NAT (Network Address Translation - Tradução de Enderços de Rede) - Converte os endereços IP de uma rede privada em endereços IP públicos
+            exclusivos globalmente.
+
+            ICMP (Internet Control Message Protocol - Protocolo de Mensagens de Controle da Internet) - Fornece feedback de um host destino para um 
+            ost origem sobre erros na entrega de pacotes.
+
+
+    ACESSO A REDE: (ARP, Ethernet)
+    
+        Controla os dispositivos de hardware e o meio físico que forma a rede
+
+            ARP (Address Resolution protocol - Protocolo de Resolução de Endereços) - Fornece o mapeamento dinâmico entre um endereço IP e um 
+            endereço de Hardware.
+
+            Ethernet (802.3) - define as regras para cabeamento e sinalização de padrões da camada de acesso à rede.
+            
+ OBS - EXEMPLO: HTTP --> TCP --> IP --> ETHERNET
+
+
+CURIOSIDADES 
+
+    PDU (Protocol data Unit): o formato de uma parte dos dados que estão associados a cada camada de protocolo ("qual informação a 
+    camada será responsável).
+
+    Placa de interface de rede (NIC)
+
+    Endereço MAC - Um endereço de controle de acesso à mídia de um dispositivo é um identificador único atribuído a uma interface de rede. Para comunicações dentro de 
+    um segmento de rede, é usado como endereço de rede para a maioria das tecnologias de rede IEEE 802, incluindo Ethernet, Wi-Fi e Bluetooth
+    
+    UNICAST - uma forma de entrega de mensagem na qual uma mensagem é entregue a um único destino
+    
+    MULTICAST - uma forma de transmissão na qual uma mensagem é entregue a um grupo de hosts
+    
+    BROADCAST - uma forma de transmissão na qual uma mensagem é entregue a todos os hosts em uma rede
+
+
+ENCAPSULAMENTO (Dados --> Segmenta --> Pacote --> Quadro --> Bits)
+
+    DADOS - PDU camada de aplicação
+    Segmento - PDU transporte
+    Pacote - PDU camada de rede
+    Quadro - enlace de dados
+    Bits - PDU meio físico
+
+
+
+
