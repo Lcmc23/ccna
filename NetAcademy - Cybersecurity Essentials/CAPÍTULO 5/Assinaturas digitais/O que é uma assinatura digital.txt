@@ -1,0 +1,19 @@
+O que é uma assinatura digital?
+
+    As assinaturas de próprio punho e selos carimbados comprovam a autoria do conteúdo de um documento. As assinaturas digitais podem oferecer 
+    a mesma funcionalidade que as assinaturas de próprio punho.
+
+PERIGO!!!
+
+    Os documentos digitais não protegidos pode ser facilmente alterados por qualquer pessoa. Uma assinatura digital pode determinar se alguém 
+    editou um documento após a assinatura do usuário. Uma assinatura digital é um método matemático usado para verificar a autenticidade e a 
+    integridade de uma mensagem, documento digital ou software.
+
+CURIOSIDADE:
+
+    Em muitos países, as assinaturas digitais têm a mesma importância jurídica que um documento assinado manualmente. As assinaturas eletrônicas 
+    são vinculativas para os contratos, negociações ou qualquer outro documento que requer uma assinatura de próprio punho. Uma trilha de 
+    auditoria rastreia o histórico do documento eletrônico para fins de proteção legal e regulatória.
+
+Uma assinatura digital ajuda a estabelecer a autenticidade, a integridade e o não repúdio. As assinaturas digitais têm propriedades específicas 
+que permitem a autenticação de entidade e a integridade de dados, como mostrado na figura.

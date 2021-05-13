@@ -1,0 +1,22 @@
+Como evitar ataques
+
+    O salting impede que um invasor use um ataque de dicionário para tentar adivinhar senhas. O salting também torna impossível o uso de 
+    tabelas de pesquisa e rainbow tables para decifrar um hash.
+
+    Tabelas de pesquisa
+
+        Uma tabela de pesquisa armazena os hashes de senhas pré-calculados em um dicionário de senha, juntamente com a senha correspondente. 
+        Uma tabela de pesquisa é uma estrutura de dados que processa centenas de pesquisas de hash por segundo. 
+
+    Tabelas de pesquisa reversa
+
+        Esse ataque permite que o criminoso virtual lance um ataque de dicionário ou um ataque de força bruta em vários hashes, sem a tabela 
+        de pesquisa pré-calculada. O criminoso virtual cria uma tabela de pesquisa que traça cada hash de senha a partir do banco de dados da 
+        conta violada para uma lista de usuários. O criminoso virtual executa um hash para cada palpite de senha e usa a tabela de pesquisa 
+        para obter uma lista de usuários cuja senha é compatível com o palpite do criminoso virtual. O ataque funciona perfeitamente, pois 
+        muitos usuários têm a mesma senha.
+
+    Rainbow tables
+
+        As rainbow tables sacrificam a velocidade de quebra de senha para diminuir o tamanho das tabelas de pesquisa. Uma tabela menor 
+        significa que a tabela pode armazenar as soluções para mais hashes na mesma quantidade de espaço.

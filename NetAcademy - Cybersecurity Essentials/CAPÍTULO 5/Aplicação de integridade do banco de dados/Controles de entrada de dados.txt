@@ -1,0 +1,30 @@
+Controles de entrada de dados
+
+    A entrada de dados envolve a introdução de dados em um sistema. Um conjunto de controles assegura que os usuários digitem os dados corretos.
+
+    Controles suspensos de dados mestre
+
+        Tenha uma opção suspensa de tabelas mestre, em vez de pedir aos indivíduos para digitar os dados. Um exemplo controles suspensos de 
+        dados mestre é usar a lista de localidades do sistema de endereço postal dos E.U.A. para padronizar os endereços.
+
+    Controles de validação de campos de dados 
+        
+        Regras de configuração de verificações básicas, incluindo:
+
+            - A entrada obrigatória assegura que um campo obrigatório contenha dados
+
+            - As máscaras de entrada impedem que os usuários digitem dados inválidos ou ajuda a garantir que digitem dados consistentemente 
+            (como um número de telefone, por exemplo)
+
+            - Montantes de dólares positivos
+
+            - Os intervalos de dados asseguram que um usuário digite os dados em determinado intervalo (como uma data de nascimento inserida 
+            como 18-01-1820, por exemplo)
+
+            - Aprovação obrigatória de uma segunda pessoa (um caixa de banco que recebe um depósito ou solicitação de retirada maior que um 
+            valor especificado aciona uma segunda ou terceira aprovação)
+
+            - Gatilho de modificação de registro máximo (o número de registros modificados excede a um número pré-determinado num prazo 
+            específico e bloqueia um usuário até um gerente identifique se as transações são legítimas ou não)
+
+            - Gatilho de atividade incomum (um sistema bloqueia quando reconhece a atividade incomum)

@@ -1,0 +1,11 @@
+Comparação de algoritmos de assinatura digital
+
+    Os três algoritmos comuns de assinatura digital são Algoritmo de Assinatura Digital (DSA), Rivest-Shamir-Adleman (RSA) e Algoritmo de 
+    Assinatura Digital Elliptic Curve (ECDSA). Todos os três geram e verificam as assinaturas digitais. Esses algoritmos dependem das técnicas de 
+    criptografia assimétrica e chave pública. As assinaturas digitais requerem duas operações:
+
+    1. Geração da chave
+
+    2. Verificação da chave
+
+    Ambas as operações exigem a criptografia e a decriptografia da chave.

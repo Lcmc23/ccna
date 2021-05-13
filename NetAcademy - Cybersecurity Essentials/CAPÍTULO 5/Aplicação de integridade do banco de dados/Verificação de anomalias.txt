@@ -1,0 +1,18 @@
+Verificação de anomalias
+
+    A detecção de anomalias se refere à identificação de padrões em dados que não seguem o comportamento esperado. Esses padrões não conformes 
+    são anomalias, outliers, exceções, anormalidades ou eventos inesperados em diferentes aplicações de banco de dados. A detecção e 
+    verificação de anomalias é uma contramedida ou proteção importante na identificação de fraudes. A detecção de anomalias de bancos de dados 
+    pode identificar uma fraude de cartão de crédito e seguro. A detecção de anomalias de bancos de dados pode proteger os dados contra a 
+    destruição ou alteração em massa. 
+
+EXEMPLOS:
+
+    A verificação de anomalias exige solicitações ou modificações de verificação de dados, quando um sistema detecta padrões incomuns ou 
+    inesperados. Um exemplo disso é um cartão de crédito com duas operações em locais de solicitação muito diferentes em um curto espaço de 
+    tempo. Se um pedido de transação de New York City ocorre às 10:30 e um segundo pedido vem de Chicago às 10:35, o sistema aciona uma 
+    verificação da segunda transação.
+
+    Um segundo exemplo ocorre quando um número incomum de modificações do endereço de e-mail acontece em um número incomum de registros de 
+    banco de dados. Como os dados de e-mail lançam ataques de DoS, a modificação de e-mail de centenas de registros poderia indicar que um 
+    invasor está usando o banco de dados de uma empresa como uma ferramenta para o ataque de DoS.

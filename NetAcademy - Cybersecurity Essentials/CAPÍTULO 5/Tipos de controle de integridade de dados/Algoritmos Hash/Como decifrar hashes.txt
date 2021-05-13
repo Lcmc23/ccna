@@ -1,0 +1,10 @@
+Como decifrar hashes
+
+    ATAQUE DE DICIONÁRIO: Um ataque de dicionário usa um arquivo que contém palavras, frases e senhas comuns. O arquivo tem os hashes 
+    calculados. Um ataque de dicionário compara os hashes no arquivo com os hashes de senha. Se um hash for compatível, o invasor descobrirá 
+    um grupo de senhas potencialmente boas.
+
+    ATAQUE DE FORÇA BRUTA: Um ataque de força bruta tenta todas as combinações possíveis de caracteres até determinado tamanho. Um ataque de 
+    força bruta consome muito tempo do processador, mas é só uma questão de tempo até esse método descubra a senha. O tamanho das senhas 
+    precisa ser grande o suficiente para que o tempo gasto para executar um ataque de força bruta valha a pena. As senhas de hash dificultam 
+    muito o trabalho do criminoso em recuperar as senhas.

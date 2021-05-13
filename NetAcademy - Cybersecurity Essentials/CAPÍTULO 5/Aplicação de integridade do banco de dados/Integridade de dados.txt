@@ -1,0 +1,20 @@
+Integridade de dados
+
+    Os bancos de dados proporcionam uma maneira eficiente de armazenar, recuperar e analisar os dados. À medida que a coleta de dados aumenta 
+    e os dados se tornam mais confidenciais, é importante que os profissionais de segurança cibernética protejam o número crescente de banco 
+    de dados. Pense em um banco de dados como um sistema de arquivamento eletrônico. A integridade de dados refere-se à precisão, consistência 
+    e confiabilidade dos dados armazenados em um banco de dados. Os projetistas, desenvolvedores e gestores da empresa são responsáveis pela 
+    integridade de dados no banco de dados.
+
+    * As quatro regras ou restrições de integridade de dados são as seguintes:
+
+        - Integridade da entidade: Todas as linhas devem ter um identificador único denominado chave primária.
+        
+        - Integridade de domínio: Todos os dados armazenados em uma coluna devem seguir o mesmo formato e definição.
+        
+        - Integridade de referência: A relação entre as tabelas deve permanecer coerente. Portanto, um usuário não pode excluir um registro 
+        que está relacionado a outro.
+        
+        - Integridade definida pelo usuário: Um conjunto de regras definidas por um usuário que não pertence a uma das outras categorias. 
+        Por exemplo, um cliente faz um novo pedido. O usuário verifica primeiro para saber se é um novo cliente. 
+        Se for, o usuário adicionará o novo cliente à tabela de clientes.

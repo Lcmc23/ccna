@@ -1,0 +1,10 @@
+O processo de validação
+
+    Os navegadores e aplicativos realizam uma verificação de validação, antes de assegurar que um certificado seja válido. Os três processos 
+    incluem o seguinte:
+
+    - A descoberta do certificado valida o caminho de certificação, verificando cada certificado desde o início com o certificado da CA raiz
+    
+    - A validação do caminho escolhe um certificado da CA emissora para cada certificado na cadeia
+    
+    - A revogação determina se o certificado foi revogado e por que

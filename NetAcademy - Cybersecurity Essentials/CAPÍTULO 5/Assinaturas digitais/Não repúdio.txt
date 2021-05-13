@@ -1,0 +1,7 @@
+Não repúdio
+
+    Repudiar significa negar. O não repúdio é uma forma de assegurar que o remetente de uma mensagem ou documento não pode negar que enviou a 
+    mensagem ou documento e que o destinatário não pode negar que recebeu a mensagem ou documento.
+
+    Uma assinatura digital assegura que o remetente assinou eletronicamente a mensagem ou documento. Como uma assinatura digital é exclusiva 
+    para a pessoa que a criou, essa pessoa não pode posteriormente negar que forneceu a assinatura.

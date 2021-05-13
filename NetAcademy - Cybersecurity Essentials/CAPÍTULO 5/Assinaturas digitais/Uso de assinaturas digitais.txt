@@ -1,0 +1,12 @@
+Uso de assinaturas digitais
+
+    Assinar um hash, em vez de todo o documento, proporciona eficiência, compatibilidade e integridade. As empresas podem querer substituir os 
+    documentos em papel e assinaturas convencionais por uma solução que garante que o documento eletrônico atende a todos os requisitos legais.
+
+As duas situações a seguir dão exemplos de como usar as assinaturas digitais:
+
+    Assinatura de código - Utilizada para verificar a integridade de arquivos executáveis baixados de um site do fornecedor. A assinatura de 
+    código também usa certificados digitais assinados para autenticar e verificar a identidade do site.
+
+    Certificados digitais - Utilizados para verificar a identidade de uma empresa ou indivíduo para autenticar um site do fornecedor e 
+    estabelecer uma conexão criptografada para troca de dados confidenciais.

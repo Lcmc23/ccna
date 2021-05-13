@@ -1,0 +1,11 @@
+O que é um HMAC?
+
+    O próximo passo para evitar que um criminoso virtual lance um ataque de dicionário ou um ataque de força bruta em um hash é adicionar uma 
+    chave secreta ao hash. Somente a pessoa que tem conhecimento do hash pode validar uma senha. Uma maneira de fazer isso é incluir a chave 
+    secreta no hash, usando um algoritmo de hash denominado código de autenticação de mensagem de hash com chave (HMAC ou KHMAC). HMACs usam 
+    uma chave secreta adicional como entrada à função hash. O uso do HMAC ultrapassa a garantira de integridade ao adicionar a autenticação. 
+    Um HMAC usa um algoritmo específico que combina uma função hash criptográfica com uma chave secreta.
+
+    omente o remetente e o destinatário têm conhecimento da chave secreta e agora a saída da função hash depende dos dados de entrada e da 
+    chave secreta. Apenas as partes que têm acesso a essa chave secreta podem calcular o digest de uma função HMAC. Esta característica impede 
+    os ataques man in the middle e fornece a autenticação da origem dos dados.

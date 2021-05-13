@@ -1,0 +1,24 @@
+Algoritmos de hash modernos
+    
+    Há muitos algoritmos hash modernos amplamente usados atualmente. Dois dos mais populares são MD5 e SHA.
+
+        Algoritmo Message Digest 5 (MD5)
+
+            Ron Rivest desenvolveu o algoritmo de hash MD5 que é usado por várias aplicações na Internet atualmente. O MD5 é uma função 
+            unidirecional que facilita o cálculo de um hash a partir dos dados de entrada determinados, mas torna muito difícil calcular os 
+            dados de entrada estabelecendo apenas um valor de hash.
+
+            O MD5 produz um valor de hash de 128 bits. O malware Flame comprometeu a segurança do MD5 em 2012. Os autores do malware Flame 
+            usaram uma colisão de MD5 para falsificar um certificado de assinatura de código do Windows. 
+
+        Secure Hash Algorithm (SHA)
+
+            O Instituto Nacional de Padrões e Tecnologia (NIST) dos EUA desenvolveu o SHA, o algoritmo especificado no padrão hash seguro 
+            (SHS). O NIST publicou o SHA-1 em 1994. O SHA-2 substituiu o SHA-1 com quatro funções hash adicionais para formar a família de SHA:
+
+            SHA-224 (224 bits)
+            SHA-256 (256 bits)
+            SHA-384 (384 bits)
+            SHA-512 (512 bits)
+            
+            O SHA-2 é um algoritmo mais forte e está substituindo o MD5. SHA-256, SHA-384 e SHA-512 são os algoritmos de última geração

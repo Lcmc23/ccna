@@ -1,0 +1,5 @@
+O que é salting?
+
+    O salting torna o hash de senhas mais seguro. Se dois usuários têm a mesma senha, eles também terão os mesmos hashes de senha. Um SALT, 
+    que é uma cadeia de caracteres aleatória, é uma entrada adicional à senha antes do hash. Isso cria um resultado de hash diferente para as 
+    duas senhas, conforme mostrado na figura. Um banco de dados armazena o hash e o SALT.

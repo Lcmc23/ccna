@@ -1,0 +1,6 @@
+O que é autoridade de certificação?
+
+    Na Internet, a troca contínua de identificação entre todas as partes seria inviável. Portanto, as pessoas concordam em aceitar a palavra 
+    de terceiros imparciais. Supõe-se que terceiros conduzem uma investigação detalhada antes da emissão das credenciais. Após essa 
+    investigação detalhada, terceiros emitem credenciais que são difíceis de falsificar. Desse ponto em diante, todas as pessoas que confiaram 
+    em terceiros simplesmente aceitam as credenciais emitidas por terceiros.

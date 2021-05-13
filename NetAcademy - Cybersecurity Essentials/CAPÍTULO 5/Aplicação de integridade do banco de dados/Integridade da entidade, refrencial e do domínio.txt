@@ -1,0 +1,19 @@
+Integridade da entidade
+
+    Um banco de dados é como um sistema de arquivamento eletrônico. Manter um arquivamento correto é fundamental para preservar a confiança e 
+    a utilidade dos dados no banco de dados. Tabelas, registros, campos e dados dentro de cada campo compõem um banco de dados. Para manter a 
+    integridade do sistema de arquivos do banco de dados, os usuários devem seguir determinadas regras. A integridade da entidade é uma regra 
+    de integridade, declarando que cada tabela deve ter uma chave primária e que a coluna ou colunas escolhidas como chave primária devem ser 
+    exclusivas e não NULAS. Nula em um banco de dados significa valores ausentes ou desconhecidos.
+
+Integridade referencial
+
+    Outro conceito importante é a relação entre diferentes sistemas de arquivamento ou tabelas. A base da integridade de referência consiste 
+    em chaves externas. Uma chave estrangeira em uma tabela faz referência a uma chave primária em uma segunda tabela. A chave primária de 
+    uma tabela é um identificador único das entidades (linhas) na tabela. A integridade referencial mantém a integridade das chaves externas.
+
+Integridade do domínio
+    A integridade de domínio garante que todos os itens de dados em uma coluna estejam dentro de um conjunto definido de valores válidos. Cada 
+    coluna em uma tabela tem um conjunto definido de valores, como o conjunto de todos os números de cartão de crédito, de CPFs ou de endereços 
+    de e-mail. Limitar um valor atribuído a uma instância dessa coluna (um atributo) reforça a integridade do domínio. O reforço de integridade 
+    do domínio pode ser tão simples quanto escolher o tipo de dados, comprimento ou formato de uma coluna.

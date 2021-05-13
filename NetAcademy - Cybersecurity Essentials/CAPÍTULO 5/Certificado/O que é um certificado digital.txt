@@ -1,0 +1,8 @@
+O que é um certificado digital?
+
+    Um certificado digital é equivalente a um passaporte eletrônico. Permite que usuários, hosts e empresas troquem informações de forma 
+    segura através da Internet. Especificamente, um certificado digital autentica e verifica se os usuários que enviam uma mensagem são quem 
+    dizem ser. Os certificados digitais também podem proporcionar a confidencialidade para o destinatário por meio da criptografia de uma 
+    resposta.
+
+    OBS: identifica o indivíduo, a autoridade de certificação (quem autorizou o certificado) e por quanto tempo o certificado é válido.

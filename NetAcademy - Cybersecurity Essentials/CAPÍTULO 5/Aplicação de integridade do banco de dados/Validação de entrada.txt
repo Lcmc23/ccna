@@ -1,0 +1,14 @@
+Validação de entrada
+
+    Um dos aspectos mais vulneráveis do gerenciamento da integridade do banco de dados é o controle do processo de entrada de dados. Muitos 
+    ataques conhecidos são executados contra um banco de dados e inserem dados desformatados. O ataque pode confundir, falhar ou fazer com 
+    que o aplicativo divulgue informações demais para o invasor. Os invasores usam ataques de entrada automática
+
+EXEMPLO: 
+
+    Por exemplo, os usuários preenchem um formulário usando um aplicativo da Web para assinar um informativo. Um aplicativo de banco de 
+    dados gera e envia confirmações de e-mail automaticamente. Quando os usuários recebem as confirmações de e-mail com um link URL, para 
+    confirmar a assinatura, os invasores modificam o link URL. Essas modificações incluem a alteração do nome do usuário, endereço de e-mail ou 
+    status da assinatura. O e-mail retorna ao servidor do host do aplicativo. Se o servidor da Web não verificar se o endereço de e-mail ou as 
+    outras informações da conta enviados são compatíveis com as informações da assinatura, o servidor receberá falsas informações. Os hackers 
+    podem automatizar o ataque para inundar o aplicativo da Web com milhares de assinantes inválidos no banco de dados do informativo.

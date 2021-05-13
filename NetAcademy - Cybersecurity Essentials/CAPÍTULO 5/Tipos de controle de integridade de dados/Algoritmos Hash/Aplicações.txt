@@ -1,0 +1,20 @@
+Aplicações
+
+    Use as funções hash criptográficas nas seguintes situações:
+
+        - Fornecer a comprovação da autenticidade quando usada com uma chave de autenticação secreta simétrica, como IP Security (IPsec) ou 
+        autenticação de protocolo de roteamento
+
+        - Fornecer autenticação gerando respostas unidirecionais únicas para desafios em protocolos de autenticação
+
+        - Fornecer a comprovação da verificação de integridade da mensagem, como as que são usadas em contratos assinados digitalmente, e 
+        certificados de infraestrutura de chave pública (PKI), como os que são aceitos ao acessar um site seguro com um navegador
+
+* Ao escolher um algoritmo de hash, use o SHA-256 ou superior, pois são os mais seguros atualmente. Evite o SHA-1 e o MD5 devido à descoberta 
+das falhas de segurança. Em redes de produção, implemente o SHA-256 ou superior.
+
+* Embora possa detectar alterações acidentais, o hash não pode proteger contra alterações deliberadas. Não há informações de identificação 
+única do remetente no procedimento de hash. Isso significa que qualquer pessoa pode processar um hash para quaisquer dados, desde que tenha a 
+função hash correta. Por exemplo, quando uma mensagem percorre a rede, um possível invasor poderia interceptar a mensagem, alterá-la, 
+recalcular o hash e anexar o hash à mensagem. O dispositivo receptor só validará contra o hash que estiver anexado. Portanto, hash é 
+vulnerável a ataques man in the middle e não oferece segurança aos dados transmitidos.

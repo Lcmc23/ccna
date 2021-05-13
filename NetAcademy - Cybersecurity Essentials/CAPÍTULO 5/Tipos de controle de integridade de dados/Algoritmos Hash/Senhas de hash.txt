@@ -1,0 +1,8 @@
+Senhas de hash
+
+    Os algoritmos hash transformam qualquer quantidade de dados em um hash digital ou impressão digital de tamanho fixo. Um criminoso não pode 
+    reverter um hash digital para descobrir a entrada original. Se a entrada mudar completamente, o resultado será um hash diferente. Isso 
+    funciona para proteger as senhas. Um sistema precisa armazenar uma senha de modo a protegê-la, mas que ainda possa verificar se a senha do 
+    usuário está correta.
+
+    OBS: O sistema nunca registra a senha no disco rígido, ele apenas armazena o hash digital.

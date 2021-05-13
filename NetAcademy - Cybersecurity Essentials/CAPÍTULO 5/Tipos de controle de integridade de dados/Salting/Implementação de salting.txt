@@ -1,0 +1,17 @@
+Implementação de salting
+
+    Um Cryptographically Secure Pseudo-Random Number Generator (CSPRNG) é a melhor opção para gerar o salt. CSPRNGs geram um número aleatório 
+    que tem um alto nível de aleatoriedade e é completamente imprevisível, portanto, é criptograficamente confiável.
+
+    Para implementar o salt com sucesso, siga as seguintes recomendações:
+
+        1. O salt deve ser exclusivo para cada senha de usuário.
+
+        2. Nunca reutilize um salt.
+
+        3. O tamanho do sal deve corresponder ao tamanho da saída da função hash.
+
+        4. Sempre execute o hash no servidor em um aplicativo da Web.
+    
+    OBS: O uso de uma técnica chamada alongamento de chave também ajudará a proteger contra ataques. O alongamento de chave executa a função 
+    hash muito lentamente. Isso impede o hardware de ponta que pode calcular bilhões de hashes por segundo menos eficazes.

@@ -1,0 +1,25 @@
+O que é hash
+
+    Os usuários precisam saber que os dados permanecem inalterados, enquanto estão inativos ou em trânsito. Hash é uma ferramenta que assegura 
+    a integridade de dados através da captura de dados binários (a mensagem) para produzir representação de tamanho fixo denominada valor de 
+    hash ou message digest.
+
+    - com as funções hash, é computacionalmente inviável que dois conjuntos de dados distintos apresentem o mesmo hash digest ou saída.
+
+    Cada vez que os dados são modificados ou alterados, o valor de hash também muda. Por isso, muitas vezes os valores criptográficos de hash 
+    são chamados de impressões digitais. Podem detectar arquivos de dados duplicados, alterações na versão do arquivo e aplicações similares. 
+    Esses valores protegem contra alterações de dados acidentais ou intencionais e corrupção de dados acidental. O hash também é muito 
+    eficiente. Um arquivo grande ou o conteúdo de uma unidade de disco inteira resulta em um valor de hash com o mesmo tamanho.
+
+Propriedades 
+
+    O hash é uma função matemática unidirecional relativamente fácil de calcular, mas bastante difícil de reverter. A moagem de café é uma boa 
+    analogia de função unidirecional. É fácil moer grãos de café, mas é quase impossível unir novamente todos os pedaços para reconstruir os 
+    grãos originais.
+
+    * Uma função hash criptográfica tem as seguintes propriedades:
+
+        - A entrada pode ser de qualquer comprimento.
+        - A saída tem um comprimento fixo.
+        - A função hash é unidirecional e não é reversível.
+        - Dois valores de entrada distintos quase nunca resultarão em valores de hash idênticos.
