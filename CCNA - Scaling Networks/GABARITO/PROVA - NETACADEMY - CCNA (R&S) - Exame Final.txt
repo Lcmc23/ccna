@@ -1,0 +1,71 @@
+PROVA - NETACADEMY - CCNA (R&S) - Exame Final
+
+CORREÇÃO:
+
+1 - Domínio de falha;
+2 - A falha de um bloco de switches não afetará todos os usuários finais;
+3 - Ele desativa os caminhos redundantes para eliminar loops de Camada 2;
+4 - Unidade de rack (U);
+5 - Emulação de terminal / conexão direta com a console;
+6 - Configurando ou excluindo a VLAN ou criando um nome de VLAN;
+7 - No modo padrão VTP / Switches de modo do servidor / As atualizações do VTP;
+8 - Configurar o nome do domínio correto e a senha do VTP em novo switch;
+9 - Armazena o banco de dados da VLAN;
+10 - Configurar um VLAN;
+11 - auto e auto = não comunica
+     passivo e passivo = não comunica
+     R - Configurar ambas as portas de trunk em modo desejável dinâmico;
+12 - Há um risco de que o switch ... / Esse switch atualizrá as configurações ...;
+13 - Spanning Tree Protocol;
+14 - 28672; 
+15 - o custo do caminho;
+16 - SW3 = root
+     SW4 = porta bloqueada;
+17 - escutando, bloqueando e desativado;
+18 - portfast = não comunica com outro switch 
+     bpduguard = quando um switch se conecta a rede a porta assume o estado 'shutdown'
+     R - Qualquer porta do switch que tenha sido configurada com PortFast ...;
+19 - Agrupar várias portas físicas para aumentar a largura de banda entre dois switches
+20 - int range g0/4-5;
+21 - As duas interfaces remanscentes continuam o balanceamento;
+22 - PAgP;
+23 - on (forçar uma interface sem a troca de pacotes);
+24 - HSRP usa roteadores ativos e standby;
+25 - Rede não contígua;
+26 - atualização acionada limitada (as alterações são feitas = as atualizações começam);
+27 - RI, R3, R4, R5, R6 e R7
+28 - o camino que inclui os links de largura de bandas mais rápido;
+29 - o endereço IP e a máscara / tipo de link de rede / custo deste link;
+30 - se o roteador nçao receber pacotes de 'hello';
+31 - estabele adjacências / usa protocolo de transporte / tem compatibilidade;
+32 - roteamento de diferentes protocolos de camada 3;
+33 - somente quando necessário;
+34 - network 172.16.23.64 0.0.0.63
+35 - Ele funciona com um ID na operação do roteador;
+36 - atraso (ping) / largura de banda;
+37 - a melhor rota backup alternativa ...;
+38 - quando a conexão com o sucessor da rede destino ...;
+39 - o endereço link local IPv6 da interface ...;
+40 - 10.0.0.0/8;
+41 - 'ipv6 route ::/0 s0/0/0';
+42 - são compatíveis com o balanceamento de carga desigual ...;
+43 - EIGRP
+44 - os roteadores enviam atualizações ... / os roteadores criam uma topologia ...;
+     OBS: Todos conhecem todas as rotas = rede convergida completamente;
+45 - o OSPF remove aquele vizinho do banco de dados;
+46 - ele diz ao roteador qual interface deve ser ativada ...;
+47 - Um custo menor indica um melhor caminho ...;
+48 - FF02::5 e FE80::42;
+49 - FE80::21E:BEFF:FEF4:5538;
+50 - LSAs = como é feito a troca de informações no OSPF
+     R - redes acessíveis em outras áreas;
+51 - Não há rotas interáreas na tabela de roteamento ...;
+52 - R3 é DR (2x) / R5 é o BDR;
+53 - link virtual;
+54 - default-information originate no R0-A;
+55 - o temporizador de Dead do R1 ... (hello e dead com o mesmo tempo);
+56 - implementar o comando 'no passive-interface' na s0/0/0
+57 - (Respostas encontradas no repositório "ccna" - pasta 'Scaling Networks');
+58 - (Respostas encontradas no repositório "ccna" - pasta 'Scaling Networks');
+59 - (Respostas encontradas no repositório "ccna" - pasta 'Scaling Networks');
+60 - (Respostas encontradas no repositório "ccna" - pasta 'Scaling Networks').
